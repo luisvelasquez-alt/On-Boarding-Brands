@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onboarding de Marcas</title>
+    <style>
+      :root {
+        --accent: #ff4fa2;
+        --accent-soft: #ffd8ea;
+        --accent-strong: #d81b78;
+        --bg: #fff7fb;
+        --surface: #ffffff;
+        --surface-alt: #ffeef6;
+        --text: #24121d;
+        --muted: #7a5a69;
+        --gradient: linear-gradient(135deg, #fff7fb 0%, #ffd8ea 50%, #fff 100%);
+        --shadow: 0 18px 45px rgba(18, 20, 28, 0.12);
+        --radius-xl: 28px;
+        --radius-lg: 20px;
+        --radius-md: 16px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "DM Sans", "Inter", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .shell {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        min-height: 100vh;
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        padding: 28px 22px;
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(18px);
+        border-right: 1px solid rgba(0, 0, 0, 0.06);
+      }
+
+      .brand-title {
+        margin: 0 0 6px;
+        font-size: 1.6rem;
+        line-height: 1;
+      }
+
+      .brand-subtitle {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .brand-switcher {
+        display: grid;
+        gap: 10px;
+        margin-bottom: 18px;
+      }
+
+      .brand-button {
+        width: 100%;
+        border: 1px solid transparent;
+        background: var(--surface);
+        border-radius: 999px;
+        padding: 14px 16px;
+        text-align: left;
+        font: inherit;
+        color: var(--text);
+        cursor: pointer;
+        transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+      }
+
+      .brand-button.active {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
+      }
+
+      .brand-button:hover {
+        transform: translateY(-1px);
+      }
+
+      .search {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 14px;
+        padding: 13px 14px;
+        font: inherit;
+        background: var(--surface);
+        color: var(--text);
+        margin-bottom: 18px;
+      }
+
+      .progress-card,
+      .nav-card {
+        background: var(--surface);
+        border-radius: var(--radius-lg);
+        padding: 16px;
+        box-shadow: var(--shadow);
+      }
+
+      .progress-card {
+        margin-bottom: 18px;
+      }
+
+      .progress-label {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 0.92rem;
+        margin-bottom: 10px;
+      }
+
+      .progress-track {
+        height: 10px;
+        background: var(--surface-alt);
+        border-radius: 999px;
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        height: 100%;
+        width: 0;
+        background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+        border-radius: inherit;
+        transition: width 220ms ease;
+      }
+
+      .section-nav {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-height: calc(100vh - 420px);
+        overflow: auto;
+      }
+
+      .section-nav a {
+        display: block;
+        padding: 10px 12px;
+        border-radius: 12px;
+        color: var(--text);
+        text-decoration: none;
+        font-size: 0.94rem;
+      }
+
+      .section-nav a:hover,
+      .section-nav a.active {
+        background: var(--surface-alt);
+      }
+
+      .content {
+        padding: 32px;
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        background: var(--gradient);
+        border-radius: 34px;
+        padding: 34px;
+        min-height: 280px;
+        box-shadow: var(--shadow);
+        display: grid;
+        grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.9fr);
+        gap: 28px;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto -60px -90px auto;
+        width: 240px;
+        height: 240px;
+        background: radial-gradient(circle, color-mix(in srgb, var(--accent) 26%, transparent) 0%, transparent 70%);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 9px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.7);
+        color: var(--accent-strong);
+        font-size: 0.84rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .hero h2 {
+        margin: 18px 0 10px;
+        font-size: clamp(2rem, 4vw, 3.7rem);
+        line-height: 0.96;
+      }
+
+      .hero p {
+        max-width: 760px;
+        margin: 0;
+        font-size: 1.05rem;
+        color: var(--muted);
+      }
+
+      .hero-visuals {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        align-content: start;
+      }
+
+      .hero-shot {
+        position: relative;
+        overflow: hidden;
+        min-height: 138px;
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        background: rgba(255, 255, 255, 0.6);
+      }
+
+      .hero-shot img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .sections {
+        display: grid;
+        gap: 18px;
+        margin-top: 26px;
+      }
+
+      .section-card {
+        background: var(--surface);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .section-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        padding: 22px 24px;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .section-index {
+        display: inline-flex;
+        width: 38px;
+        height: 38px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        background: var(--surface-alt);
+        color: var(--accent-strong);
+        font-weight: 700;
+        flex: 0 0 auto;
+      }
+
+      .section-title-wrap {
+        flex: 1;
+      }
+
+      .section-title {
+        margin: 0;
+        font-size: 1.18rem;
+      }
+
+      .section-meta {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .chevron {
+        flex: 0 0 auto;
+        font-size: 1.2rem;
+        color: var(--muted);
+        transition: transform 180ms ease;
+      }
+
+      .section-card.open .chevron {
+        transform: rotate(180deg);
+      }
+
+      .section-body {
+        display: none;
+        padding: 0 24px 24px;
+      }
+
+      .section-card.open .section-body {
+        display: block;
+      }
+
+      .section-media {
+        display: grid;
+        gap: 10px;
+        margin-bottom: 18px;
+      }
+
+      .section-gallery {
+        display: grid;
+        grid-template-columns: repeat(var(--gallery-columns, 3), minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .section-gallery.single-portrait {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .section-gallery.single-portrait .section-thumb {
+        min-height: 340px;
+        height: clamp(340px, 44vw, 560px);
+        padding: 0;
+      }
+
+.section-thumb {
+  overflow: hidden;
+  min-height: 130px;
+  height: clamp(130px, 19vw, 220px);
+  border-radius: 16px;
+  background: var(--surface-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.section-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+      .inline-image-item {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .inline-image-block {
+        background: var(--surface-alt);
+        border: 1px solid var(--border-soft);
+        border-radius: 1.4rem;
+        padding: 1rem;
+        min-height: 300px;
+      }
+
+      .inline-image-block.fit-chart {
+        min-height: 420px;
+      }
+
+      .inline-image-block img {
+        width: 100%;
+        height: clamp(280px, 38vw, 520px);
+        object-fit: contain;
+        object-position: center;
+        display: block;
+      }
+
+      .quiz-block {
+        background: var(--surface-alt);
+        border: 1px solid var(--border-soft);
+        border-radius: 1.5rem;
+        padding: 1.35rem;
+        display: grid;
+        gap: 1rem;
+      }
+
+      .quiz-intro {
+        color: var(--muted);
+        font-size: 0.98rem;
+        line-height: 1.6;
+      }
+
+      .quiz-questions {
+        display: grid;
+        gap: 0.9rem;
+      }
+
+      .quiz-question {
+        background: rgba(255, 255, 255, 0.65);
+        border: 1px solid var(--border-soft);
+        border-radius: 1.1rem;
+        padding: 1rem;
+        display: grid;
+        gap: 0.8rem;
+      }
+
+      .quiz-question-text {
+        font-weight: 700;
+        line-height: 1.5;
+      }
+
+      .quiz-options {
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+      }
+
+      .quiz-option {
+        border: 1px solid var(--border-soft);
+        background: #fff;
+        color: var(--text);
+        border-radius: 999px;
+        padding: 0.55rem 0.9rem;
+        font: inherit;
+        cursor: pointer;
+        transition: transform 160ms ease, border-color 160ms ease, background 160ms ease, color 160ms ease;
+      }
+
+      .quiz-option:hover {
+        transform: translateY(-1px);
+      }
+
+      .quiz-option.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
+      .quiz-footer {
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px dashed var(--border-soft);
+        border-radius: 1rem;
+        padding: 0.95rem 1rem;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .department-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-top: 0.25rem;
+      }
+
+      .department-card {
+        background: var(--surface-alt);
+        border: 1px solid var(--border-soft);
+        border-radius: 1.45rem;
+        overflow: hidden;
+        display: grid;
+      }
+
+      .department-card-media {
+        background: rgba(255,255,255,0.55);
+        padding: 1rem;
+      }
+
+      .department-card-media img {
+        width: 100%;
+        height: 260px;
+        object-fit: contain;
+        object-position: center;
+        display: block;
+      }
+
+      .department-card-body {
+        padding: 1.1rem 1.15rem 1.2rem;
+        display: grid;
+        gap: 0.7rem;
+      }
+
+      .department-card-body h4 {
+        margin: 0;
+        font-size: 1.12rem;
+      }
+
+      .department-card-body p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .personas-feature {
+        display: grid;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .personas-hero {
+        position: relative;
+        overflow: hidden;
+        min-height: 520px;
+        border-radius: 28px;
+        background: color-mix(in srgb, var(--accent-soft) 72%, white);
+      }
+
+      .personas-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(180deg, rgba(255, 238, 246, 0.84) 0%, rgba(255, 238, 246, 0.72) 100%),
+          var(--persona-image);
+        background-size: cover;
+        background-position: center;
+        filter: saturate(0.95);
+      }
+
+      .personas-hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 720px;
+        padding: 42px 34px 260px;
+      }
+
+      .personas-hero-content h4 {
+        margin: 0 0 14px;
+        font-size: clamp(2.7rem, 5vw, 4.6rem);
+        line-height: 0.95;
+      }
+
+      .personas-hero-content p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.28;
+      }
+
+      .personas-collage {
+        position: absolute;
+        right: 28px;
+        bottom: 24px;
+        width: min(520px, 58%);
+        z-index: 1;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(4px);
+        padding: 8px;
+      }
+
+      .personas-collage img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 16px;
+      }
+
+      @media (max-width: 980px) {
+        .personas-hero {
+          min-height: 420px;
+        }
+
+        .personas-hero-content {
+          padding: 28px 24px 190px;
+          max-width: none;
+        }
+
+        .personas-collage {
+          position: relative;
+          right: auto;
+          bottom: auto;
+          width: 100%;
+          margin: -150px 0 0;
+        }
+      }
+
+      .bullet-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 12px;
+      }
+
+      .bullet-list li {
+        line-height: 1.6;
+        padding: 16px 18px;
+        border-radius: 16px;
+        background: color-mix(in srgb, var(--surface-alt) 70%, white);
+        border: 1px solid rgba(0, 0, 0, 0.04);
+      }
+
+      .bullet-list li.emphasis {
+        background: linear-gradient(
+          135deg,
+          color-mix(in srgb, var(--accent-soft) 78%, white) 0%,
+          white 100%
+        );
+      }
+
+      .concept-board {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px 14px;
+        margin: 0 0 18px;
+        padding: 28px 24px;
+        border-radius: 28px;
+        background: color-mix(in srgb, var(--accent) 42%, white);
+      }
+
+      .concept-card {
+        display: grid;
+        justify-items: center;
+        align-content: start;
+        gap: 12px;
+        text-align: center;
+        min-height: 170px;
+      }
+
+      .concept-card.wide {
+        grid-column: span 1;
+      }
+
+      .concept-icon {
+        width: 116px;
+        height: 116px;
+        color: #fff;
+      }
+
+      .concept-icon svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .concept-label {
+        font-size: 1.1rem;
+        font-weight: 800;
+        color: #14070f;
+      }
+
+      .concept-details {
+        margin-top: 0;
+      }
+
+      .empty-state {
+        background: var(--surface);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow);
+        padding: 28px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 980px) {
+        .shell {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          position: static;
+          height: auto;
+          border-right: 0;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        .section-nav {
+          max-height: none;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .content {
+          padding: 18px;
+        }
+
+        .sidebar {
+          padding: 18px;
+        }
+
+        .hero {
+          padding: 24px;
+          border-radius: 24px;
+        }
+
+        .section-header,
+        .section-body {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+
+        .section-gallery {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 8px;
+        }
+
+        .concept-board {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          padding: 22px 18px;
+        }
+
+        .personas-hero {
+          min-height: 360px;
+        }
+
+        .personas-hero-content {
+          padding: 22px 20px 150px;
+        }
+
+        .personas-hero-content h4 {
+          font-size: 2.4rem;
+        }
+
+        .personas-collage {
+          margin-top: -120px;
+          padding: 6px;
+        }
+
+        .section-thumb {
+          min-height: 88px;
+          height: 110px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <h1 class="brand-title">Onboarding</h1>
+        <p class="brand-subtitle">Playbook dinámico separado por marca</p>
+
+        <div id="brandSwitcher" class="brand-switcher"></div>
+
+        <input
+          id="searchInput"
+          class="search"
+          type="search"
+          placeholder="Buscar tema, texto o sección"
+        />
+
+        <div class="progress-card">
+          <div class="progress-label">
+            <span>Explorado</span>
+            <strong id="progressText">0%</strong>
+          </div>
+          <div class="progress-track">
+            <div id="progressBar" class="progress-bar"></div>
+          </div>
+        </div>
+
+        <div class="nav-card">
+          <ul id="sectionNav" class="section-nav"></ul>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section id="hero" class="hero"></section>
+        <section id="sections" class="sections"></section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script>
+      const data = window.BRAND_ONBOARDING_DATA || [];
+      const state = {
+        brandIndex: 0,
+        query: "",
+        visited: new Set(),
+      };
+
+      const brandSwitcher = document.getElementById("brandSwitcher");
+      const searchInput = document.getElementById("searchInput");
+      const hero = document.getElementById("hero");
+      const sectionsEl = document.getElementById("sections");
+      const navEl = document.getElementById("sectionNav");
+      const progressText = document.getElementById("progressText");
+      const progressBar = document.getElementById("progressBar");
+      const conceptIcons = {
+        "Propósito": `
+          <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="50" cy="60" r="34"></circle>
+            <circle cx="50" cy="60" r="20"></circle>
+            <circle cx="50" cy="60" r="7"></circle>
+            <path d="M72 38l20-20 8 8-20 20"></path>
+            <path d="M84 26l10 10"></path>
+          </svg>
+        `,
+        "Esencia": `
+          <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M60 10c6 22 8 24 18 34s12 12 34 18c-22 6-24 8-34 18s-12 12-18 34c-6-22-8-24-18-34S30 68 8 62c22-6 24-8 34-18S54 32 60 10z"></path>
+            <path d="M28 74c3 8 5 10 9 14s6 6 14 9c-8 3-10 5-14 9s-6 6-9 14c-3-8-5-10-9-14s-6-6-14-9c8-3 10-5 14-9s6-6 9-14z"></path>
+          </svg>
+        `,
+        "Valores": `
+          <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M60 15l27 24-27 24-27-24 27-24z"></path>
+            <path d="M33 39h54"></path>
+            <path d="M60 15v48"></path>
+            <path d="M18 67l42 23 42-23"></path>
+            <path d="M18 67v20l42 23 42-23V67"></path>
+            <path d="M23 26l-8-8"></path>
+            <path d="M96 26l8-8"></path>
+            <path d="M60 9V0"></path>
+          </svg>
+        `,
+        "Carácter": `
+          <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="60" cy="39" r="20"></circle>
+            <path d="M31 104c0-20 13-34 29-34s29 14 29 34"></path>
+            <path d="M60 31c7 0 12 5 12 12 0 6-4 10-9 12v6"></path>
+            <circle cx="60" cy="77" r="2"></circle>
+          </svg>
+        `,
+        "Tono de Voz": `
+          <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="60" cy="60" r="46"></circle>
+            <path d="M71 33c-11 4-19 13-22 27 3 14 11 23 22 27"></path>
+            <path d="M82 43c8 5 13 10 16 17-3 7-8 12-16 17"></path>
+            <path d="M92 32c13 8 21 17 25 28-4 11-12 20-25 28"></path>
+            <path d="M30 46c7 4 11 9 13 14-2 5-6 10-13 14"></path>
+          </svg>
+        `,
+      };
+
+      function currentBrand() {
+        return data[state.brandIndex];
+      }
+
+      function applyTheme(theme) {
+        const root = document.documentElement.style;
+        root.setProperty("--accent", theme.accent);
+        root.setProperty("--accent-soft", theme.accentSoft);
+        root.setProperty("--accent-strong", theme.accentStrong);
+        root.setProperty("--bg", theme.background);
+        root.setProperty("--surface", theme.surface);
+        root.setProperty("--surface-alt", theme.surfaceAlt);
+        root.setProperty("--text", theme.text);
+        root.setProperty("--muted", theme.muted);
+        root.setProperty("--gradient", theme.gradient);
+      }
+
+      function renderBrandButtons() {
+        brandSwitcher.innerHTML = "";
+
+        data.forEach((brand, index) => {
+          const button = document.createElement("button");
+          button.className = "brand-button" + (index === state.brandIndex ? " active" : "");
+          button.innerHTML = `<strong>${brand.name}</strong><br><small>${brand.stats.sections} secciones</small>`;
+          button.addEventListener("click", () => {
+            state.brandIndex = index;
+            state.query = "";
+            searchInput.value = "";
+            render();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          });
+          brandSwitcher.appendChild(button);
+        });
+      }
+
+      function getFilteredSections(brand) {
+        if (!state.query.trim()) return brand.sections;
+        const query = state.query.toLowerCase();
+        return brand.sections.filter((section) => {
+          const haystack = [section.title, ...section.bullets].join(" ").toLowerCase();
+          return haystack.includes(query);
+        });
+      }
+
+      function updateProgress(filteredCount) {
+        const brand = currentBrand();
+        const total = Math.max(filteredCount, 1);
+        const visitedForBrand = [...state.visited].filter((id) => id.startsWith(brand.key + "-")).length;
+        const percent = Math.min(100, Math.round((visitedForBrand / total) * 100));
+        progressText.textContent = `${percent}%`;
+        progressBar.style.width = `${percent}%`;
+      }
+
+      function getConceptBullets(section) {
+        return null;
+      }
+
+      function renderConceptBoard(concepts) {
+        return `
+          <div class="concept-board">
+            ${concepts
+              .map(
+                ({ label }) => `
+                  <div class="concept-card">
+                    <div class="concept-icon">${conceptIcons[label] || ""}</div>
+                    <div class="concept-label">${label}</div>
+                  </div>
+                `
+              )
+              .join("")}
+          </div>
+        `;
+      }
+
+      function getPersonasData(section) {
+        if (!(currentBrand().key === "ardene" && section.title === "Personas")) return null;
+
+        const [intro, description, ...rest] = section.bullets;
+        const [heroImage, collageImage] = section.images || [];
+        if (!intro || !heroImage) return null;
+
+        return {
+          intro,
+          description,
+          rest,
+          heroImage,
+          collageImage,
+        };
+      }
+
+      function renderPersonasFeature(personasData) {
+        const intro = personasData.intro;
+        const collage = personasData.collageImage
+          ? `
+            <div class="personas-collage">
+              <img src="${personasData.collageImage.src}" alt="Ardene personas" loading="lazy" />
+            </div>
+          `
+          : "";
+
+        return `
+          <div class="personas-feature">
+            <div class="personas-hero" style="--persona-image:url('${personasData.heroImage.src}')">
+              <div class="personas-hero-content">
+                <h4>Personas</h4>
+                <p>${intro}</p>
+              </div>
+              ${collage}
+            </div>
+          </div>
+        `;
+      }
+
+      function getQuizData(section, bullet, bulletIndex) {
+        if (section.quizData && bulletIndex === 0) {
+          return section.quizData;
+        }
+
+        if (
+          currentBrand().key === "ardene" &&
+          section.title === "Cultura de Tienda y Experiencia del Cliente" &&
+          bullet.startsWith("1. Observa 5 interacciones reales en tienda")
+        ) {
+          return {
+            intro:
+              "Observa 5 interacciones reales en tienda y marca cada punto según lo que hayas visto. La idea es usarlo como checklist de observación rápida.",
+            questions: [
+              "¿Hubo saludo entusiasta?",
+              "¿Se ofreció ayuda de forma accesible y natural?",
+              "¿El cliente se sintió empoderado y acompañado?",
+              "¿La interacción fue auténtica (no forzada)?",
+            ],
+            footer:
+              "Al final del día, comparte un breve resumen con el equipo: cuál interacción fue más auténtica y por qué.",
+          };
+        }
+
+        return null;
+      }
+
+      function renderQuizBlock(quizData, sectionId, bulletIndex) {
+        const footer = quizData.footer
+          ? `<div class="quiz-footer">${quizData.footer}</div>`
+          : "";
+        return `
+          <li class="inline-image-item">
+            <div class="quiz-block" data-quiz="${sectionId}-${bulletIndex}">
+              <div class="quiz-intro">${quizData.intro}</div>
+              <div class="quiz-questions">
+                ${quizData.questions
+                  .map(
+                    (question, questionIndex) => `
+                      <div class="quiz-question">
+                        <div class="quiz-question-text">${questionIndex + 1}. ${typeof question === "string" ? question : question.question}</div>
+                        <div class="quiz-options" role="group" aria-label="${typeof question === "string" ? question : question.question}">
+                          ${(
+                            typeof question === "string"
+                              ? [
+                                  { value: "si", label: "Sí" },
+                                  { value: "no", label: "No" },
+                                ]
+                              : question.options
+                          )
+                            .map(
+                              (option) => `
+                                <button class="quiz-option" type="button" data-value="${option.value || option}">
+                                  ${option.label || option}
+                                </button>
+                              `
+                            )
+                            .join("")}
+                        </div>
+                      </div>
+                    `
+                  )
+                  .join("")}
+              </div>
+              ${footer}
+            </div>
+          </li>
+        `;
+      }
+
+      function getDepartmentCards(section) {
+        if (!(currentBrand().key === "ardene" && section.title === "Departamentos y Categorías")) {
+          return null;
+        }
+        return section.departmentCards || null;
+      }
+
+      function cleanSectionTitle(title) {
+        return String(title || "").replace(/\s+Copy$/, "");
+      }
+
+      function renderDepartmentGrid(cards) {
+        return `
+          <div class="department-grid">
+            ${cards
+              .map(
+                (card) => `
+                  <article class="department-card">
+                    <div class="department-card-media">
+                      <img src="${card.image.src}" alt="${card.title}" loading="lazy" />
+                    </div>
+                    <div class="department-card-body">
+                      <h4>${card.title}</h4>
+                      <p>${card.body}</p>
+                    </div>
+                  </article>
+                `
+              )
+              .join("")}
+          </div>
+        `;
+      }
+
+      function renderHero(brand, filteredSections) {
+        const maxHeroShots = brand.key === "ardene" ? 3 : 4;
+        const heroShots = (brand.heroImages || [])
+          .slice(0, maxHeroShots)
+          .map(
+            (image) => `
+              <div class="hero-shot">
+                <img src="${image.src}" alt="${brand.name}" loading="lazy" />
+              </div>
+            `
+          )
+          .join("");
+
+        hero.innerHTML = `
+          <div>
+            <span class="eyebrow">Brand onboarding</span>
+            <h2>${brand.name}</h2>
+            <p>${brand.intro}</p>
+          </div>
+          <div class="hero-visuals">${heroShots}</div>
+        `;
+      }
+
+      function renderNav(filteredSections) {
+        navEl.innerHTML = "";
+        filteredSections.forEach((section, index) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="#${section.id}">${index + 1}. ${section.title}</a>`;
+          navEl.appendChild(li);
+        });
+      }
+
+      function renderSections(filteredSections) {
+        sectionsEl.innerHTML = "";
+
+        if (!filteredSections.length) {
+          sectionsEl.innerHTML = `
+            <div class="empty-state">
+              No encontré coincidencias para tu búsqueda. Prueba con otra palabra clave.
+            </div>
+          `;
+          return;
+        }
+
+        filteredSections.forEach((section, index) => {
+          const article = document.createElement("article");
+          article.className = "section-card" + (index === 0 ? " open" : "");
+          article.id = section.id;
+          const conceptData = getConceptBullets(section);
+          const personasData = getPersonasData(section);
+          const departmentCards = getDepartmentCards(section);
+          const bulletsForList = conceptData ? conceptData.regularBullets.concat(
+            conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
+          ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
+
+          const formatBullet = (bullet, bulletIndex) => {
+            const quizData = getQuizData(section, bullet, bulletIndex);
+            if (quizData) {
+              return renderQuizBlock(quizData, section.id, bulletIndex);
+            }
+
+            const shouldForceNormalParagraph =
+              currentBrand().key === "ardene" &&
+              section.title === "Nuestros Clientes" &&
+              bulletIndex === 1;
+            const shouldForceNormalPersonasIntro =
+              currentBrand().key === "ardene" &&
+              section.title === "Personas" &&
+              (bulletIndex === 1 || bulletIndex === 2);
+            const shouldRenderItalicParagraph =
+              currentBrand().key === "ardene" &&
+              section.title === "Carta de Mark" &&
+              bulletIndex === 1;
+
+            const colonMatch = bullet.match(/^([^:]{2,80}):\s*(.+)$/s);
+            const shouldAutoBoldFirst =
+              !(personasData && bulletIndex === 0) &&
+              !shouldForceNormalParagraph &&
+              !shouldForceNormalPersonasIntro &&
+              !shouldRenderItalicParagraph;
+
+            if (/^NUESTROS VALORES:/i.test(bullet)) {
+              const rest = bullet.replace(/^NUESTROS VALORES:\s*/i, "").trim();
+              return `<li><strong>NUESTROS VALORES:</strong> ${rest}</li>`;
+            }
+
+            if (
+              colonMatch &&
+              !/<strong>/i.test(bullet) &&
+              !/^https?:/i.test(bullet.trim())
+            ) {
+              const label = colonMatch[1].trim();
+              const rest = colonMatch[2].trim();
+              const emphasis = bulletIndex === 0 || bullet.length < 90 ? " emphasis" : "";
+              return `<li class="${emphasis.trim()}"><strong>${label}:</strong> ${rest}</li>`;
+            }
+
+            const glossaryMatch = bullet.match(
+              /^([A-ZÁÉÍÓÚÜÑ0-9][A-ZÁÉÍÓÚÜÑ0-9\s/&.-]{2,}?)(?:\s+)(.+)$/
+            );
+
+            let content = bullet;
+            if (shouldRenderItalicParagraph) {
+              content = `<em>${bullet}</em>`;
+            } else if (
+              currentBrand().key === "ardene" &&
+              section.title === "Personas" &&
+              bullet.trim().startsWith("Tip del ejercicio:")
+            ) {
+              const rest = bullet.replace(/^Tip del ejercicio:\s*/i, "").trim();
+              content = `<strong>Tip del ejercicio:</strong> ${rest}`;
+            } else if (glossaryMatch) {
+              const label = glossaryMatch[1].trim().replace(/\s+$/g, "");
+              const rest = glossaryMatch[2].trim();
+              content = `<strong>${label}:</strong> ${rest}`;
+            } else if (
+              (!shouldForceNormalParagraph && !shouldForceNormalPersonasIntro && shouldAutoBoldFirst) ||
+              /^(¿[^?]+\?|Nuestra Visión|Nuestra Misión|Aprende a Identificar Personas|Ejercicio 1|Ejercicio 2|Buenas Prácticas en la Experiencia Cliente|Mystery Shopper Interno|Cultura de Tienda y Experiencia Cliente)/i.test(bullet.trim())
+            ) {
+              content = `<strong>${bullet}</strong>`;
+            }
+
+            const emphasis =
+              !shouldForceNormalParagraph &&
+              !shouldForceNormalPersonasIntro &&
+              !shouldRenderItalicParagraph &&
+              (shouldAutoBoldFirst || bullet.length < 90)
+                ? " emphasis"
+                : "";
+            return `<li class="${emphasis.trim()}">${content}</li>`;
+          };
+
+          const list = bulletsForList
+            .flatMap((bullet, bulletIndex) => {
+              const items = [formatBullet(bullet, bulletIndex)];
+              if (section.inlineImageAfter?.match === bullet.trim() && section.inlineImageAfter?.image) {
+                const inlineImageClass = ["inline-image-block", section.inlineImageAfter.image.className]
+                  .filter(Boolean)
+                  .join(" ");
+                items.push(`
+                  <li class="inline-image-item">
+                    <div class="${inlineImageClass}">
+                      <img
+                        src="${section.inlineImageAfter.image.src}"
+                        alt="${section.title}"
+                        loading="lazy"
+                        style="object-fit: ${section.inlineImageAfter.image.fit || "contain"};"
+                      />
+                    </div>
+                  </li>
+                `);
+              }
+              return items;
+            })
+            .join("");
+
+          const mediaImages = (
+            personasData
+              ? []
+              : section.images && section.images.length
+              ? section.images
+              : section.coverImage
+                ? [{ src: section.coverImage }]
+                : []
+          );
+
+          const isSinglePortrait =
+            mediaImages.length === 1 &&
+            (mediaImages[0].height || 0) > (mediaImages[0].width || 0) * 1.25;
+
+          const gallery = mediaImages.slice(0, 4).map(
+            (image) => `
+              <div class="section-thumb">
+                <img
+                  src="${image.src}"
+                  alt="${section.title}"
+                  loading="lazy"
+                  style="object-fit: ${image.fit || "contain"};"
+                />
+              </div>
+            `
+          ).join("");
+
+          const media = mediaImages.length
+            ? `
+              <div class="section-media">
+                ${gallery ? `<div class="section-gallery${isSinglePortrait ? " single-portrait" : ""}" style="--gallery-columns:${Math.min(mediaImages.length, 4)}">${gallery}</div>` : ""}
+              </div>
+            `
+            : "";
+
+          const conceptBoard = conceptData
+            ? renderConceptBoard(conceptData.concepts)
+            : "";
+          const personasFeature = personasData ? renderPersonasFeature(personasData) : "";
+          const departmentGrid = departmentCards ? renderDepartmentGrid(departmentCards) : "";
+
+          article.innerHTML = `
+            <button class="section-header" type="button" aria-expanded="${index === 0}">
+              <span class="section-index">${String(index + 1).padStart(2, "0")}</span>
+              <span class="section-title-wrap">
+                <h3 class="section-title">${cleanSectionTitle(section.title)}</h3>
+                <div class="section-meta">${section.bullets.length} puntos clave${section.images?.length ? ` · ${section.images.length} visuales` : ""}</div>
+              </span>
+              <span class="chevron">⌄</span>
+            </button>
+            <div class="section-body">
+              ${personasFeature}
+              ${media}
+              ${conceptBoard}
+              <ul class="bullet-list${conceptData ? " concept-details" : ""}">${list}</ul>
+              ${departmentGrid}
+            </div>
+          `;
+
+          const header = article.querySelector(".section-header");
+          header.addEventListener("click", () => {
+            article.classList.toggle("open");
+            const isOpen = article.classList.contains("open");
+            header.setAttribute("aria-expanded", String(isOpen));
+            if (isOpen) {
+              state.visited.add(section.id);
+              updateProgress(filteredSections.length);
+            }
+          });
+
+          sectionsEl.appendChild(article);
+        });
+
+        sectionsEl.querySelectorAll(".quiz-option").forEach((button) => {
+          button.addEventListener("click", () => {
+            const group = button.parentElement;
+            group.querySelectorAll(".quiz-option").forEach((option) => option.classList.remove("active"));
+            button.classList.add("active");
+          });
+        });
+      }
+
+      function syncActiveNav() {
+        const links = [...navEl.querySelectorAll("a")];
+        const sections = [...sectionsEl.querySelectorAll(".section-card")];
+        const offset = 140;
+
+        function refresh() {
+          let activeId = sections[0]?.id;
+          for (const section of sections) {
+            const top = section.getBoundingClientRect().top;
+            if (top - offset <= 0) activeId = section.id;
+          }
+          links.forEach((link) => {
+            link.classList.toggle("active", link.getAttribute("href") === `#${activeId}`);
+          });
+        }
+
+        refresh();
+        window.addEventListener("scroll", refresh, { passive: true });
+      }
+
+      function render() {
+        const brand = currentBrand();
+        applyTheme(brand.theme);
+        renderBrandButtons();
+
+        const filteredSections = getFilteredSections(brand);
+        renderHero(brand, filteredSections);
+        renderNav(filteredSections);
+        renderSections(filteredSections);
+        updateProgress(filteredSections.length);
+        syncActiveNav();
+      }
+
+      searchInput.addEventListener("input", (event) => {
+        state.query = event.target.value || "";
+        render();
+      });
+
+      render();
+    </script>
+  </body>
+</html>
