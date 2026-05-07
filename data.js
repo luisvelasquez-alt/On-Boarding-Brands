@@ -1213,7 +1213,8 @@ window.BRAND_ONBOARDING_DATA = [
           {
             "src": "assets/Cotton_On_Genially_Main/images/cd60eb82-7565-4aa1-8203-10f9c05bc5e6.png",
             "width": 327.6679788340558,
-            "height": 120.84611526258668
+            "height": 120.84611526258668,
+            "fit": "cover"
           }
         ],
         "coverImage": null,
