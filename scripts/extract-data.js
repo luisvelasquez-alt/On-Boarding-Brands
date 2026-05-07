@@ -92,10 +92,10 @@ const BRANDS = [
         src: "assets/lufian/product_cover.png",
       },
       {
-        src: "assets/lufian/product_page5.png",
+        src: "assets/lufian_womens/p1.png",
       },
       {
-        src: "assets/lufian/product_page9.png",
+        src: "assets/lufian_womens/p2.png",
       },
     ],
     sections: [
@@ -217,6 +217,113 @@ const BRANDS = [
           "Los calcetines cubren desde colores clásicos hasta versiones invisibles, deportivas y más divertidas; los boxers priorizan comodidad con mezcla de algodón y lycra.",
           "Las wallets son de piel y funcionan como complemento de venta o como regalo de valor.",
           "El estándar final de la experiencia debe dejar al cliente con una impresión de cuidado, calidad y confianza en la marca.",
+        ],
+      },
+      {
+        title: "Colección de Mujer",
+        bullets: [
+          "Womens Collection SS25 es una propuesta curada que introduce Lufian Womens al mercado con prendas atemporales, comodidad y una influencia de modernismo muy natural.",
+          "La colección se apoya en una paleta sobria y en siluetas pensadas para hoy, con looks que trascienden temporadas.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p1.png",
+          },
+          {
+            src: "assets/lufian_womens/p2.png",
+          },
+        ],
+        coverImage: "assets/lufian_womens/p1.png",
+      },
+      {
+        title: "Materiales Mujer",
+        bullets: [
+          "Lino: utilizado en pantalones, vestidos y mezclas textiles; aporta frescura, textura visible y una lectura natural que envejece bien.",
+          "Lyocell: mejora la caída del tejido y aporta suavidad sin perder estructura, especialmente en combinación con lino o algodón.",
+          "Viscosa / Modal: presentes en camisetas y knitwear; aportan una sensación sedosa y una lectura visual limpia.",
+          "Algodón: usado en tejidos planos y de punto; aporta confort y una sensación familiar al contacto con la piel.",
+          "Poliamida / Poliéster: se combinan con fibras naturales para aportar resistencia, forma y una vida útil más larga.",
+          "Bambú: aparece en pantalones de enfoque funcional y suma suavidad con una sensación fresca para el uso prolongado.",
+          "Elastano: presente en pequeñas proporciones para que la prenda acompañe el cuerpo sin rigidez.",
+        ],
+      },
+      {
+        title: "T-Shirts Mujer",
+        bullets: [
+          "Signoria: camiseta de punto en mezcla de modal y poliéster, suave, fluida y ligera, pensada como base esencial del guardarropa contemporáneo.",
+          "Isla: camiseta sin mangas en viscosa, poliéster y elastano; cómoda, elástica y de silueta limpia.",
+          "Erote: camiseta de punto en algodón, poliamida y elastano; aporta estructura ligera y comodidad prolongada.",
+          "Perses: camiseta con cuello en V, suave, elástica y favorecedora para el uso diario.",
+          "Herme: camiseta cropped que equilibra proporciones con una lectura moderna y actual.",
+          "Minioto: camiseta acanalada sin mangas, ajustada, suave y cómoda para looks contemporáneos.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p5.png",
+          },
+          {
+            src: "assets/lufian_womens/p9.png",
+          },
+        ],
+      },
+      {
+        title: "Trousers Mujer",
+        bullets: [
+          "Concordia: pantalón de tejido plano con banda elástica en la cintura, cómodo, flexible y fresco para el uso diario.",
+          "Asia: pantalón de lino con lyocell, pensado para climas cálidos y con una caída suave y controlada.",
+          "Navasa: pantalón de lino con presencia marcada, respirable, natural y con carácter visual.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p15.png",
+          },
+        ],
+      },
+      {
+        title: "Sweaters Mujer",
+        bullets: [
+          "Ava: sweater de rayón con silueta relajada y caída natural, ligero y fluido.",
+          "Kirke: punto calado en algodón y poliéster, ideal para entretiempo y para superponer.",
+          "Emma: sweater sin mangas en viscosa, poliéster y lino, fresco y limpio en la lectura visual.",
+          "Molly: sweater sin mangas en acrílico, lyocell y lino, con estructura ligera y caída controlada.",
+          "Pearl: sweater sin mangas en viscosa y poliéster, suave, envolvente y con caída fluida.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p21.png",
+          },
+        ],
+      },
+      {
+        title: "Dresses Mujer",
+        bullets: [
+          "Selene: vestido largo de lino 100%, limpio, fresco y pensado para climas cálidos.",
+          "Casares: vestido de silueta clásica y líneas limpias, equilibrado y natural en el cuerpo.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p27.png",
+          },
+        ],
+      },
+      {
+        title: "Cardigan y Vest",
+        bullets: [
+          "Lugano: cardigan de punto en viscosa y poliamida, suave, fluido y ligero.",
+          "Ruma: chaleco de líneas limpias y estructura ligera, pensado para sumar carácter sin añadir peso.",
+        ],
+        images: [
+          {
+            src: "assets/lufian_womens/p29.png",
+          },
+        ],
+      },
+      {
+        title: "Skirt y Shorts Mujer",
+        bullets: [
+          "Darsen: falda larga de silueta limpia y caída suave, versátil como base del look.",
+          "Feronia: short de tejido plano en lyocell, lino y algodón, pensado para climas cálidos y uso prolongado.",
+          "La colección femenina mantiene el mismo espíritu Lufian: naturalidad, comodidad, estética atemporal y una imagen muy cuidada.",
         ],
       },
     ],

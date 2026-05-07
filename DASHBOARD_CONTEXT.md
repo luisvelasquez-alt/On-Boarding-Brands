@@ -226,6 +226,7 @@ Ajustes ya incorporados:
 - paleta visual gris y sobria
 - imágenes locales extraídas de las portadas y páginas clave del material
 - secciones de bienvenida, equipo, operaciones, stock, limpieza, VM, colección y accesorios
+- colección de mujer incorporada como extensión propia dentro de la misma marca
 
 ## Secciones con comportamiento especial
 
