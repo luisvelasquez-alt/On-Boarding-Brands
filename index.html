@@ -702,6 +702,33 @@
         line-height: 1.65;
       }
 
+      .identity-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin: 0 0 20px;
+      }
+
+      .identity-card {
+        padding: 20px 20px 22px;
+        border-radius: 24px;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: var(--shadow);
+      }
+
+      .identity-card h4 {
+        margin: 0 0 10px;
+        font-size: 1.16rem;
+        line-height: 1.1;
+      }
+
+      .identity-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
       .fits-guide {
         display: grid;
         gap: 18px;
@@ -884,7 +911,8 @@
 
         .fits-type-grid,
         .fits-note-grid,
-        .fabric-card-grid {
+        .fabric-card-grid,
+        .identity-grid {
           grid-template-columns: 1fr;
         }
 
@@ -1226,6 +1254,13 @@
         return section.fabricGuide || null;
       }
 
+      function getIdentityCards(section) {
+        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Somos Ardene")) {
+          return null;
+        }
+        return section.identityCards || null;
+      }
+
       function cleanSectionTitle(title) {
         return String(title || "").replace(/\s+Copy$/, "");
       }
@@ -1326,6 +1361,19 @@
         `;
       }
 
+      function renderIdentityGrid(cards) {
+        return `
+          <div class="identity-grid">
+            ${cards.map((card) => `
+              <article class="identity-card">
+                <h4>${card.title}</h4>
+                <p>${card.body}</p>
+              </article>
+            `).join("")}
+          </div>
+        `;
+      }
+
       function renderHero(brand, filteredSections) {
         const maxHeroShots = brand.key === "ardene" ? 3 : 4;
         const heroShots = (brand.heroImages || [])
@@ -1380,6 +1428,7 @@
           const styleGuideCards = getStyleGuideCards(section);
           const fitsGuide = getFitsGuide(section);
           const fabricGuide = getFabricGuide(section);
+          const identityCards = getIdentityCards(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
             conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
           ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
@@ -1528,6 +1577,7 @@
           const styleGuideGrid = styleGuideCards ? renderStyleGuideGrid(styleGuideCards) : "";
           const fitsGuideBlock = fitsGuide ? renderFitsGuide(fitsGuide) : "";
           const fabricGuideBlock = fabricGuide ? renderFabricGuide(fabricGuide) : "";
+          const identityGrid = identityCards ? renderIdentityGrid(identityCards) : "";
 
           article.innerHTML = `
             <button class="section-header" type="button" aria-expanded="${index === 0}">
@@ -1542,6 +1592,7 @@
               ${personasFeature}
               ${media}
               ${conceptBoard}
+              ${identityGrid}
               ${styleGuideGrid}
               ${fitsGuideBlock}
               ${fabricGuideBlock}

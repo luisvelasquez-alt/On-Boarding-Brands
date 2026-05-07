@@ -253,11 +253,28 @@ function customizeSections(brandKey, sections) {
         "El destino para la moda puntual y asequible para que te veas bien y te sientas bien.",
         history ||
           "Ardene es el destino de moda de valor definitivo en América del Norte y más allá. En 1982, Ardene comenzó como minorista de accesorios y joyas; hoy en día, la compañía está en un nivel completamente nuevo: vendiendo ropa, calzado, accesorios, joyas, ropa deportiva, prendas íntimas y más. Con más de 350 tiendas en Canadá y EE. UU., una presencia internacional en expansión y un negocio de comercio electrónico en crecimiento en ardene.com. La compañía se inspira en el mundo siempre cambiante de sus clientes. Ardene cree que la moda no debe ser exclusiva o intimidante, debe ser real, y debe celebrarse con confianza juvenil y entusiasmo intrépido. La misión de la compañía es conectar con los clientes ofreciendo experiencias de moda únicas e inspiradoras a los mejores precios.",
-        "Propósito: Empoderar a los clientes de todo el mundo para que se expresen a través de la moda ofreciendo atuendos asequibles de pies a cabeza diseñados pensando en las personas y nuestro planeta.",
-        "Esencia: Somos optimistas. Miramos el lado positivo.",
-        "Valores: Nuestros valores son los estándares que fortalecen y apoyan nuestro negocio; son los principios rectores que nos ayudan a alcanzar nuestros objetivos.",
-        "Carácter: Con mentalidad comunitaria · Juntos, nunca solos · Creativo de corazón · Apasionadamente en el punto · Enfocado y editorial.",
-        "Tono de Voz: Relacionable, positivo y con los pies en la tierra; bienvenido. Imaginativo, atractivo y seguro, con energía. Apasionado, seguro y servicial, confiado.",
+      ];
+      somosArdene.identityCards = [
+        {
+          title: "Propósito",
+          body: "Empoderar a los clientes de todo el mundo para que se expresen a través de la moda ofreciendo atuendos asequibles de pies a cabeza diseñados pensando en las personas y nuestro planeta.",
+        },
+        {
+          title: "Esencia",
+          body: "Somos optimistas. Miramos el lado positivo.",
+        },
+        {
+          title: "Valores",
+          body: "Nuestros valores son los estándares que fortalecen y apoyan nuestro negocio; son los principios rectores que nos ayudan a alcanzar nuestros objetivos.",
+        },
+        {
+          title: "Carácter",
+          body: "Con mentalidad comunitaria. Juntos, nunca solos. Creativo de corazón. Apasionadamente en el punto. Enfocado y editorial.",
+        },
+        {
+          title: "Tono de Voz",
+          body: "Relacionable, positivo y con los pies en la tierra; bienvenido. Imaginativo, atractivo y seguro, con energía. Apasionado, seguro y servicial, confiado.",
+        },
       ];
     }
 
