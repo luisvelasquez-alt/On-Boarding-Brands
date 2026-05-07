@@ -498,15 +498,38 @@ function customizeSections(brandKey, sections) {
       };
     }
 
-    const telas = items.find((section) => section.title === "Nuestras Telas Copy");
+    const telas = items.find((section) => /^Nuestras Telas(?: Copy)?$/i.test(section.title));
     if (telas) {
       telas.title = "Nuestras Telas";
       telas.bullets = [
-        "Nuestras Telas",
-        "100% Algodón | Rigid / Rígido: Composición 100% algodón. Sensación firme, sin elasticidad, con look auténtico y clásico. Mantiene su forma con el tiempo y aporta una apariencia vintage y estructurada.",
-        "99% algodón, 1% spandex | Comfort Stretch / Elasticidad Cómoda: Denim tradicional con un toque de flexibilidad. Da libertad de movimiento sin perder la apariencia rígida del denim clásico.",
-        "66% algodón, 30% poliéster, 2% rayón, 2% spandex | Súper Stretch / Nuevo: Muy suave, flexible y favorecedor. Se ajusta al cuerpo casi como un legging y ofrece máxima comodidad para uso diario.",
+        "El denim Ardene se organiza en tres familias de tela. Esta guía te ayuda a reconocer rápidamente cuál recomendar según la sensación, el nivel de stretch y la ocasión de uso.",
       ];
+      telas.images = [];
+      telas.coverImage = null;
+      telas.fabricGuide = {
+        heroImage: "assets/denim-pk/our-jeans-fabric.png",
+        summary: {
+          title: "Cómo leer la familia de telas",
+          body: "Empieza por identificar cuánto stretch necesita el cliente. Si busca estructura y autenticidad, ve hacia rigid. Si quiere movimiento sin perder look denim, comfort stretch es la base. Si prioriza comodidad total y ajuste amable al cuerpo, super stretch es la opción más fácil de vender.",
+        },
+        cards: [
+          {
+            label: "100% algodón",
+            title: "Rigid | Rígido",
+            body: "Denim firme, sin elasticidad y con presencia más auténtica. Mantiene la estructura, se ve más clásico y funciona muy bien cuando queremos una silueta con carácter y acabado vintage.",
+          },
+          {
+            label: "99% algodón · 1% spandex",
+            title: "Comfort Stretch | Elasticidad cómoda",
+            body: "La opción intermedia. Conserva el look del denim tradicional, pero suma un toque de flexibilidad para moverse mejor en el día a día sin perder definición en la silueta.",
+          },
+          {
+            label: "66% algodón · 30% poliéster · 2% rayón · 2% spandex",
+            title: "NEW! Super Stretch | Extensibilidad elevada",
+            body: "La tela más suave y adaptable del grupo. Abraza el cuerpo con mucha comodidad, se siente ligera al usarla y es ideal para clientes que buscan una experiencia casi tipo legging.",
+          },
+        ],
+      };
     }
 
     const vm = items.find((section) => section.title === "VM");
