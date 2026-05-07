@@ -1125,22 +1125,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 985.3765790167823
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/0f05b4e1-9d54-492c-8a22-16755f247824.png",
-            "width": 280,
-            "height": 286.678445229682
-          },
-          {
             "src": "assets/Cotton_On_Genially_Main/images/cd60eb82-7565-4aa1-8203-10f9c05bc5e6.png",
             "width": 327.6679788340558,
             "height": 120.84611526258668
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Conoce",
