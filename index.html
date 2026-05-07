@@ -837,6 +837,34 @@
         box-shadow: var(--shadow);
       }
 
+      .content-card.has-background {
+        position: relative;
+        overflow: hidden;
+        min-height: 280px;
+        background: #0d2d5d;
+        color: #fff;
+      }
+
+      .content-card-background {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: scale(1.02);
+      }
+
+      .content-card-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(9, 18, 45, 0.08) 0%, rgba(9, 18, 45, 0.38) 100%);
+      }
+
+      .content-card-inner {
+        position: relative;
+        z-index: 1;
+      }
+
       .content-card-label {
         margin-bottom: 8px;
         color: var(--accent-strong);
@@ -855,6 +883,21 @@
         margin: 0;
         color: var(--muted);
         line-height: 1.65;
+      }
+
+      .content-card.has-background .content-card-label,
+      .content-card.has-background h4,
+      .content-card.has-background p {
+        color: #fff;
+      }
+
+      .content-card.has-background .content-card-label {
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+      }
+
+      .content-card.has-background h4,
+      .content-card.has-background p {
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.32);
       }
 
       .identity-card {
@@ -1866,13 +1909,20 @@
           <div class="${["content-card-grid", variant].filter(Boolean).join(" ")}">
             ${cards
               .map(
-                (card) => `
-                  <article class="content-card">
-                    ${card.label ? `<div class="content-card-label">${card.label}</div>` : ""}
-                    <h4>${card.title}</h4>
-                    <p>${card.body}</p>
-                  </article>
-                `
+                (card) => {
+                  const hasBackground = Boolean(card.backgroundImage);
+                  const backgroundStyle = hasBackground ? `style="--card-bg-image: url('${card.backgroundImage}');"` : "";
+                  return `
+                    <article class="content-card${hasBackground ? " has-background" : ""}" ${backgroundStyle}>
+                      ${hasBackground ? `<div class="content-card-background" style="background-image: var(--card-bg-image);"></div><div class="content-card-overlay"></div>` : ""}
+                      <div class="content-card-inner">
+                        ${card.label ? `<div class="content-card-label">${card.label}</div>` : ""}
+                        <h4>${card.title}</h4>
+                        <p>${card.body}</p>
+                      </div>
+                    </article>
+                  `;
+                }
               )
               .join("")}
           </div>

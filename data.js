@@ -1156,19 +1156,14 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Este es el lenguaje que usamos en directivas, en tienda y en conversación diaria para ejecutar VM con consistencia."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 927.7095995457669
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Big Idea",
             "title": "La historia principal",
-            "body": "La gran idea visual es la narrativa que debe capturar la atención primero."
+            "body": "La gran idea visual es la narrativa que debe capturar la atención primero.",
+            "backgroundImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
           },
           {
             "label": "Key Look",
