@@ -16,8 +16,8 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "stats": {
       "sections": 19,
-      "points": 98,
-      "images": 20
+      "points": 94,
+      "images": 19
     },
     "heroImages": [
       {
@@ -414,29 +414,48 @@ window.BRAND_ONBOARDING_DATA = [
         "id": "ardene-13",
         "title": "Fits",
         "bullets": [
-          "Tiro: Alto, Medio y Bajo. Largo / caída: Alto, Regular, Bajo y por encima del zapato según el fit. Tiro Medio Recto: corte recto con cintura media-alta. Tiro Bajo Pierna Ancha: pierna ancha con cintura baja. Tiro Bajo Pierna Ancha Slouchy: pierna ancha relajada con cintura baja. Tiro Medio Baggy: corte holgado con cintura media-alta.",
-          "Cosas importantes para saber",
-          "Tiro frontal (Rise): Se mide desde el centro de la entrepierna hasta la parte superior de la cintura. Determina si el jean es bajo, medio o alto.",
-          "Entrepierna (Inseam): Longitud interna desde el centro de la entrepierna hasta el dobladillo. Define qué tan largo será en la pierna: al tobillo, full length o cropped.",
-          "Abertura de pierna (Leg Opening): Circunferencia al final de la pierna, en el dobladillo. Marca la diferencia entre skinny, recto, flare o wide leg."
+          "Usa esta guía para leer rápidamente cómo cambia cada fit según tiro, asiento y largo visual sobre el zapato."
         ],
-        "images": [
-          {
-            "src": "assets/Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
-            "width": 734.1637678610285,
-            "height": 804.5843562877669
-          }
-        ],
-        "coverImage": "assets/Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
-        "inlineImageAfter": {
-          "match": "Tiro: Alto, Medio y Bajo. Largo / caída: Alto, Regular, Bajo y por encima del zapato según el fit. Tiro Medio Recto: corte recto con cintura media-alta. Tiro Bajo Pierna Ancha: pierna ancha con cintura baja. Tiro Bajo Pierna Ancha Slouchy: pierna ancha relajada con cintura baja. Tiro Medio Baggy: corte holgado con cintura media-alta.",
-          "image": {
-            "src": "assets/Ardene_Genially/images/c62e485f-abd2-40ee-8861-50a04a1115ab.png",
-            "width": 309.866180617381,
-            "height": 174.75477446280783,
-            "fit": "contain",
-            "className": "fit-chart"
-          }
+        "images": [],
+        "coverImage": null,
+        "fitsGuide": {
+          "chartSrc": "assets/denim-pk/fits-chart.png",
+          "fitTypes": [
+            {
+              "title": "Mid Rise Straight",
+              "body": "Corte recto, talle medio. Equilibrado, clásico y fácil de recomendar como fit base."
+            },
+            {
+              "title": "Low Rise Wide Leg",
+              "body": "Pierna ancha, talle bajo. Más relajado, con caída amplia desde la cadera."
+            },
+            {
+              "title": "Low Rise Wide Leg Slouchy",
+              "body": "Pierna ancha relajada, talle bajo. Mucha soltura visual y una caída despreocupada."
+            },
+            {
+              "title": "Mid Rise Baggy",
+              "body": "Corte amplio, talle medio. Más espacio en cadera y muslo con una sensación casual."
+            }
+          ],
+          "notes": [
+            {
+              "title": "Seat y Hips",
+              "body": "La cadera y el asiento son buenos indicadores para entender cómo se ajusta realmente un estilo en esa zona."
+            },
+            {
+              "title": "Front Rise",
+              "body": "La fourche avant o tiro frontal va desde el centro de la entrepierna hasta la parte superior de la cintura."
+            },
+            {
+              "title": "Inseam",
+              "body": "La entrepierna se mide desde el centro del crotch hasta el dobladillo y define el largo visual del jean."
+            },
+            {
+              "title": "Leg Opening",
+              "body": "La abertura de pierna indica cómo caerá el fit alrededor del tobillo o directamente sobre el zapato."
+            }
+          ]
         }
       },
       {

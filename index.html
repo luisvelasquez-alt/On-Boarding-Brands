@@ -702,6 +702,55 @@
         line-height: 1.65;
       }
 
+      .fits-guide {
+        display: grid;
+        gap: 18px;
+        margin: 0 0 20px;
+      }
+
+      .fits-chart-card,
+      .fits-note-card,
+      .fits-type-card {
+        background: var(--surface);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+      }
+
+      .fits-chart-card {
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .fits-chart-card img {
+        width: 100%;
+        display: block;
+      }
+
+      .fits-type-grid,
+      .fits-note-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .fits-type-card,
+      .fits-note-card {
+        padding: 18px 18px 20px;
+      }
+
+      .fits-type-card h4,
+      .fits-note-card h4 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+
+      .fits-type-card p,
+      .fits-note-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
       .empty-state {
         background: var(--surface);
         border-radius: var(--radius-xl);
@@ -763,6 +812,11 @@
 
         .style-guide-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .fits-type-grid,
+        .fits-note-grid {
+          grid-template-columns: 1fr;
         }
 
         .personas-hero {
@@ -1089,6 +1143,13 @@
         return section.styleGuideCards || null;
       }
 
+      function getFitsGuide(section) {
+        if (!(currentBrand().key === "ardene" && section.title === "Fits")) {
+          return null;
+        }
+        return section.fitsGuide || null;
+      }
+
       function cleanSectionTitle(title) {
         return String(title || "").replace(/\s+Copy$/, "");
       }
@@ -1136,6 +1197,32 @@
                   </article>
                 `)
               .join("")}
+          </div>
+        `;
+      }
+
+      function renderFitsGuide(guide) {
+        return `
+          <div class="fits-guide">
+            <div class="fits-chart-card">
+              <img src="${guide.chartSrc}" alt="Guía visual de fits denim" loading="lazy" />
+            </div>
+            <div class="fits-type-grid">
+              ${guide.fitTypes.map((item) => `
+                <article class="fits-type-card">
+                  <h4>${item.title}</h4>
+                  <p>${item.body}</p>
+                </article>
+              `).join("")}
+            </div>
+            <div class="fits-note-grid">
+              ${guide.notes.map((item) => `
+                <article class="fits-note-card">
+                  <h4>${item.title}</h4>
+                  <p>${item.body}</p>
+                </article>
+              `).join("")}
+            </div>
           </div>
         `;
       }
@@ -1192,6 +1279,7 @@
           const personasData = getPersonasData(section);
           const departmentCards = getDepartmentCards(section);
           const styleGuideCards = getStyleGuideCards(section);
+          const fitsGuide = getFitsGuide(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
             conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
           ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
@@ -1338,6 +1426,7 @@
           const personasFeature = personasData ? renderPersonasFeature(personasData) : "";
           const departmentGrid = departmentCards ? renderDepartmentGrid(departmentCards) : "";
           const styleGuideGrid = styleGuideCards ? renderStyleGuideGrid(styleGuideCards) : "";
+          const fitsGuideBlock = fitsGuide ? renderFitsGuide(fitsGuide) : "";
 
           article.innerHTML = `
             <button class="section-header" type="button" aria-expanded="${index === 0}">
@@ -1353,6 +1442,7 @@
               ${media}
               ${conceptBoard}
               ${styleGuideGrid}
+              ${fitsGuideBlock}
               <ul class="bullet-list${conceptData ? " concept-details" : ""}">${list}</ul>
               ${departmentGrid}
             </div>
