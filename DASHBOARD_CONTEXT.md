@@ -7,6 +7,7 @@ Este proyecto es un dashboard/local onboarding en HTML que consolida contenido d
 - `Ardene`
 - `Cotton On`
 - `LC Waikiki`
+- `Lufian`
 
 El objetivo es transformar exports de Genially y referencias PDF en un onboarding visual, editable y dinámico, con estructura por marca, secciones expandibles, imágenes, grids especiales y quizzes.
 
@@ -215,6 +216,16 @@ Pendiente recomendado:
 - revisar la marca completa contra el PDF correspondiente
 - confirmar branding/submarcas y jerarquías visuales
 - validar si hay tooltips o información oculta aún omitida
+
+### Lufian
+
+Lufian se incorporó como una marca manual nueva a partir de su manual de operaciones y su guía de producto.
+
+Ajustes ya incorporados:
+
+- paleta visual gris y sobria
+- imágenes locales extraídas de las portadas y páginas clave del material
+- secciones de bienvenida, equipo, operaciones, stock, limpieza, VM, colección y accesorios
 
 ## Secciones con comportamiento especial
 

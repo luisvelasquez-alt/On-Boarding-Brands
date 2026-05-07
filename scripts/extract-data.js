@@ -68,6 +68,159 @@ const BRANDS = [
     intro:
       "Inducción orientada a misión, visión, servicio, comunicación, submarcas, prevención, VM y operación diaria de tienda.",
   },
+  {
+    key: "lufian",
+    name: "Lufian",
+    theme: {
+      accent: "#767b82",
+      accentSoft: "#e2e4e7",
+      accentStrong: "#2f3338",
+      background: "#f4f5f6",
+      surface: "#ffffff",
+      surfaceAlt: "#eaeced",
+      text: "#1b1f24",
+      muted: "#666c73",
+      gradient: "linear-gradient(135deg, #f6f7f8 0%, #e2e4e7 48%, #ffffff 100%)",
+    },
+    intro:
+      "Onboarding sobrio para una marca masculina premium, con foco en calidad, disciplina operativa, presentación impecable y conocimiento de colección.",
+    heroImages: [
+      {
+        src: "assets/lufian/manual_cover.png",
+      },
+      {
+        src: "assets/lufian/product_cover.png",
+      },
+      {
+        src: "assets/lufian/product_page5.png",
+      },
+      {
+        src: "assets/lufian/product_page9.png",
+      },
+    ],
+    sections: [
+      {
+        title: "Bienvenida",
+        bullets: [
+          "Bienvenido a LUFIAN.",
+          "La marca nació en 1995 ofreciendo diseño y producción para marcas globales de renombre y, desde 2005, opera orgullosamente bajo el nombre Lufian.",
+          "Hoy Lufian se posiciona como un proveedor global de ropa informal de lujo para hombres, combinando comodidad, sofisticación y un estándar alto de producto y servicio.",
+          "La propuesta de la marca invita a cada cliente a construir su propio estilo con libertad, personalidad y atención al detalle.",
+        ],
+        onboardingGuide: {
+          headline: "Tu punto de partida en Lufian",
+          intro:
+            "Esta guía reúne el corazón del manual de operaciones y de la guía de producto para que tengas contexto rápido sobre la marca, la tienda y la colección.",
+          cards: [
+            {
+              title: "Qué vas a aprender",
+              body: "Cómo abrir y cerrar, cómo ordenar la operación, cómo proteger el stock y cómo presentar la colección con criterio.",
+            },
+            {
+              title: "Qué define a Lufian",
+              body: "Una imagen masculina premium, una colección cuidada y una ejecución de tienda limpia, coherente y muy bien presentada.",
+            },
+            {
+              title: "Cómo trabajar aquí",
+              body: "Con disciplina, criterio visual y una actitud atenta al cliente y al equipo, manteniendo siempre los estándares de marca.",
+            },
+          ],
+          checklistTitle: "Enfoque para arrancar",
+          checklist: [
+            "Conoce la colección y sus categorías principales.",
+            "Respeta los procedimientos de apertura, cierre y stock.",
+            "Cuida el uniforme, la higiene y la presentación personal.",
+            "Mantén la tienda ordenada, limpia y alineada con la imagen premium.",
+          ],
+          closing:
+            "La meta es que cada turno se vea y se sienta como una experiencia Lufian consistente, elegante y confiable.",
+        },
+      },
+      {
+        title: "Equipo",
+        bullets: [
+          "El cliente debe estar en el centro de cada operación minorista.",
+          "El equipo de tienda es el punto de contacto principal con el cliente, por eso debe guiar la mejor experiencia posible en todo momento.",
+          "Cada persona del equipo representa a Lufian y al franquiciado local frente a todas las partes externas.",
+          "La higiene, el atuendo y el aseo personal son muy importantes, y la política uniforme debe respetarse siempre.",
+          "La actitud y la forma de interactuar con compañeros y clientes pesan más que la apariencia por sí sola.",
+          "El desarrollo del talento interno y el reconocimiento del buen desempeño ayudan a mantener un equipo motivado y preparado para crecer.",
+        ],
+      },
+      {
+        title: "Operaciones",
+        bullets: [
+          "Procedimiento de apertura: revisar el exterior, encender luces, confirmar asistencia del equipo, hacer una reunión breve de 3 minutos, revisar el tablón de anuncios, retirar efectivo según política y dar un paseo por el piso de ventas.",
+          "La reunión matutina debe energizar al equipo, aclarar expectativas del día, compartir resultados del día anterior y asignar tareas con claridad.",
+          "Procedimiento de cierre: asegurar la tienda, completar el cierre de caja, preparar el depósito, guardar efectivo y documentos en la caja fuerte, dejar notas en el tablón y apagar todos los equipos y luces.",
+          "El horario semanal debe estar pensado para cubrir momentos de mayor tráfico, evitar que la tienda quede con una sola persona y garantizar que un manager o assistant manager esté presente en aperturas y cierres.",
+          "Las actividades mensuales incluyen reportes de ventas, seguimiento de competencia, revisión del entorno del centro comercial y feedback de producto al Brand Manager.",
+          "Al cierre de temporada conviene revisar desempeño, compartir aprendizajes con el equipo y celebrar lo que funcionó bien.",
+        ],
+      },
+      {
+        title: "Stock",
+        bullets: [
+          "El control de existencias es crítico: si la mercancía no está en tienda, no se puede vender.",
+          "Hay que hacer seguimiento al rendimiento versus objetivo y discutir variaciones importantes con el Brand Manager para sostener un flujo saludable de stock.",
+          "Es importante entender los tiempos de entrega, el tránsito y las semanas de cobertura que necesita la tienda.",
+          "La recepción de mercancía y el orden de bodega deben ser disciplinados para asegurar que el piso esté bien surtido y listo para vender.",
+        ],
+      },
+      {
+        title: "Limpieza y Prevención",
+        bullets: [
+          "La imagen de marca se sostiene también con limpieza, orden y prevención de pérdidas.",
+          "La tienda debe revisarse con atención en vitrinas, maniquíes, iluminación, piso de ventas, probadores y área de almacenaje.",
+          "Un recorrido matutino ayuda a detectar pequeñas oportunidades antes de que se conviertan en problemas operativos.",
+          "El equipo debe actuar rápido ante cualquier conflicto, documentar incidentes y escalar a RR. HH. cuando sea necesario.",
+        ],
+      },
+      {
+        title: "Visual Merchandising",
+        bullets: [
+          "La presentación visual debe comunicar coherencia, orden y una sensación premium alineada con la marca.",
+          "El piso de ventas, el mobiliario, la densidad de producto y la limpieza del espacio deben sostener una lectura clara y elegante.",
+          "Las directrices de tienda, los informes y la comunicación interna ayudan a mantener consistencia entre tiendas y entre temporadas.",
+          "En Lufian, el VM no solo ordena producto: también transmite estatus, claridad y calma visual.",
+        ],
+      },
+      {
+        title: "Colección y Producto",
+        bullets: [
+          "T.Shirts: la colección incorpora dos fits principales, regular y loose, con foco en diseño, print y la mejor calidad de tejidos.",
+          "Polo T.Shirts: se presentan en básico, clásico y fashion, con una pared de polos que cambia por tienda según tamaño y layout.",
+          "Knit T.Shirts: una propuesta cómoda y actual, ideal para el verano pero con piezas disponibles todo el año.",
+          "Denim: ofrece cortes slim y regular, con lavados variados, diferentes pesos de tela y técnicas de acabado avanzadas.",
+          "Shirts: trabaja cortes slim, regular y oversize; destacan las camisas de lino y Oxford, además de mezclas de algodón y algunos prints más atrevidos.",
+          "Pants: la propuesta se divide en Classics, Chique y Fashion, con chinos, cinco bolsillos, opciones más formales y piezas con detalle moderno.",
+          "Shorts: incluyen lifestyle shorts, active shorts y swim shorts, cada uno pensado para un uso distinto.",
+          "Jackets y Outerwear: la colección va desde blazers hasta abrigos técnicos con ligereza, repelencia al agua, suavidad y abrigo sin volumen.",
+        ],
+        images: [
+          {
+            src: "assets/lufian/product_cover.png",
+          },
+          {
+            src: "assets/lufian/product_page5.png",
+          },
+          {
+            src: "assets/lufian/product_page9.png",
+          },
+        ],
+        coverImage: "assets/lufian/product_cover.png",
+      },
+      {
+        title: "Accesorios y Cierre",
+        bullets: [
+          "La línea de accesorios incluye belts, socks, boxers, wallets y una prueba de perfumes para las tiendas de Turquía que después se extenderán a otras regiones.",
+          "Los calcetines cubren desde colores clásicos hasta versiones invisibles, deportivas y más divertidas; los boxers priorizan comodidad con mezcla de algodón y lycra.",
+          "Las wallets son de piel y funcionan como complemento de venta o como regalo de valor.",
+          "El estándar final de la experiencia debe dejar al cliente con una impresión de cuidado, calidad y confianza en la marca.",
+        ],
+      },
+    ],
+  },
 ];
 
 function stripHtml(html) {
@@ -1022,6 +1175,33 @@ function customizeSections(brandKey, sections) {
 }
 
 function extractBrand(brand) {
+  if (brand.sections) {
+    const sections = brand.sections.map((section, index) => ({
+      ...section,
+      id: `${brand.key}-${index + 1}`,
+    }));
+
+    const heroImages = (brand.heroImages || [])
+      .map((image) => ({ ...image }))
+      .slice(0, 4);
+
+    const stats = brand.stats || {
+      sections: sections.length,
+      points: sections.reduce((sum, section) => sum + (section.bullets?.length || 0), 0),
+      images: sections.reduce((sum, section) => sum + (section.images?.length || 0), 0),
+    };
+
+    return {
+      key: brand.key,
+      name: brand.name,
+      intro: brand.intro,
+      theme: brand.theme,
+      stats,
+      heroImages,
+      sections,
+    };
+  }
+
   const html = fs.readFileSync(brand.source, "utf8");
   const match = html.match(/window\.dataBase64=\"([^\"]+)\"/);
   if (!match) {
