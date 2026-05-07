@@ -709,6 +709,57 @@
         margin: 0 0 20px;
       }
 
+      .lead-paragraph {
+        margin: 0 0 20px;
+        padding: 22px 24px;
+        border-radius: 24px;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: var(--shadow);
+        color: var(--muted);
+        line-height: 1.75;
+        font-size: 1rem;
+      }
+
+      .content-card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin: 0 0 20px;
+      }
+
+      .content-card-grid.single-column {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .content-card {
+        padding: 20px 22px;
+        border-radius: 22px;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: var(--shadow);
+      }
+
+      .content-card-label {
+        margin-bottom: 8px;
+        color: var(--accent-strong);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .content-card h4 {
+        margin: 0 0 10px;
+        font-size: 1.08rem;
+      }
+
+      .content-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
       .identity-card {
         padding: 20px 20px 22px;
         border-radius: 24px;
@@ -872,23 +923,62 @@
         font-size: 0.97rem;
       }
 
-      .product-label-grid {
-        grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-        align-items: start;
+      .product-label-card {
+        position: relative;
+        overflow: hidden;
+        min-height: 420px;
+        padding: 0;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
       }
 
       .product-label-media {
-        border-radius: 18px;
-        overflow: hidden;
+        position: absolute;
+        inset: 0;
         background: var(--surface-alt);
-        min-height: 260px;
+      }
+
+      .product-label-media::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(255, 247, 251, 0.92) 0%, rgba(255, 247, 251, 0.56) 40%, rgba(255, 247, 251, 0.18) 100%);
+        pointer-events: none;
       }
 
       .product-label-media img {
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
+        object-position: center center;
         display: block;
+      }
+
+      .product-label-content {
+        position: relative;
+        z-index: 1;
+        max-width: min(44ch, 58%);
+        min-height: 420px;
+        display: grid;
+        align-content: start;
+        gap: 12px;
+        padding: 24px;
+      }
+
+      .product-label-content p {
+        color: #3a2840;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.55);
+      }
+
+      .product-label-content ul {
+        margin: 8px 0 0;
+        padding-left: 18px;
+        color: #3a2840;
+        line-height: 1.75;
+      }
+
+      .product-label-content li {
+        margin: 0 0 4px;
       }
 
       .fits-guide {
@@ -1066,6 +1156,16 @@
         .product-terms-grid,
         .product-label-grid {
           grid-template-columns: 1fr;
+        }
+
+        .product-label-card {
+          min-height: 360px;
+        }
+
+        .product-label-content {
+          max-width: none;
+          min-height: 360px;
+          padding: 18px;
         }
 
         .personas-hero {
@@ -1379,51 +1479,47 @@
       }
 
       function getDepartmentCards(section) {
-        if (!(currentBrand().key === "ardene" && section.title === "Departamentos y Categorías")) {
-          return null;
-        }
         return section.departmentCards || null;
       }
 
       function getStyleGuideCards(section) {
-        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title).startsWith("Guía de Estilos"))) {
-          return null;
-        }
         return section.styleGuideCards || null;
       }
 
       function getFitsGuide(section) {
-        if (!(currentBrand().key === "ardene" && section.title === "Fits")) {
-          return null;
-        }
         return section.fitsGuide || null;
       }
 
       function getFabricGuide(section) {
-        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Nuestras Telas")) {
-          return null;
-        }
         return section.fabricGuide || null;
       }
 
       function getIdentityCards(section) {
-        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Somos Ardene")) {
-          return null;
-        }
         return section.identityCards || null;
       }
 
+      function getLeadParagraph(section) {
+        return section.leadParagraph || null;
+      }
+
+      function getSectionPointCount(section) {
+        let count = 0;
+        count += section.bullets?.length || 0;
+        count += section.images?.length || 0;
+        count += section.departmentCards?.length || 0;
+        count += section.identityCards?.length || 0;
+        count += section.contentCards?.length || 0;
+        count += section.leadParagraph ? 1 : 0;
+        count += section.onboardingGuide ? (section.onboardingGuide.cards?.length || 0) + (section.onboardingGuide.checklist?.length || 0) + 2 : 0;
+        count += section.quizData ? section.quizData.questions?.length || 0 : 0;
+        return count;
+      }
+
       function getWelcomeGuide(section) {
-        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Bienvenida")) {
-          return null;
-        }
         return section.onboardingGuide || null;
       }
 
       function getProductGuide(section) {
-        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Producto")) {
-          return null;
-        }
         return section.productGuide || null;
       }
 
@@ -1592,20 +1688,37 @@
             </article>
             ${guide.labelGuide ? `
               <article class="product-label-card">
-                <h4>${guide.labelGuide.title}</h4>
-                <div class="product-label-grid">
-                  <div class="product-label-media">
-                    <img src="${guide.labelGuide.image.src}" alt="${guide.labelGuide.title}" loading="lazy" />
-                  </div>
-                  <div>
-                    <p>${guide.labelGuide.body}</p>
-                    <ul>
-                      ${guide.labelGuide.checklist.map((item) => `<li>${item}</li>`).join("")}
-                    </ul>
-                  </div>
+                <div class="product-label-media">
+                  <img src="${guide.labelGuide.image.src}" alt="${guide.labelGuide.title}" loading="lazy" />
+                </div>
+                <div class="product-label-content">
+                  <h4>${guide.labelGuide.title}</h4>
+                  <p>${guide.labelGuide.body}</p>
+                  <ul>
+                    ${guide.labelGuide.checklist.map((item) => `<li>${item}</li>`).join("")}
+                  </ul>
                 </div>
               </article>
             ` : ""}
+          </div>
+        `;
+      }
+
+      function renderContentCards(cards, variant = "") {
+        if (!cards || !cards.length) return "";
+        return `
+          <div class="${["content-card-grid", variant].filter(Boolean).join(" ")}">
+            ${cards
+              .map(
+                (card) => `
+                  <article class="content-card">
+                    ${card.label ? `<div class="content-card-label">${card.label}</div>` : ""}
+                    <h4>${card.title}</h4>
+                    <p>${card.body}</p>
+                  </article>
+                `
+              )
+              .join("")}
           </div>
         `;
       }
@@ -1665,6 +1778,8 @@
           const fitsGuide = getFitsGuide(section);
           const fabricGuide = getFabricGuide(section);
           const identityCards = getIdentityCards(section);
+          const leadParagraph = getLeadParagraph(section);
+          const contentCards = section.contentCards || null;
           const welcomeGuide = getWelcomeGuide(section);
           const productGuide = getProductGuide(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
@@ -1772,7 +1887,7 @@
             })
             .join("");
 
-          const shouldHideDefaultList = Boolean(welcomeGuide || productGuide);
+          const shouldHideDefaultList = Boolean(welcomeGuide || productGuide || leadParagraph || section.hideBullets || contentCards);
 
           const mediaImages = (
             personasData
@@ -1797,7 +1912,7 @@
                   src="${image.src}"
                   alt="${section.title}"
                   loading="lazy"
-                  style="object-fit: ${image.fit || "contain"};"
+                  style="object-fit: ${isSinglePortrait ? "cover" : (image.fit || "contain")};"
                 />
               </div>
             `
@@ -1828,7 +1943,7 @@
               <span class="section-index">${String(index + 1).padStart(2, "0")}</span>
               <span class="section-title-wrap">
                 <h3 class="section-title">${cleanSectionTitle(section.title)}</h3>
-                <div class="section-meta">${section.bullets.length} puntos clave${section.images?.length ? ` · ${section.images.length} visuales` : ""}</div>
+                <div class="section-meta">${getSectionPointCount(section)} puntos clave${section.images?.length ? ` · ${section.images.length} visuales` : ""}</div>
               </span>
               <span class="chevron">⌄</span>
             </button>
@@ -1837,6 +1952,8 @@
               ${media}
               ${conceptBoard}
               ${welcomeGuideBlock}
+              ${leadParagraph ? `<div class="lead-paragraph">${leadParagraph}</div>` : ""}
+              ${contentCards ? renderContentCards(contentCards, section.contentCardsVariant || "") : ""}
               ${identityGrid}
               ${productGuideBlock}
               ${styleGuideGrid}
