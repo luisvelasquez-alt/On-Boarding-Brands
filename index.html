@@ -674,22 +674,26 @@
         box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
       }
 
-      .style-guide-crop {
-        position: absolute;
-        inset: 0;
-        overflow: hidden;
-      }
-
-      .style-guide-crop img {
-        position: absolute;
+      .style-guide-media img {
+        width: 100%;
+        height: 100%;
         display: block;
-        max-width: none;
+        object-fit: cover;
       }
 
       .style-guide-card h4 {
-        margin: 0;
+        margin: 0 0 4px;
         font-size: 1.35rem;
         line-height: 1.05;
+      }
+
+      .style-guide-card-subtitle {
+        margin: 0 0 10px;
+        color: var(--accent-strong);
+        font-size: 0.92rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
       }
 
       .style-guide-card p {
@@ -1115,33 +1119,22 @@
         return `
           <div class="style-guide-grid">
             ${cards
-              .map((card, index) => {
-                const frame = card.image.frame;
-                const crop = card.image.crop;
-                return `
+              .map((card, index) => `
                   <article class="style-guide-card${cards.length % 3 === 2 && index >= cards.length - 2 ? " wide" : ""}">
-                    <div class="style-guide-media" style="aspect-ratio:${frame.width} / ${frame.height};">
-                      <div class="style-guide-crop">
-                        <img
-                          src="${card.image.src}"
-                          alt="${card.title}"
-                          loading="lazy"
-                          style="
-                            width:${crop.width}px;
-                            height:${crop.height}px;
-                            left:${crop.left}px;
-                            top:${crop.top}px;
-                          "
-                        />
-                      </div>
+                    <div class="style-guide-media" style="aspect-ratio: 2 / 3;">
+                      <img
+                        src="${card.image.src}"
+                        alt="${card.title}"
+                        loading="lazy"
+                      />
                     </div>
                     <div>
                       <h4>${card.title}</h4>
+                      ${card.subtitle ? `<div class="style-guide-card-subtitle">${card.subtitle}</div>` : ""}
                       <p>${card.body}</p>
                     </div>
                   </article>
-                `;
-              })
+                `)
               .join("")}
           </div>
         `;
