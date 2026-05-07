@@ -337,7 +337,7 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "ardene-12",
-        "title": "Guía de Estilos",
+        "title": "Guía de Estilos: Denim",
         "bullets": [
           "Cada fit de denim expresa una actitud distinta. Usa esta guía para reconocer rápidamente la silueta, la energía del look y cómo recomendar cada estilo según el mood del cliente."
         ],

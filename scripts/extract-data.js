@@ -375,6 +375,7 @@ function customizeSections(brandKey, sections) {
 
     const guiaEstilos = items.find((section) => section.title === "Guía de Estilos");
     if (guiaEstilos) {
+      guiaEstilos.title = "Guía de Estilos: Denim";
       guiaEstilos.bullets = [
         "Cada fit de denim expresa una actitud distinta. Usa esta guía para reconocer rápidamente la silueta, la energía del look y cómo recomendar cada estilo según el mood del cliente.",
       ];
