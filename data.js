@@ -1383,17 +1383,29 @@ window.BRAND_ONBOARDING_DATA = [
           {
             "label": "Tables / Benches / Risers",
             "title": "Soporte para la gran idea",
-            "body": "Estos muebles ayudan a construir el relato visual y a dar altura al producto clave."
+            "body": "Estos muebles ayudan a construir el relato visual y a dar altura al producto clave.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/0371e950-3b0c-495a-8189-43f47471920c.png",
+              "fit": "contain"
+            }
           },
           {
             "label": "Floor Fixtures",
             "title": "Navegación y outfit building",
-            "body": "Ordenan el recorrido y hacen más fácil combinar piezas en tienda."
+            "body": "Ordenan el recorrido y hacen más fácil combinar piezas en tienda.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/c5c94d14-16a6-489d-8f4c-aa0ea73acd81.png",
+              "fit": "contain"
+            }
           },
           {
             "label": "Accessory Fixtures",
             "title": "Venta impulsiva",
-            "body": "Son el lugar perfecto para elevar el ticket con complementos fáciles de llevar."
+            "body": "Son el lugar perfecto para elevar el ticket con complementos fáciles de llevar.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/40dfdba3-7581-44e8-b0b4-3ce482cce679.png",
+              "fit": "contain"
+            }
           }
         ],
         "hideBullets": true

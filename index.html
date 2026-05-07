@@ -837,6 +837,12 @@
         box-shadow: var(--shadow);
       }
 
+      .content-card.has-media {
+        display: grid;
+        gap: 14px;
+        align-content: start;
+      }
+
       .content-card.has-background {
         position: relative;
         overflow: hidden;
@@ -858,6 +864,22 @@
         position: absolute;
         inset: 0;
         background: linear-gradient(180deg, rgba(9, 18, 45, 0.08) 0%, rgba(9, 18, 45, 0.38) 100%);
+      }
+
+      .content-card-media {
+        position: relative;
+        overflow: hidden;
+        border-radius: 18px;
+        min-height: 168px;
+        background: color-mix(in srgb, var(--surface-alt) 72%, white);
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+      }
+
+      .content-card-media img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: contain;
       }
 
       .content-card-inner {
@@ -1911,9 +1933,15 @@
               .map(
                 (card) => {
                   const hasBackground = Boolean(card.backgroundImage);
+                  const image = card.image ? (typeof card.image === "string" ? { src: card.image } : card.image) : null;
                   const backgroundStyle = hasBackground ? `style="--card-bg-image: url('${card.backgroundImage}');"` : "";
                   return `
-                    <article class="content-card${hasBackground ? " has-background" : ""}" ${backgroundStyle}>
+                    <article class="content-card${hasBackground ? " has-background" : ""}${image ? " has-media" : ""}" ${backgroundStyle}>
+                      ${image ? `
+                        <div class="content-card-media">
+                          <img src="${image.src}" alt="${card.title}" loading="lazy" style="object-fit: ${image.fit || "contain"};" />
+                        </div>
+                      ` : ""}
                       ${hasBackground ? `<div class="content-card-background" style="background-image: var(--card-bg-image);"></div><div class="content-card-overlay"></div>` : ""}
                       <div class="content-card-inner">
                         ${card.label ? `<div class="content-card-label">${card.label}</div>` : ""}
