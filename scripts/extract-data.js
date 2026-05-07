@@ -171,7 +171,22 @@ function customizeSections(brandKey, sections) {
   let items = [...sections];
 
   if (brandKey === "ardene") {
-    items = items.filter((section) => !["HOME", "Bienvenida"].includes(section.title));
+    items = items.filter((section) => section.title !== "HOME");
+
+    const bienvenida = items.find((section) => section.title === "Bienvenida");
+    if (bienvenida) {
+      bienvenida.bullets = [
+        "Bienvenid@ al equipo Ardene!",
+        "¡Estamos muy contentos de tenerte en nuestro equipo! A estas alturas ya has conocido a tu equipo y has recorrido la tienda, pero como nuevo miembro del equipo, todavía tenemos mucho que compartirte sobre tu función, nuestros clientes, tiendas, producto y empresa.",
+        "Hemos diseñado esta capacitación como una experiencia de aprendizaje interactiva, interesante y estimulante que te proporcionará la base necesaria para sobresalir en Ardene y ser la mejor versión de ti.",
+        "La mejor manera de aprender es a través de la participación, por lo que damos la bienvenida a las preguntas y fomentamos tu participación activa siempre que sea posible. ¡Sé curiosa e involúcrate!",
+        "Esta guía te llevará a través de cada punto importante que debes conocer inicialmente de nuestro negocio.",
+        "ESCUCHA. HAZ PREGUNTAS. TOMA NOTAS. PRÁCTICA.",
+        "Utiliza todos los recursos de la tienda para obtener más información sobre tu función, tu tienda y la empresa. ¿Estás lista para empezar? ¡Genial, empecemos!",
+      ];
+      bienvenida.images = [];
+      bienvenida.coverImage = null;
+    }
 
     const personas = items.find((section) => section.title === "Personas");
     const ejercicio = items.find((section) => section.title === "Ejercicio Personas");

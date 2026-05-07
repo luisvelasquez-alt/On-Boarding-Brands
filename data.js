@@ -15,8 +15,8 @@ window.BRAND_ONBOARDING_DATA = [
       "gradient": "linear-gradient(135deg, #fff7fb 0%, #ffd8ea 50%, #fff 100%)"
     },
     "stats": {
-      "sections": 18,
-      "points": 99,
+      "sections": 19,
+      "points": 106,
       "images": 22
     },
     "heroImages": [
@@ -45,6 +45,21 @@ window.BRAND_ONBOARDING_DATA = [
     "sections": [
       {
         "id": "ardene-1",
+        "title": "Bienvenida",
+        "bullets": [
+          "Bienvenid@ al equipo Ardene!",
+          "¡Estamos muy contentos de tenerte en nuestro equipo! A estas alturas ya has conocido a tu equipo y has recorrido la tienda, pero como nuevo miembro del equipo, todavía tenemos mucho que compartirte sobre tu función, nuestros clientes, tiendas, producto y empresa.",
+          "Hemos diseñado esta capacitación como una experiencia de aprendizaje interactiva, interesante y estimulante que te proporcionará la base necesaria para sobresalir en Ardene y ser la mejor versión de ti.",
+          "La mejor manera de aprender es a través de la participación, por lo que damos la bienvenida a las preguntas y fomentamos tu participación activa siempre que sea posible. ¡Sé curiosa e involúcrate!",
+          "Esta guía te llevará a través de cada punto importante que debes conocer inicialmente de nuestro negocio.",
+          "ESCUCHA. HAZ PREGUNTAS. TOMA NOTAS. PRÁCTICA.",
+          "Utiliza todos los recursos de la tienda para obtener más información sobre tu función, tu tienda y la empresa. ¿Estás lista para empezar? ¡Genial, empecemos!"
+        ],
+        "images": [],
+        "coverImage": null
+      },
+      {
+        "id": "ardene-2",
         "title": "Carta de Mark",
         "bullets": [
           "Un Mensaje de nuestro CEO Mark",
@@ -54,7 +69,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": null
       },
       {
-        "id": "ardene-2",
+        "id": "ardene-3",
         "title": "Somos Ardene",
         "bullets": [
           "El destino para la moda puntual y asequible para que te veas bien y te sientas bien.",
@@ -69,7 +84,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": null
       },
       {
-        "id": "ardene-3",
+        "id": "ardene-4",
         "title": "Nuestros Clientes",
         "bullets": [
           "Qué quieren Nuestros Clientes?",
@@ -86,7 +101,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg"
       },
       {
-        "id": "ardene-4",
+        "id": "ardene-5",
         "title": "Personas",
         "bullets": [
           "Las personas de marca son perfiles detallados que representan a nuestros clientes. Nos ayudan a entender quién es nuestra audiencia, qué llevan puesto, qué les inspira y cómo compran. Con personas claras en su lugar, podemos seleccionar estilos que sean identificables, ¡lo que genera una mayor lealtad del cliente e impulsa un crecimiento significativo!",
@@ -112,7 +127,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg"
       },
       {
-        "id": "ardene-5",
+        "id": "ardene-6",
         "title": "Estructura de Tienda",
         "bullets": [
           "Ardene tiene una sólida reputación como un destino líder para la moda de valor que te hace lucir bien y sentirte bien. La experiencia de Ardene no estaría completa sin nuestros embajadores de marca a nivel de tienda. Cada miembro del equipo de la tienda tiene un papel importante en la experiencia del cliente al visitar sus ubicaciones.",
@@ -137,13 +152,12 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg"
       },
       {
-        "id": "ardene-6",
+        "id": "ardene-7",
         "title": "Dress Code",
         "bullets": [
           "En Ardene, nuestro estilo es parte de la experiencia. Nuestro objetivo es capacitar a los empleados para que expresen su individualidad mientras... Mantenemos la frescura, la vanguardia y la imagen de marca. Nuestro código de vestimenta refleja nuestro compromiso de ayudarte a verte bien y sentirte bien, ofreciendo una guía clara para fomentar la comodidad, la confianza y una apariencia acorde con la marca. Nuestros empleados son nuestros mejores embajadores. Lleva siempre tu credencial en el clip retráctil para que los clientes... Sepa que forma parte del equipo Ardene. Vístase apropiadamente, exprésese y priorice el uso de productos de Ardene para exhibir nuestro producto e inspirar a los clientes. Nuestro código de vestimenta incluye negro, gris, blanco y un toque de nuestro icónico rosa. Su apariencia general debe reflejar los valores de la marca Ardene: accesible, segura y empoderada.",
-          "Tops: Debe ser negro sólido, gris, blanco o denim. • Todas las líneas del cuello deben proporcionar una cobertura adecuada. • Los tops cortos solo se pueden usar con pantalones altos y no deben exponer el ombligo. • No se permiten camisetas sin mangas a menos que sean capas con una chaqueta, camisa o cárdigan. • Se permiten camisetas de longitud completa, sudaderas, sudaderas con capucha y camisas con botones. • Los botones deben estar estilizados con no más de tres botones deshechos.",
-          "Bottoms: Debe ser negro sólido, gris o denim. • Sin estampados, patrones o denim blanco. • No se permiten pantalones cortos de cualquier longitud y microfaldas. • No se permiten pantalones de fleece ni leggings (incluidos acampanados).",
-          "Vestidos: Debe ser negro sólido, gris, blanco o denim. • No debe ser más corto que la longitud de la punta del dedo cuando los brazos descansan naturalmente a los lados. • Los vestidos estilo tanque deben ser en capas con una chaqueta, camisa o cárdigan.",
+          "Tops: Debe ser negro sólido, gris o denim. • Sin estampados, patrones o denim blanco. • No se permiten pantalones cortos de cualquier longitud y microfaldas. • No se permiten pantalones de fleece ni leggings (incluidos acampanados).",
+          "Bottoms: Debe ser negro sólido, gris, blanco o denim. • No debe ser más corto que la longitud de la punta del dedo cuando los brazos descansan naturalmente a los lados. • Los vestidos estilo tanque deben ser en capas con una chaqueta, camisa o cárdigan.",
           "Calzado: Se recomienda el uso de zapatos Ardene. • Se permite el calzado de marcas que reflejen nuestra colección y las tendencias actuales. • Debe ser negro, nude, blanco o gris. • El calzado debe ser de punta cerrada, cómodo y seguro para largos períodos de estar de pie. • No se permiten zapatos abiertos, sandalias, botas de oveja (UGGs) y botas de invierno que se usan al aire libre..",
           "Otros: No se permiten logotipos visibles de otras marcas, con la excepción del calzado. • Los sujetadores son muy recomendables, y los pezones deben estar completamente cubiertos y no visibles en todo momento. • Los pañuelos deben ser negros sólidos, nudes, blancos o grises. • No se permiten sombreros ni gorras. • Se permiten pendientes y piercings visibles en la cara. • Se permiten tatuajes visibles. • No se permiten todos los tatuajes visibles que contengan imágenes ofensivas o discriminatorias, incluidos símbolos de odio o contenido culturalmente insensible. • El maquillaje y los accesorios deben reflejar un estilo limpio y expresivo que complemente el aspecto general."
         ],
@@ -162,7 +176,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/d48256b3-9065-42d1-b593-6978f9391906.png"
       },
       {
-        "id": "ardene-7",
+        "id": "ardene-8",
         "title": "Cultura de Tienda y Experiencia del Cliente",
         "bullets": [
           "En Ardene, somos el rostro de la marca. Cada interacción es una oportunidad para reflejar lo que nos define: energía positiva, accesibilidad y autenticidad. No se trata solo de atender a un cliente, sino de crear conexiones reales que hagan que cada visita sea memorable.",
@@ -196,7 +210,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/b2e00f0e-e03c-4e73-8d5f-8ce3d783d575.jpeg"
       },
       {
-        "id": "ardene-8",
+        "id": "ardene-9",
         "title": "WE ARDENE",
         "bullets": [
           "A menudo se te pedirá que hagas malabares con muchas tareas a la vez, pero no hay nada más importante que el cliente. Tres técnicas simples te permitirán completar tus tareas y \"Ser Ardene\":",
@@ -219,7 +233,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/5814f542-ef10-454c-baa0-9b0d0092048c.jpeg"
       },
       {
-        "id": "ardene-9",
+        "id": "ardene-10",
         "title": "Producto",
         "bullets": [
           "Temporadas: Ardene ofrece sobre 10,000 estilos por temporada Las temporadas son las siguientes: • Temporada A para Spring/Summer (Primavera/Verano) . Los despachos son desde diciembre a Mayo. • Temporada B para Fall / Winter (Otoño/Invierno). los despachos son de Junio a Noviembre.",
@@ -254,7 +268,7 @@ window.BRAND_ONBOARDING_DATA = [
         }
       },
       {
-        "id": "ardene-10",
+        "id": "ardene-11",
         "title": "Departamentos y Categorías",
         "bullets": [
           "Cada categoría en Ardene es una oportunidad para elevar la experiencia del cliente y aumentar tanto UPT como conversión. Conoce qué destacar en cada una y cómo recomendar los productos de forma natural y aspiracional.",
@@ -302,7 +316,7 @@ window.BRAND_ONBOARDING_DATA = [
             "title": "Ropa Íntima",
             "body": "Intimates es una categoría de cercanía y confianza. Combina funcionalidad con estilo, y siempre invita a la compra por packs. Claves: bras, panties, sets y loungewear íntimo. Tips: sugerir el set completo; promover packs y promos; resaltar comodidad. Ejemplo de diálogo: “Este bra queda perfecto, y tenemos las panties a juego en promo 3x$$.”",
             "image": {
-              "src": "assets/Ardene_Genially/images/4ca15c0c-9f8e-4d22-8520-f63992ad6572.jpeg"
+              "src": "assets/manual/ardene-ropa-intima.png"
             }
           },
           {
@@ -322,7 +336,7 @@ window.BRAND_ONBOARDING_DATA = [
         ]
       },
       {
-        "id": "ardene-11",
+        "id": "ardene-12",
         "title": "Guía de Estilos",
         "bullets": [
           "Guía de Estilos",
@@ -350,7 +364,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/2bbf3402-295b-4f82-b195-c5312441ffed.png"
       },
       {
-        "id": "ardene-12",
+        "id": "ardene-13",
         "title": "Fits",
         "bullets": [
           "Tiro: Alto, Medio y Bajo. Largo / caída: Alto, Regular, Bajo y por encima del zapato según el fit. Tiro Medio Recto: corte recto con cintura media-alta. Tiro Bajo Pierna Ancha: pierna ancha con cintura baja. Tiro Bajo Pierna Ancha Slouchy: pierna ancha relajada con cintura baja. Tiro Medio Baggy: corte holgado con cintura media-alta.",
@@ -379,7 +393,7 @@ window.BRAND_ONBOARDING_DATA = [
         }
       },
       {
-        "id": "ardene-13",
+        "id": "ardene-14",
         "title": "Nuestras Telas",
         "bullets": [
           "Nuestras Telas",
@@ -397,7 +411,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": "assets/Ardene_Genially/images/506a798d-5181-41e7-b6a5-87bac6286f13.png"
       },
       {
-        "id": "ardene-14",
+        "id": "ardene-15",
         "title": "VM",
         "bullets": [
           "El Visual Merchandising (VM) es la herramienta clave para conectar el producto con el cliente. En Ardene, nuestras pautas visuales no son solo una guía estética, sino un sistema que asegura que cada tienda proyecte orden, actualidad y coherencia de marca.",
@@ -414,7 +428,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": null
       },
       {
-        "id": "ardene-15",
+        "id": "ardene-16",
         "title": "KPI",
         "bullets": [
           "Los Indicadores Clave de Rendimiento (KPIs) son la brújula de la tienda. Nos muestran cómo estamos trabajando, qué debemos mejorar y cómo impactamos directamente en los resultados.",
@@ -429,7 +443,7 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": null
       },
       {
-        "id": "ardene-16",
+        "id": "ardene-17",
         "title": "Dinámica de Tienda",
         "bullets": [
           "Para tener una buena dinámica de tienda, es necesario comprender cómo debe fluir la operación durante el día para garantizar una excelente experiencia al cliente, altos niveles de venta y un ambiente de trabajo organizado.",
@@ -613,10 +627,10 @@ window.BRAND_ONBOARDING_DATA = [
           ],
           "footer": "Cuando termines, registra tu finalización para que quede constancia de tu participación y podamos seguir tu progreso en tienda."
         },
-        "id": "ardene-17"
+        "id": "ardene-18"
       },
       {
-        "id": "ardene-18",
+        "id": "ardene-19",
         "title": "Felicitaciones",
         "bullets": [
           "¡Felicitaciones!",
@@ -664,7 +678,7 @@ window.BRAND_ONBOARDING_DATA = [
       "gradient": "linear-gradient(135deg, #f6f2ea 0%, #ebe4d8 50%, #fffdf9 100%)"
     },
     "stats": {
-      "sections": 23,
+      "sections": 22,
       "points": 132,
       "images": 36
     },
@@ -723,7 +737,7 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "cottonon-3",
-        "title": "Historia i Kultura",
+        "title": "Historia y Cultura Copy",
         "bullets": [
           "Llevar nuestras marcas de estilo de vida australianas al mundo.",
           "Marcar una diferencia positiva.",
@@ -770,6 +784,7 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Compromiso con el Planeta y las Personas",
           "Sostenibilidad",
+          "Use this side of the card to provide more information about a topic. Focus on one concept. Make learning and communication more efficient.",
           "Algodón trazable BCI, fibras recicladas y orgánicas.",
           "Cotton On Foundation, educación y bienestar juvenil.",
           "Condiciones éticas y procesos que reducen agua y energía.",
@@ -800,11 +815,6 @@ window.BRAND_ONBOARDING_DATA = [
             "src": "assets/Cotton_On_Genially_Main/images/49a5093d-3939-49c3-9248-cf8e27a5648f.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/0f2b1ba6-007b-4cff-b4d6-bcd0c4879feb.jpeg",
-            "width": 360,
-            "height": 239.8
           }
         ],
         "coverImage": "assets/Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg"
@@ -835,41 +845,6 @@ window.BRAND_ONBOARDING_DATA = [
           },
           {
             "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/1901cb60-834d-472b-bb2a-64e14b1ee198.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/23a224e7-8c15-459c-b141-22af7c3174c6.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/a946e1ca-c450-474b-9eb5-b980a5ccd724.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/76a49e23-6529-4aad-b550-5b115ac6efcb.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/cb0a33b4-99ee-463c-bd7f-13f4349605d6.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/11f53146-d88d-4e25-bcd1-2535ff53dfb9.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/b2e40801-0f96-448c-a4c8-daea2104e0be.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           }
@@ -1035,16 +1010,6 @@ window.BRAND_ONBOARDING_DATA = [
             "src": "assets/Cotton_On_Genially_Main/images/40dfdba3-7581-44e8-b0b4-3ce482cce679.png",
             "width": 297.4236124258948,
             "height": 162.04724409448818
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/a3992665-d603-4be7-95dd-cda53f27645a.png",
-            "width": 360,
-            "height": 201.2
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/a633b0ee-b4d1-4522-b85c-ddd9f2f4cc1f.png",
-            "width": 360,
-            "height": 176.8
           }
         ],
         "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
@@ -1093,26 +1058,6 @@ window.BRAND_ONBOARDING_DATA = [
             "src": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
             "width": 361.4982551367903,
             "height": 397.3307334939477
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/36c6da09-c870-416d-a1f6-1cba80cd5f30.jpeg",
-            "width": 270,
-            "height": 377.4
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/42625fab-6cfa-4336-9add-83f9bac680ec.jpeg",
-            "width": 270,
-            "height": 378.3
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/9dbfcffa-b5c9-463a-a039-3c63ddec35b8.jpeg",
-            "width": 270,
-            "height": 378.3
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/a474ca71-8c39-4b72-8ad3-6f193d416a0a.jpeg",
-            "width": 270,
-            "height": 377.4
           }
         ],
         "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif"
@@ -1134,31 +1079,6 @@ window.BRAND_ONBOARDING_DATA = [
             "src": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
             "width": 361.4982551367903,
             "height": 397.3307334939477
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg",
-            "width": 270,
-            "height": 377
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/b8c56f6a-608e-4ea2-b2cb-86bc12226a61.jpeg",
-            "width": 270,
-            "height": 378
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/e30536fb-cf09-43a5-9121-48af11b4e77a.jpeg",
-            "width": 270,
-            "height": 378
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/47317b8b-c965-42e2-829a-5b2c090adc54.jpeg",
-            "width": 270,
-            "height": 378
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fc33a264-acbc-402a-b3d3-370e1c485662.jpeg",
-            "width": 270,
-            "height": 405
           }
         ],
         "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif"
@@ -1168,33 +1088,17 @@ window.BRAND_ONBOARDING_DATA = [
         "title": "E.D.R.C",
         "bullets": [
           "El E.D.R.C. es nuestra guía para ofrecer una experiencia de compra cercana, personalizada y orientada a la conversión. Aplicarlo en cada interacción garantiza que el cliente se sienta bienvenido, entendido y motivado a comprar.",
-          "Modelo de Ventas E.D.R.C.",
-          "Engage – Conectar en menos de 30 segundos",
-          "Objetivo: Romper el hielo y generar una primera impresión positiva. • Saluda al cliente con energía y contacto visual antes de que pasen 30 segundos de entrar. • Usa lenguaje corporal abierto (sonrisa, postura relajada, manos visibles). • Si el cliente lleva bolsas o prendas de otras tiendas, puedes comentarlo para iniciar conversación. Ejemplos de frases: \"¡Hola! Justo llegaron novedades esta semana.\" / \"Ese look que traes está increíble, te va a encantar lo que tenemos.\"",
-          "Discover – Descubrir necesidades",
-          "Objetivo: Entender qué busca el cliente para ofrecer soluciones personalizadas. • Haz preguntas abiertas para obtener información útil (\"¿Para qué ocasión buscas la prenda?\" en vez de \"¿Buscas algo en especial?\"). • Observa lo que el cliente ya mira o lleva en mano para identificar preferencias de estilo, color o talla. • Escucha activamente y evita interrumpir. Ejemplos de frases: \"¿Es para uso diario o para un evento en particular?\" / \"¿Prefieres un fit más ajustado o relajado?\" / \"¿Tienes algún color o estilo en mente?\" Tip: Cuanto más sepas del cliente, más relevante será tu recomendación y mayor la probabilidad de cierre.",
-          "Recommend – Recomendar y crear valor",
-          "Objetivo: Presentar opciones que respondan a la necesidad descubierta y añadir valor con venta cruzada. • Muestra máximo 3 opciones para no abrumar. • Explica beneficios y características de cada prenda, no solo precio. • Sugiere productos complementarios (venta cruzada) para completar el look. Ejemplos de frases: \"Estos jeans tienen un fit que realza la silueta y son muy versátiles para combinar.\" / \"Si te llevas esta camisa, podrías combinarla con este pantalón cargo para un look más relajado.\" / \"Tenemos una chaqueta que quedaría perfecta con ese vestido y está en promoción esta semana.\" Tip: Relaciona siempre tu recomendación con lo que el cliente dijo en la fase de Discover.",
-          "Close – Cerrar la venta con urgencia positiva",
-          "Objetivo: Ayudar al cliente a tomar la decisión final y generar sensación de oportunidad. • Resume los beneficios clave y confirma que cumple lo que el cliente busca. • Utiliza urgencia positiva: destacar unidades limitadas, promociones o lanzamientos exclusivos. • Acompaña hasta caja y ofrece agradecimiento genuino. Ejemplos de frases: \"Me alegra que te haya gustado, y justo nos quedan pocas unidades en tu talla.\" / \"Esta promoción termina hoy, es una buena oportunidad para aprovecharla.\" / \"Con esto ya tienes un look completo para la ocasión que me comentaste.\" Tip: El cierre no es presión, es ayudar al cliente a sentirse seguro de su elección."
+          "Modelo de Ventas E.D.R.C."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png",
-            "width": 270,
-            "height": 337.5
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png"
+        "images": [],
+        "coverImage": null
       },
       {
         "id": "cottonon-17",
         "title": "KPI",
         "bullets": [
           "Nuestros KPIs (Key Performance Indicators) son herramientas esenciales para medir el rendimiento de la tienda y de cada asociado. No son solo números: son indicadores que nos muestran qué tan bien estamos convirtiendo el tráfico en ventas, cuántos productos llevamos por cliente y cuánto gasta cada uno en promedio. Trabajarlos en conjunto nos permite: • Alcanzar las metas de ventas diarias y mensuales. • Detectar oportunidades de mejora en tiempo real. • Motivar al equipo con resultados claros y medibles.",
-          "Conversion Rate (CR)",
-          "UPT – Unidades por Transacción",
-          "DPT – Dinero por Transacción"
+          "Conversion Rate"
         ],
         "images": [],
         "coverImage": null
@@ -1203,15 +1107,13 @@ window.BRAND_ONBOARDING_DATA = [
         "id": "cottonon-18",
         "title": "Dinámica de Tienda",
         "bullets": [
-          "Para tener una buena dinámica de tienda, es necesario comprender cómo debe fluir la operación en tienda durante el día para garantizar una excelente experiencia al cliente, altos niveles de venta y un ambiente de trabajo organizado.",
           "Roles y Zonas clave",
-          "Cada asociado tiene un rol definido y zonas asignadas para cubrir en cada turno.",
-          "Flujos durante el día",
-          "Apertura de tienda • Checklist visual merchandising y limpieza. • Revisión de reposición y facing del producto. • Brief rápido de objetivos y promociones del día. Horas pico • Refuerzo en probadores y caja. • Priorización de atención al cliente sobre tareas de backroom. Horas de bajo tráfico • Reposición de producto. • Cambio de visual según instrucciones. • Preparación de mercadería para el día siguiente. Cierre de tienda • Revisión de probadores y piso de ventas. • Cuadre de caja y reportes. • Checklist de cierre.",
-          "Estándares de Atención",
-          "• Conecta: Saludo inmediato y con energía. • Descubre: Preguntar necesidades (“¿Buscas algo en especial hoy?”). • Recomienda: Mostrar alternativas y complementar con otros productos. • Cierra: Confirmar decisión y despedida positiva.",
+          "Otros Documentos",
           "Comunicación Interna",
-          "• Uso de grupo de WhatsApp o canal interno para comunicar incidencias y prioridades. • Informe de rendimiento actualizado semanalmente."
+          "Estándares de Atención",
+          "Flujos durante el día",
+          "Para tener una buena dinámica de tienda, es necesario comprender cómo debe fluir la operación en tienda durante el día para garantizar una excelente experiencia al cliente, altos niveles de venta y un ambiente de trabajo organizado.",
+          "Dinámica de Tienda"
         ],
         "images": [
           {
@@ -1250,206 +1152,47 @@ window.BRAND_ONBOARDING_DATA = [
         "coverImage": null
       },
       {
-        "title": "Evaluación",
-        "bullets": [
-          "Quiz Time"
-        ],
-        "images": [],
-        "coverImage": null,
-        "quizData": {
-          "intro": "Responde las siguientes preguntas y demuestra que estás listo para brillar en tienda. Cada pregunta usa opciones reales del playbook de Cotton On.",
-          "questions": [
-            {
-              "question": "¿En qué país nació Cotton On?",
-              "options": [
-                "Estados Unidos",
-                "Australia",
-                "Nueva Zelanda",
-                "Reino Unido"
-              ]
-            },
-            {
-              "question": "¿Cuál de estos valores es parte de nuestra cultura?",
-              "options": [
-                "Productividad máxima",
-                "Conexión real",
-                "Competencia entre marcas",
-                "Exclusividad de producto"
-              ]
-            },
-            {
-              "question": "¿Cómo se llama nuestra iniciativa de impacto social?",
-              "options": [
-                "Cotton On Charity",
-                "Green Australia Initiative",
-                "Cotton On Foundation",
-                "The Cotton On Project"
-              ]
-            },
-            {
-              "question": "¿Qué categoría principal ofrece Rubi?",
-              "options": [
-                "Ropa deportiva",
-                "Pijamas y loungewear",
-                "Denim para mujer",
-                "Calzado y accesorios"
-              ]
-            },
-            {
-              "question": "Cotton On Body ofrece únicamente ropa deportiva.",
-              "options": [
-                "Verdadero",
-                "Falso",
-                "Solo en temporada de verano",
-                "Solo en tiendas seleccionadas"
-              ]
-            },
-            {
-              "question": "El fit Curvy en denim para mujer es…",
-              "options": [
-                "Pierna ancha desde la cadera para tallas pequeñas",
-                "Extra ajustado en muslos, suelto en cintura",
-                "Cómodo en cadera y muslo, entalle en cintura",
-                "Tiro bajo con apertura desde la rodilla"
-              ]
-            },
-            {
-              "question": "¿Cuál NO es una categoría de camisetas gráficas?",
-              "options": [
-                "Pop Culture",
-                "Música y Deportes",
-                "Colaboraciones Especiales",
-                "Tailored Tees"
-              ]
-            },
-            {
-              "question": "La 'D' en E.D.R.C. significa…",
-              "options": [
-                "Deliver",
-                "Demand",
-                "Direct",
-                "Discover"
-              ]
-            },
-            {
-              "question": "En la fase 'Close', el objetivo es…",
-              "options": [
-                "Presentar opciones alternativas al cliente",
-                "Hacer preguntas para entender al cliente",
-                "Saludar al cliente en los primeros 30 segundos",
-                "Generar urgencia positiva y ayudar al cliente a decidir"
-              ]
-            },
-            {
-              "question": "El CR (Conversion Rate) mide…",
-              "options": [
-                "Promedio de unidades por transacción",
-                "Valor promedio de cada venta",
-                "Total de clientes que entran a tienda",
-                "Porcentaje de clientes que realizan una compra"
-              ]
-            },
-            {
-              "question": "300 unidades vendidas / 150 transacciones. El UPT es:",
-              "options": [
-                "1.5",
-                "3.0",
-                "0.5",
-                "2.0"
-              ]
-            },
-            {
-              "question": "El DPT se calcula dividiendo…",
-              "options": [
-                "Transacciones ÷ Tráfico",
-                "Unidades ÷ Transacciones",
-                "Ventas ÷ Unidades",
-                "Ventas ÷ Transacciones"
-              ]
-            },
-            {
-              "question": "¿Qué rol es clave en el área de probadores?",
-              "options": [
-                "Cajero",
-                "Gerente de bodega",
-                "Supervisor de distrito",
-                "Asociado de piso"
-              ]
-            },
-            {
-              "question": "¿Qué objetivo tiene el Top 20 en tienda?",
-              "options": [
-                "Eliminar los 20 productos de menor rotación",
-                "Rotar los 20 artículos más caros de la temporada",
-                "Identificar los 20 productos con mayor potencial de ventas para darles visibilidad y prioridad",
-                "Seleccionar los 20 outfits del mes para maniquíes"
-              ]
-            },
-            {
-              "question": "Según VMSSSSS, ¿cuál NO es uno de sus principios?",
-              "options": [
-                "Simetría",
-                "Señalización",
-                "Sistemas simplificados",
-                "Shipping (envío)"
-              ]
-            },
-            {
-              "question": "¿Qué se busca al seguir la guía de pilas (stacks) en VM?",
-              "options": [
-                "Maximizar el número de unidades por pila",
-                "Mantener presentación segura, ordenada y consistente",
-                "Colocar siempre los artículos más nuevos al frente",
-                "Priorizar los colores oscuros en la parte superior"
-              ]
-            },
-            {
-              "question": "¿Cuál es el propósito de los price points (señalización de precios) en VM?",
-              "options": [
-                "Ocultar las diferencias de precio entre productos similares",
-                "Señalar solo los artículos con descuento",
-                "Destacar valor y guiar la compra en categorías clave",
-                "Indicar el producto más caro de cada sección"
-              ]
-            },
-            {
-              "question": "¿Qué se debe evitar en la comunicación de precios en fixtures?",
-              "options": [
-                "Mostrar el precio regular junto al precio promocional",
-                "Colocar la señalización en línea recta",
-                "Resaltar el valor de la promoción vigente",
-                "Usar múltiples mensajes que saturen al cliente"
-              ]
-            },
-            {
-              "question": "¿Cuál es el principal beneficio de aplicar E.D.R.C. en cada interacción?",
-              "options": [
-                "Reducir el tiempo de atención por cliente a menos de 5 minutos",
-                "Evitar interacciones con clientes que no buscan ayuda",
-                "Seguir un proceso estructurado que mejora la experiencia del cliente y aumenta la conversión",
-                "Aumentar el número de productos en piso sin aumentar personal"
-              ]
-            },
-            {
-              "question": "¿Qué acción en probadores incrementa directamente el UPT?",
-              "options": [
-                "Dejar al cliente solo para que tome su decisión",
-                "Asegurarse de que solo ingresen 3 prendas al probador",
-                "Reemplazar productos que no encajan con los más económicos",
-                "Ofrecer tallas adicionales y sugerir combinaciones de prendas"
-              ]
-            }
-          ],
-          "footer": "Cuando termines, registra tu finalización para que quede constancia de tu participación y podamos seguir tu progreso en tienda."
-        },
-        "id": "cottonon-22"
-      },
-      {
-        "id": "cottonon-23",
+        "id": "cottonon-22",
         "title": "Felicitaciones",
         "bullets": [
           "¡Felicitaciones!",
-          "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces nuestra historia, nuestras marcas, nuestros productos y la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido, crecer profesionalmente y vivir la cultura Cotton On. Próximo paso: Registra tu finalización en el formulario para que quede constancia de tu participación."
+          "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces nuestra historia, nuestras marcas, nuestros productos y la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido, crecer profesionalmente y vivir la cultura Cotton On. 🔹Próximo paso: Registra tu finalización en el formulario para que quede constancia de tu participación.",
+          "Apertura de tienda • Checklist visual merchandising y limpieza. • Revisión de reposición y facing del producto. • Brief rápido de objetivos y promociones del día. Horas pico • Refuerzo en probadores y caja. • Priorización de atención al cliente sobre tareas de backroom. Horas de bajo tráfico • Reposición de producto. • Cambio de visual según instrucciones. • Preparación de mercadería para el día siguiente. Cierre de tienda • Revisión de probadores y piso de ventas. • Cuadre de caja y reportes. • Checklist de cierre.",
+          "Flujos del día",
+          "Close – Cerrar la venta con urgencia positiva",
+          "Objetivo : Ayudar al cliente a tomar la decisión final y generar sensación de oportunidad. • Resume los beneficios clave y confirma que cumple lo que el cliente busca. • Utiliza urgencia positiva: destacar unidades limitadas, promociones o lanzamientos exclusivos. • Acompaña hasta caja y ofrece agradecimiento genuino. Ejemplos de frases : • “Me alegra que te haya gustado, y justo nos quedan pocas unidades en tu talla.” • “Esta promoción termina hoy, es una buena oportunidad para aprovecharla.” • “Con esto ya tienes un look completo para la ocasión que me comentaste.” Tip : El cierre no es presión, es ayudar al cliente a sentirse seguro de su elección.",
+          "Tener simetría en toda la tienda permite una experiencia fácil, consistente y repetible en bloques de fixtures y estructuras de paredes en toda la tienda.",
+          "Simetría en toda la tienda",
+          "¡Hora de poner a prueba lo aprendido! Responde las siguientes preguntas y demuestra que estás listo para brillar en tienda.",
+          "Calzados & Accesorios - Rubi",
+          "La propuesta de calzado y accesorios es el toque final para cualquier outfit. Ofrece sandalias, sneakers, botines, bolsos, mochilas, carteras, cinturones, gafas de sol y sombreros, diseñados para complementar el look con estilo y funcionalidad. La variedad cubre desde opciones básicas hasta piezas de tendencia, asegurando que cada cliente encuentre el accesorio perfecto. Es una de las categorías con mayor potencial de venta cruzada y perfecta para compras impulsivas en caja o probador. Tip de venta: presentar el accesorio como la pieza clave que eleva y completa el outfit del cliente.",
+          "• Uso de grupo de WhatsApp o canal interno para comunicar incidencias y prioridades. • informe de rendimiento actualizado semanalmente.",
+          "Comunicación interna",
+          "Calzados & Accesorios",
+          "Selección de calzado y accesorios masculinos para completar cualquier look. Incluye sneakers, sandalias, botines, mochilas, riñoneras, gorras, sombreros y gafas de sol. Cada pieza está pensada para aportar practicidad y estilo, con opciones que van desde lo clásico hasta lo más actual. Es un segmento ideal para venta cruzada en caja y probadores. Tip de venta: mostrar cómo un accesorio puede transformar un look básico en uno con personalidad.",
+          "Prendas masculinas inspiradas en el deporte, pensadas para máxima comodidad en el día a día. Incluye joggers, sudaderas, shorts y camisetas de estilo deportivo que funcionan para actividades ligeras, viajes o looks urbanos relajados. Los diseños se centran en tendencia y confort, con tejidos suaves y cortes versátiles que permiten combinarlos con sneakers, denim o outerwear. Tip de venta: sugerir como opción ideal para clientes que buscan un look casual y cómodo, con toques deportivos.",
+          "Las camisetas gráficas son un elemento esencial en el guardarropa de nuestros clientes. Incluyen colaboraciones especiales y referencias a la cultura pop, música, películas y deportes. Fabricadas en algodón de alta calidad con fits que van desde relaxed hasta oversized, se renuevan con colecciones limitadas y rotación constante, generando interés. Son perfectas para combinar con denim, cargos o shorts, adaptándose a cualquier ocasión casual. Tip de venta: resaltar la novedad de los diseños y la posibilidad de coleccionarlos.",
+          "• Conecta: Saludo inmediato y con energía. • Descubre: Preguntar necesidades (“¿Buscas algo en especial hoy?”). • Recomienda: Mostrar alternativas y complementar con otros productos. • Cierra: Confirmar decisión y despedida positiva.",
+          "Estándares de atención",
+          "Recommend – Recomendar y crear valor",
+          "Objetivo : Presentar opciones que respondan a la necesidad descubierta y añadir valor con venta cruzada. • Muestra máximo 3 opciones para no abrumar. • Explica beneficios y características de cada prenda, no solo precio. • Sugiere productos complementarios (venta cruzada) para completar el look. Ejemplos de frases: • “Estos jeans tienen un fit que realza la silueta y son muy versátiles para combinar.” • “Si te llevas esta camisa, podrías combinarla con este pantalón cargo para un look más relajado.” • “Tenemos una chaqueta que quedaría perfecta con ese vestido y está en promoción esta semana.” Tip : Relaciona siempre tu recomendación con lo que el cliente dijo en la fase de Discover.",
+          "Nuestra línea de ropa deportiva y de descanso está diseñada para acompañar a la clienta en cada momento de su día, combinando alto rendimiento, comodidad y estilo moderno. Incluye leggings y bikers con soporte y elasticidad para entrenamientos de baja a alta intensidad, tops deportivos con diferentes niveles de soporte según la actividad, y prendas de loungewear y pijamas que ofrecen suavidad y libertad de movimiento. Los diseños siguen las tendencias actuales, con colores de temporada, estampados exclusivos y detalles funcionales como bolsillos ocultos, costuras planas y tejidos transpirables. Perfecta tanto para un entrenamiento intenso como para relajarse en casa, esta categoría busca que la clienta se sienta cómoda, segura y a la moda en todo momento. Tip de venta: recomendar looks completos con prendas deportivas y accesorios para aumentar el ticket promedio (DPT).",
+          "Engage – Conectar en menos de 30 segundos",
+          "Objetivo : Romper el hielo y generar una primera impresión positiva. • Saluda al cliente con energía y contacto visual antes de que pasen 30 segundos de entrar. • Usa lenguaje corporal abierto (sonrisa, postura relajada, manos visibles). • Si el cliente lleva bolsas o prendas de otras tiendas, puedes comentarlo para iniciar conversación.",
+          "Mostramos increíbles outfits en nuestros maniquíes a nuestros clientes. Al seguir la directiva de VM, nos aseguramos de que todos los torsos estén estilizados. Prestamos especial atención a los detalles de las páginas de la VM, manteniéndonos enfocados en nuestro cliente, ¡siempre! Sigue el directivo y nunca tendrás problemas para estilizar!",
+          "Éxito al estilizar",
+          "Nuestra colección de camisetas gráficas es un pilar clave de nuestra identidad. Incluye diseños con logos icónicos, colaboraciones especiales, referencias a la cultura pop y mensajes de tendencia que permiten a cada cliente expresar su personalidad. Fabricadas en algodón de calidad y con fits que van desde relajados hasta entallados, las Graphics se renuevan constantemente con ediciones limitadas y rotación rápida, incentivando compras por impulso y coleccionismo. Ideales para combinar con denim, shorts o capas ligeras, son el punto de partida perfecto para cualquier look casual. Tip de venta: Resalta la exclusividad y la constante llegada de nuevos diseños para generar urgencia.",
+          "Una selección versátil de prendas superiores que va desde camisetas básicas hasta blusas y camisas de temporada. Incluye modelos oversized, cropped y ajustados, además de tejidos ligeros (knitwear) perfectos para entretiempo. Nuestros Tops están diseñados para maximizar combinaciones con denim, bottoms y accesorios, permitiendo crear looks para cualquier ocasión, del día a la noche. La variedad de colores, estampados y texturas asegura que siempre haya una opción para cada cliente. Tip de venta: sugerir compras de más de una prenda para facilitar mezclas y multiplicar el uso.",
+          "Discover – Descubrir necesidades",
+          "Objetivo : Entender qué busca el cliente para ofrecer soluciones personalizadas. • Haz preguntas abiertas para obtener información útil (“¿Para qué ocasión buscas la prenda?” en vez de “¿Buscas algo en especial?”). • Observa lo que el cliente ya mira o lleva en mano para identificar preferencias de estilo, color o talla. • Escucha activamente y evita interrumpir. Ejemplos de frases: • “¿Es para uso diario o para un evento en particular?” • “¿Prefieres un fit más ajustado o relajado?” • “¿Tienes algún color o estilo en mente?” Tip : Cuanto más sepas del cliente, más relevante será tu recomendación y mayor la probabilidad de cierre.",
+          "Los floorsets ahora están bloqueados por períodos más largos de 3 meses para que podamos construir consistencia y amor por la marca.",
+          "Floorsets de Temporada",
+          "Cada asociado tiene un rol definido y zonas asignadas para cubrir en cada turno:",
+          "Camisas, polos y camisetas básicas que ofrecen estilo y versatilidad para el día a día. Incluyen camisas Oxford para un look smart-casual, camisas casuales en lino o algodón, polos en piqué y camisetas básicas premium para layering. Los Tops masculinos están pensados para funcionar tanto en entornos relajados como en ocasiones más formales, dependiendo de la combinación. Tip de venta: sugerir compras en múltiples colores para maximizar opciones de uso.",
+          "Horizontal Big Idea y Vertical Outfitting es nuestra fórmula ganadora. Cada pared, cada mesa y cada bloque de fixtures tiene esta fórmula aplicada para resaltar nuestras grandes ideas y productos héroe de la temporada.",
+          "Diseños y sistemas simplificados",
+          "Alternativas al denim que ofrecen comodidad y funcionalidad. Incluyen chinos para un estilo más formal o de oficina, cargo pants con un toque utilitario, joggers para un look deportivo o casual, y boardshorts para el verano y actividades al aire libre. Todos están diseñados para ser fáciles de combinar y adaptarse a diferentes contextos. Tip de venta: orientar la elección según el uso principal que el cliente les dará (trabajo, ocio, deporte).",
+          "Pantalones, leggings, joggers y shorts que ofrecen una alternativa cómoda y moderna al denim. La categoría incluye pantalones relajados para un look más formal, leggings y bikers para uso diario o deportivo, y joggers y shorts para un estilo casual. Se caracterizan por su versatilidad, confort y facilidad de combinación con el resto del closet. Perfectos para clientes que buscan estilo funcional y adaptabilidad en múltiples contextos. Tip de venta: destacar la transición fácil de un look casual a uno más arreglado con solo cambiar la parte superior y accesorios."
         ],
         "images": [
           {
@@ -1606,9 +1349,9 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "lcw-5",
-        "title": "Preguntas Frecuentes",
+        "title": "Preguntas frequentes",
         "bullets": [
-          "Preguntas Frecuentes",
+          "Preguntas Frequentes",
           "SI EL CLIENTE QUIERE RESERVAR UN PRODUCTO",
           "SI EL CLIENTE QUIERE CAMBIAR UN PRODUCTO COMPRADO FUERA DEL PAIS",
           "SI EL CAJERO ENFRENTA UNA SITUACIÓN DONDE EL PRECIO EN SISTEMA ES DISTINTO AL PRECIO DE ETIQUETA",
@@ -1734,7 +1477,7 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "lcw-10",
-        "title": "Alarmas y Perchas",
+        "title": "LCW Brand Ages Copy",
         "bullets": [
           "Alarmas y Perchas",
           "En LC Waikiki, como medida preventiva contra el robo, utilizamos varios tipos de alarmas que están unidas a los productos. Al colocar las alarmas en los productos, preste atención a los siguientes detalles: • Las alarmas deben ser: - Etiquetadas de acuerdo con el tipo de producto. -Colocadas en la línea de costura del producto. • Las alarmas no deben ser: • -Dañar o destruir el producto",
@@ -1758,7 +1501,7 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "lcw-11",
-        "title": "Prevención de Robos",
+        "title": "LCW Brand Ages Copy Copy",
         "bullets": [
           "Prevención de Robos",
           "Cuando trabajamos en LC Waikiki, como en cualquier marca minorista de la industria, podemos enfrentarnos a robos en tiendas, que son realizados por alguien fuera del negocio. Podría ser una devolución fraudulenta de un producto o un robo en la tienda. Concéntrese mientras está en el área de ventas: • Observe y preste atención a todos nuestros clientes; • Informe inmediatamente a sus superiores si observa un fallo o un funcionamiento incorrecto de los dispositivos de prevención de robo en tiendas (puertas sensoriales, circuitos cerrados, panel de control) • Ayude a sus clientes en los probadores; • No se quede en grupos con sus colegas, trate de cubrir toda el área de ventas. Sea educado incluso cuando se enfrente a un escenario de robo en tiendas: • No actúe de manera discriminatoria con ningún cliente sospechoso. • No actúe solo. • Evite el contacto físico. • Actúe con confianza y con calma. • No levante el tono de voz. • Respete el procedimiento interno si se enfrenta a ladrones."
@@ -1841,7 +1584,7 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "id": "lcw-15",
-        "title": "Plataformas Online",
+        "title": "LCW Brand Ages Copy Copy Copy Copy Copy Copy",
         "bullets": [
           "PLATAFORMAS ONLINE",
           "Nuestra empresa utiliza constantemente una variedad de sistemas para gestionar nuestras operaciones y a continuación puede encontrar la lista de ellos:",
@@ -1873,7 +1616,41 @@ window.BRAND_ONBOARDING_DATA = [
         "title": "Felicitaciones",
         "bullets": [
           "¡Felicitaciones!",
-          "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido y crecer profesionalmente. Próximo paso: registra tu finalización en el formulario para que quede constancia de tu participación."
+          "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido y crecer profesionalmente.",
+          "Debemos decirle cortésmente a nuestro cliente que \"trataremos de encontrar este producto en otra tienda, pero no podemos vendérselo, ya que está defectuoso”.",
+          "La organización es la base de una experiencia de compra fluida. Cada prenda debe estar ubicada en el fixture, pared o mesa asignada, según el planograma y los estándares de VM. Una tienda organizada facilita la reposición, optimiza el flujo del cliente y mejora la eficiencia del equipo.",
+          "Organización",
+          "Si la talla, el estilo o el color del producto que el cliente exige no está disponible en la tienda, debemos tomar las siguientes medidas: • Debemos comprobar si hay suficiente stock de productos en el depo. Si no hay ningún producto en el depo, podemos recomendar un producto similar que esté disponible (ventas alternativas). • Si esto no es apropiado, comprobaremos si el producto está disponible en las tiendas cercanas (si es posible). Debemos confirmarlo por teléfono. • El cliente puede ir a esa tienda y comprar el producto por sí mismo. Deberíamos dejar que el cliente tome la decisión para hacer que el proceso sea lo más fácil posible para el cliente. Al mismo tiempo, debemos: • Recomendar diferentes combinaciones, • Presentar los diferentes colores del mismo producto, • Recomendar productos con descuento y en períodos especiales, • Mostrar productos y accesorios complementarios. • Presentar productos de moda a los clientes.",
+          "Comunicación en probadores",
+          "La posibilidad de comprar un producto aumenta si el cliente lo prueba. Debemos guiar a los clientes para que prueben los productos y mostrarles amablemente el lugar de los probadores. Deberíamos quedarnos cerca del probador para apoyarlos en diferentes tallas y productos. Esta es una muy buena oportunidad para presentar productos adicionales y recomendar combinaciones que el cliente puede pasar por alto o productos alternativos si el producto no encaja. Al mismo tiempo, también podemos informar a los clientes sobre las campañas existentes y contribuir a la disminución de las devoluciones.",
+          "Deberíamos decir cortésmente que no tenemos productos reservados. El producto solo está reservado si el cliente se da cuenta de que no tiene suficiente dinero para comprar el producto cuando llega a la caja registradora. En este caso, reservamos el producto hasta el final del día.",
+          "Deberíamos tratar de satisfacer inmediatamente la demanda de nuestros clientes. Si lleva tiempo sacar el producto de la vitrina o el display, debemos explicarle la situación al cliente y pedirle que vuelva en el tiempo necesario.",
+          "Debemos sonreír e informar cortésmente al cliente sobre los horarios de apertura/cierre de la tienda. Deberíamos pedirle amablemente al cliente que espere hasta que abra la tienda o que regrese al día siguiente si es apropiado. Si el cliente continúa comprando, aunque es la hora de cierre, deberíamos dejar que complete las compras. No debemos insinuar de ninguna manera que él/ella nos molesta.",
+          "¿Quienes Somos?",
+          "Quejas de Clientes",
+          "Las quejas de los clientes son otra oportunidad importante para mostrar nuestro enfoque centrado en el cliente. Si podemos superar con éxito la queja, el cliente puede ser leal a nuestra marca. Por otro lado, una queja mal gestionada generalmente hace que el cliente le diga a los demás lo mal que fue tratado. • Debemos escuchar atentamente las quejas de nuestros clientes y no interrumpirlas. • Debemos tener en cuenta que la queja es importante para el cliente incluso cuando no tiene sentido para nosotros. • Debemos responder positivamente a su solicitud siempre que sea posible. • Nos disculpamos sinceramente por cualquier inconveniente causado. Si la queja parece irrazonable o si el cliente grita o insulta, debemos llamar inmediatamente al gerente de la tienda. Los gerentes de tiendas tienen derecho a tomar las medidas adecuadas. Para las situaciones en las que la queja no se puede resolver en el momento, el representante de Servicio al Cliente del país debe ser informado por correo electrónico.",
+          "Cambios y Devoluciones",
+          "La devolución y el reemplazo del producto son parte del servicio al cliente. La razón de la devolución y el reemplazo debe preguntarse cortésmente, y siempre debemos ayudar a nuestros clientes con una actitud positiva.",
+          "El visual merchandising comunica la identidad de nuestra marca. Aplicar correctamente las directrices de VM ayuda a resaltar productos clave, generar combinaciones inspiradoras y mantener coherencia con la campaña vigente. Un VM efectivo impulsa la conversión y eleva la experiencia visual del cliente.",
+          "Servicio en caja",
+          "Llevar a cabo los procedimientos rápidamente y con una cara sonriente en el área de caja y asegurarse de que nuestros clientes salgan de nuestras tiendas felices es la base de la política de servicio en las cajas de LC Waikiki. • Si hay más de dos clientes esperando en la cola de la caja registradora, nuestra política es abrir otra caja registradora hasta que todos estén abiertas. Dirija a nuestros clientes a otras cajas registradoras disponibles en la tienda. • Haga contacto visual con los clientes al tomar sus productos. • El pago con tarjeta de crédito está disponible en el país, pregunte \"¿Cómo le gustaría realizar su pago?\" • Antes de recibir el pago, especifique la pieza y la suma del producto diciendo \"Sra./Señor, el total de su compra es...\" • Informe a cada cliente sobre la campaña disponible. • Doble los productos y colóquelos en una bolsa con cuidado; compruebe si se han eliminado todas las alarmas mediante el dispositivo de doble verificación. • Cuando se complete el proceso, agradezca a nuestro cliente y muéstrele con una cara sonriente y diga frases como: “Gracias por comprar en LC Waikiki, que tenga un excelente día/Noche”",
+          "Por otro lado, evitamos el uso de declaraciones negativas como:",
+          "Deberíamos saludar al cliente con una cara sonriente y decirle que la alarma podría estár en un producto comprado en otra tienda. Deberíamos recomendarle que revise la bolsa. Si el cliente lo considera apropiado, debemos detectar la alarma y explicarle que necesita llevar el producto de vuelta a la tienda donde lo compró. Debemos decirle al cliente que él/ella no podrá quitar la alarma por sí mismo y que la alarma seguirá sonando en otras tiendas.",
+          "Información de Producto",
+          "La información del producto incluye todo lo que el cliente espera que sepamos, como: talla y gama de colores del producto, instrucciones de lavado y mantenimiento, características y beneficios del producto y nuestra política ecológica de productos. Al proporcionar información sobre el producto a nuestros clientes, debemos mostrar el valor y la importancia que le damos a nuestros productos. Si no sabemos la respuesta a la pregunta que hizo el cliente, deberíamos decir amablemente: \"No sé la respuesta a su pregunta, permítame informar a mi gerente\". Y pida amablemente al cliente que espere.",
+          "El cliente es el centro de todo lo que hacemos. Brindar un servicio cálido, rápido y respetuoso fortalece la relación con la marca. Escuchar activamente, resolver inquietudes y ofrecer soluciones proactivas convierte cada visita en una experiencia positiva y memorable.",
+          "Servicio al Cliente",
+          "Siempre debemos aspirar a ser serviciales, educados y respetuosos mientras hablamos con nuestros clientes. Nos dirigiremos a nuestros clientes como \"Sr., Sra. o Señor\" con sus nombres si lo sabemos. Cuando hablamos con los clientes, utilizamos declaraciones positivas como:",
+          "Una tienda limpia es una tienda que vende. Debe mantenerse impecable en todo momento: pisos, probadores, vitrinas, cajas y almacén. La limpieza constante refleja la profesionalidad del equipo y refuerza la imagen de marca ante el cliente. Este principio también aplica al planchado de prendas de todo el piso de ventas, esto garantiza una experiencia impecable de compra para el cliente.",
+          "Deberíamos decir amablemente \"Señor/Señora, nuestros productos vienen sin perchas, usamos perchas sólo para organizar el producto”.",
+          "Un liderazgo visible garantiza excelencia operativa. El gerente debe estar presente en el piso supervisando estándares, apoyando al equipo, detectando oportunidades de mejora y asegurando una atención de calidad. Su presencia constante inspira disciplina, compromiso y enfoque en resultados.",
+          "Presencia del Gerente en Piso de Ventas",
+          "Reconociendo Señales",
+          "Algunos clientes pueden dudar en pedir ayuda. Cuando reconocemos a un cliente que necesita ayuda, debemos detener lo que estamos haciendo y ayudar al cliente. Algunas señales pueden revelar que el cliente necesita ayuda: • Buscar el tamaño correcto entre los productos • Probar un producto sosteniendo el producto contra su cuerpo • Tratar de hacer una combinación • Tratar de llegar a un producto • Elegir un producto que obviamente no se ajustaba como tamaño • Si él/ella está confundido, desconcertado o mirando a su alrededor enojado.",
+          "Debemos explicar cortésmente a nuestros clientes que no aceptamos el reemplazo o la devolución de productos comprados en tiendas de diferentes países..",
+          "Mantén los niveles de fullness según el sistema, con un mínimo del 100 % en todo momento, siempre que haya producto disponible en bodega. El fullness garantiza que el área de ventas esté completamente abastecida, maximizando la disponibilidad visual y real del producto. Un piso de ventas lleno transmite orden, variedad y asegura que el cliente encuentre su talla y modelo fácilmente.",
+          "Si el precio del producto que se muestra en la etiqueta es mayor que el precio del producto en el sistema, se debe informar al cliente de que debe pagar menos que el precio mostrado. Se deben tomar las medidas necesarias, y se debe actualizar el precio del stock de productos existentes del área de ventas, cambiando las etiquetas o notificando al equipo de soporte para que validen en el sistema. Si el precio del producto que se muestra en la etiqueta es menor que el precio del producto en el sistema, Se debe comunicar al cliente cordialmente que el producto presenta un defecto en sistema y que con gusto se lo pueden reservar hasta que sea resuelto, se debe proceder a tomar los datos del cliente y comunicarle que tan pronto esté disponible nuevamente se le contactará.",
+          "Esto puede ser vergonzoso para nuestros clientes. Deberíamos disculparnos de inmediato y decirle cortésmente que la alarma podría estar en un producto que compró. Deberíamos pasar las bolsas del detector de la puerta para detectar en qué bolsa quedó el dispositivo de alarma. Deberíamos pedir permiso a nuestro cliente para revisar las bolsas. Al revisar la bolsa, no debemos tocarla, solo debemos comprobarlo con los ojos. Cuando encontremos el dispositivo de alarma, deberíamos disculparnos por causar una perturbación. Y deberíamos pedir ver su recibo para poder identificar al cajero que dejó la etiqueta. Si el cliente no coopera, deberíamos llamar a los gerentes de la tienda."
         ],
         "images": [
           {
