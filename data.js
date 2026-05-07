@@ -1090,6 +1090,92 @@ window.BRAND_ONBOARDING_DATA = [
         "hideBullets": true
       },
       {
+        "id": "cottonon-13",
+        "title": "Denim - Mujer",
+        "bullets": [
+          "El denim femenino es un básico comercial: fácil de recomendar, fácil de combinar y clave para construir looks completos."
+        ],
+        "images": [
+          {
+            "src": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
+            "width": 361.4982551367903,
+            "height": 397.3307334939477
+          }
+        ],
+        "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
+        "contentCards": [
+          {
+            "label": "Flare & Bootcut",
+            "title": "Pierna que abre desde la rodilla",
+            "body": "Una silueta que alarga y funciona muy bien con looks retro o más pulidos."
+          },
+          {
+            "label": "Curvy",
+            "title": "Más cómodo en cadera y muslo",
+            "body": "Buscado por clientes que necesitan mejor entalle en cintura sin sacrificar comodidad."
+          },
+          {
+            "label": "Low",
+            "title": "Tiro bajo relajado",
+            "body": "Perfecto para un look más casual y desenfadado."
+          },
+          {
+            "label": "Straight",
+            "title": "Recto y atemporal",
+            "body": "El fit clásico que siempre funciona y nunca se siente fuera de lugar."
+          },
+          {
+            "label": "Baggy",
+            "title": "Volumen con actitud",
+            "body": "Pierna ancha desde la cadera para un resultado noventero y con personalidad."
+          }
+        ],
+        "hideBullets": true
+      },
+      {
+        "id": "cottonon-14",
+        "title": "Denim - Hombre",
+        "bullets": [
+          "El denim masculino combina fits relajados, referencias 90s y siluetas fáciles de estilizar con graphics, sudaderas y sneakers."
+        ],
+        "images": [
+          {
+            "src": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
+            "width": 361.4982551367903,
+            "height": 397.3307334939477
+          }
+        ],
+        "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
+        "contentCards": [
+          {
+            "label": "Jorts",
+            "title": "Short de denim a la rodilla",
+            "body": "Relajado, versátil y muy fácil de vender en clima cálido."
+          },
+          {
+            "label": "Balloon",
+            "title": "Volumen redondeado",
+            "body": "Amplio en muslo y con personalidad retro."
+          },
+          {
+            "label": "Baggy",
+            "title": "Comodidad con actitud",
+            "body": "Un corte ancho moderado que conecta con looks relajados."
+          },
+          {
+            "label": "Y2K Wide",
+            "title": "Nostalgia de los 2000",
+            "body": "Tiro bajo y energía desenfadada para un look muy actual."
+          },
+          {
+            "label": "Super Baggy",
+            "title": "Pierna muy ancha",
+            "body": "La silueta más urbana y noventera del bloque."
+          }
+        ],
+        "hideBullets": true
+      },
+      {
         "id": "cottonon-6",
         "title": "Visual Merchandising",
         "bullets": [
@@ -1371,92 +1457,6 @@ window.BRAND_ONBOARDING_DATA = [
             "label": "Regla",
             "title": "A5 y un solo price point",
             "body": "En rieles, el tamaño estándar es A5 y solo debe haber un precio por agrupación de accesorios."
-          }
-        ],
-        "hideBullets": true
-      },
-      {
-        "id": "cottonon-13",
-        "title": "Denim - Mujer",
-        "bullets": [
-          "El denim femenino es un básico comercial: fácil de recomendar, fácil de combinar y clave para construir looks completos."
-        ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
-            "width": 361.4982551367903,
-            "height": 397.3307334939477
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
-        "contentCards": [
-          {
-            "label": "Flare & Bootcut",
-            "title": "Pierna que abre desde la rodilla",
-            "body": "Una silueta que alarga y funciona muy bien con looks retro o más pulidos."
-          },
-          {
-            "label": "Curvy",
-            "title": "Más cómodo en cadera y muslo",
-            "body": "Buscado por clientes que necesitan mejor entalle en cintura sin sacrificar comodidad."
-          },
-          {
-            "label": "Low",
-            "title": "Tiro bajo relajado",
-            "body": "Perfecto para un look más casual y desenfadado."
-          },
-          {
-            "label": "Straight",
-            "title": "Recto y atemporal",
-            "body": "El fit clásico que siempre funciona y nunca se siente fuera de lugar."
-          },
-          {
-            "label": "Baggy",
-            "title": "Volumen con actitud",
-            "body": "Pierna ancha desde la cadera para un resultado noventero y con personalidad."
-          }
-        ],
-        "hideBullets": true
-      },
-      {
-        "id": "cottonon-14",
-        "title": "Denim - Hombre",
-        "bullets": [
-          "El denim masculino combina fits relajados, referencias 90s y siluetas fáciles de estilizar con graphics, sudaderas y sneakers."
-        ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
-            "width": 361.4982551367903,
-            "height": 397.3307334939477
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
-        "contentCards": [
-          {
-            "label": "Jorts",
-            "title": "Short de denim a la rodilla",
-            "body": "Relajado, versátil y muy fácil de vender en clima cálido."
-          },
-          {
-            "label": "Balloon",
-            "title": "Volumen redondeado",
-            "body": "Amplio en muslo y con personalidad retro."
-          },
-          {
-            "label": "Baggy",
-            "title": "Comodidad con actitud",
-            "body": "Un corte ancho moderado que conecta con looks relajados."
-          },
-          {
-            "label": "Y2K Wide",
-            "title": "Nostalgia de los 2000",
-            "body": "Tiro bajo y energía desenfadada para un look muy actual."
-          },
-          {
-            "label": "Super Baggy",
-            "title": "Pierna muy ancha",
-            "body": "La silueta más urbana y noventera del bloque."
           }
         ],
         "hideBullets": true
