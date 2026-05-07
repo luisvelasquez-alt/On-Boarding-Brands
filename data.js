@@ -21,23 +21,23 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "heroImages": [
       {
-        "src": "../Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg",
+        "src": "assets/Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg",
         "width": 360.27364066846684,
         "height": 691.6003676606429,
         "fit": "contain"
       },
       {
-        "src": "../Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg",
+        "src": "assets/Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg",
         "width": 365.8733723636743,
         "height": 636.6268885585491
       },
       {
-        "src": "../Ardene_Genially/images/9a69db33-251d-44a3-a32d-e14f6010d5cb.png",
+        "src": "assets/Ardene_Genially/images/9a69db33-251d-44a3-a32d-e14f6010d5cb.png",
         "width": 115.010395010395,
         "height": 147.45123398311577
       },
       {
-        "src": "../Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg",
+        "src": "assets/Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg",
         "width": 360.4337770524935,
         "height": 408.09348728853473
       }
@@ -77,13 +77,13 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg",
+            "src": "assets/Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg",
             "width": 360.27364066846684,
             "height": 691.6003676606429,
             "fit": "contain"
           }
         ],
-        "coverImage": "../Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/5a296e88-8337-401c-99dd-edc4e28b2158.jpeg"
       },
       {
         "id": "ardene-4",
@@ -99,17 +99,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg",
+            "src": "assets/Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg",
             "width": 365.8733723636743,
             "height": 636.6268885585491
           },
           {
-            "src": "../Ardene_Genially/images/9a69db33-251d-44a3-a32d-e14f6010d5cb.png",
+            "src": "assets/Ardene_Genially/images/9a69db33-251d-44a3-a32d-e14f6010d5cb.png",
             "width": 115.010395010395,
             "height": 147.45123398311577
           }
         ],
-        "coverImage": "../Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/636f088e-9f71-43f6-8c1e-a11006f5451a.jpeg"
       },
       {
         "id": "ardene-5",
@@ -124,17 +124,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg",
+            "src": "assets/Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg",
             "width": 360.4337770524935,
             "height": 408.09348728853473
           },
           {
-            "src": "../Ardene_Genially/images/596c2e11-18f7-460e-8784-9a0a0a993c76.jpeg",
+            "src": "assets/Ardene_Genially/images/596c2e11-18f7-460e-8784-9a0a0a993c76.jpeg",
             "width": 360.1042908072213,
             "height": 230.8854203617767
           }
         ],
-        "coverImage": "../Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/34edcc60-91f4-4b26-aaa3-fc00beeba2f0.jpeg"
       },
       {
         "id": "ardene-6",
@@ -149,17 +149,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/d48256b3-9065-42d1-b593-6978f9391906.png",
+            "src": "assets/Ardene_Genially/images/d48256b3-9065-42d1-b593-6978f9391906.png",
             "width": 136.62337662337663,
             "height": 205.0909090909091
           },
           {
-            "src": "../Ardene_Genially/images/447dd26f-5267-4754-9a5c-58fd9f75333b.png",
+            "src": "assets/Ardene_Genially/images/447dd26f-5267-4754-9a5c-58fd9f75333b.png",
             "width": 133.73666579113024,
             "height": 95.87999055395844
           }
         ],
-        "coverImage": "../Ardene_Genially/images/d48256b3-9065-42d1-b593-6978f9391906.png"
+        "coverImage": "assets/Ardene_Genially/images/d48256b3-9065-42d1-b593-6978f9391906.png"
       },
       {
         "id": "ardene-7",
@@ -178,22 +178,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/b2e00f0e-e03c-4e73-8d5f-8ce3d783d575.jpeg",
+            "src": "assets/Ardene_Genially/images/b2e00f0e-e03c-4e73-8d5f-8ce3d783d575.jpeg",
             "width": 358.56934608423694,
             "height": 713.9579152302515
           },
           {
-            "src": "../Ardene_Genially/images/142d434f-0065-4d58-b242-f6ed606304e7.jpeg",
+            "src": "assets/Ardene_Genially/images/142d434f-0065-4d58-b242-f6ed606304e7.jpeg",
             "width": 359.12452655481786,
             "height": 538.6867898322267
           },
           {
-            "src": "../Ardene_Genially/images/7fd0bf55-d183-4b3f-b24b-75dd19036b9e.jpeg",
+            "src": "assets/Ardene_Genially/images/7fd0bf55-d183-4b3f-b24b-75dd19036b9e.jpeg",
             "width": 357.36263736263743,
             "height": 536.0439560439562
           }
         ],
-        "coverImage": "../Ardene_Genially/images/b2e00f0e-e03c-4e73-8d5f-8ce3d783d575.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/b2e00f0e-e03c-4e73-8d5f-8ce3d783d575.jpeg"
       },
       {
         "id": "ardene-8",
@@ -206,17 +206,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/5814f542-ef10-454c-baa0-9b0d0092048c.jpeg",
+            "src": "assets/Ardene_Genially/images/5814f542-ef10-454c-baa0-9b0d0092048c.jpeg",
             "width": 357.8926114216804,
             "height": 714.373163707863
           },
           {
-            "src": "../Ardene_Genially/images/62891b24-5d0a-40c6-baf5-0116681e929f.jpeg",
+            "src": "assets/Ardene_Genially/images/62891b24-5d0a-40c6-baf5-0116681e929f.jpeg",
             "width": 359.0965746100819,
             "height": 538.6448619151229
           }
         ],
-        "coverImage": "../Ardene_Genially/images/5814f542-ef10-454c-baa0-9b0d0092048c.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/5814f542-ef10-454c-baa0-9b0d0092048c.jpeg"
       },
       {
         "id": "ardene-9",
@@ -237,16 +237,16 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
+            "src": "assets/Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
             "width": 360.63388541994294,
             "height": 1101.5212844265798
           }
         ],
-        "coverImage": "../Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
+        "coverImage": "assets/Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
         "inlineImageAfter": {
           "match": "Etiqueta de producto",
           "image": {
-            "src": "../Ardene_Genially/images/483d20fc-9626-4313-98ff-a1c31363f397.png",
+            "src": "assets/Ardene_Genially/images/483d20fc-9626-4313-98ff-a1c31363f397.png",
             "width": 220.86990079668342,
             "height": 224.65474531613347,
             "fit": "contain"
@@ -267,56 +267,56 @@ window.BRAND_ONBOARDING_DATA = [
             "title": "Tops",
             "body": "Desde básicos esenciales hasta piezas trendy, los tops permiten a nuestros clientes expresarse día a día. Son la categoría más fácil de combinar y siempre generan venta cruzada. Claves: básicos + piezas de tendencia. Tips: siempre ofrecer como complemento de denim; promover packs o layering. Ejemplo de diálogo: “Este top básico es ideal para el día, y este trendy eleva tu look para la noche.”",
             "image": {
-              "src": "../Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg"
+              "src": "assets/Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg"
             }
           },
           {
             "title": "Denim",
             "body": "Denim es la base del armario Ardene. Es el producto más versátil y el más buscado por nuestros clientes. Claves: amplia variedad de fits como straight, baggy, wide leg, barrel y flare. Tips: promover fit guide y prueba en probador; cross-selling con tops y accesorios. Ejemplo de diálogo: “Este jean queda increíble con nuestros nuevos crop tops, ¿quieres probártelo con este top?”",
             "image": {
-              "src": "../Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg"
+              "src": "assets/Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg"
             }
           },
           {
             "title": "Vestidos y Faldas",
             "body": "Representan feminidad, versatilidad y estilo. Son perfectos para ocasiones especiales pero también para looks casuales con sneakers. Tips: ofrecer accesorios como cinturones, bolsos y joyería; resaltar versatilidad del look de día con sneakers o de noche con tacones. Ejemplo de diálogo: “Lo puedes usar casual con sneakers o elevarlo con accesorios y tacones.”",
             "image": {
-              "src": "../Ardene_Genially/images/c8f0372f-a653-44d8-accc-18dc33a6f898.jpeg"
+              "src": "assets/Ardene_Genially/images/c8f0372f-a653-44d8-accc-18dc33a6f898.jpeg"
             }
           },
           {
             "title": "Acc & Joyería",
             "body": "Los accesorios son el generador de UPT perfecto: pequeños, fáciles de vender y con gran impacto en el look final. Además, tenemos una promoción activa todo el año: BOGO 50% OFF, lo que los convierte en un must para cada transacción. Tips: impulsar la venta en caja; resaltar valor emocional. Ejemplo de diálogo: “Completa tu look con este collar o bolso, queda perfecto con lo que llevas.”",
             "image": {
-              "src": "../Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg"
+              "src": "assets/Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg"
             }
           },
           {
             "title": "Calzado",
             "body": "El calzado es clave para completar un look. Un par de sneakers o botines puede transformar un outfit básico en uno con estilo. Tips: ofrecer medias o accesorios de calzado; relacionar siempre con el outfit completo. Ejemplo de diálogo: “Estos sneakers combinan perfecto con tu jean baggy, y mira estas medias que completan el look.”",
             "image": {
-              "src": "../Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg"
+              "src": "assets/Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg"
             }
           },
           {
             "title": "Ropa Íntima",
             "body": "Intimates es una categoría de cercanía y confianza. Combina funcionalidad con estilo, y siempre invita a la compra por packs. Claves: bras, panties, sets y loungewear íntimo. Tips: sugerir el set completo; promover packs y promos; resaltar comodidad. Ejemplo de diálogo: “Este bra queda perfecto, y tenemos las panties a juego en promo 3x$$.”",
             "image": {
-              "src": "../Ardene_Genially/images/4ca15c0c-9f8e-4d22-8520-f63992ad6572.jpeg"
+              "src": "assets/Ardene_Genially/images/4ca15c0c-9f8e-4d22-8520-f63992ad6572.jpeg"
             }
           },
           {
             "title": "Swimwear",
             "body": "Swimwear es sinónimo de temporada, escapadas y diversión. Siempre asociada a accesorios de verano. Claves: bikinis, trikinis, one-piece y cover-ups. Tips: ofrecer look completo con traje de baño, cover-up y bolso de playa; resaltar versatilidad; incentivar prueba. Ejemplo de diálogo: “Este bikini combina con este kimono y bolso de playa, ¿quieres probártelos juntos para ver el look completo?”",
             "image": {
-              "src": "../Ardene_Genially/images/57168733-f106-4e21-822c-9d09940273aa.jpeg"
+              "src": "assets/Ardene_Genially/images/57168733-f106-4e21-822c-9d09940273aa.jpeg"
             }
           },
           {
             "title": "MOVE",
             "body": "Nuestra línea MOVE conecta con un cliente activo, moderno y aspiracional. Piezas que funcionan para el gym y para la calle, siempre con estilo. Claves: leggings, tops deportivos y chaquetas. Tips: hablar de versatilidad; ofrecer sets completos; cross-selling con sneakers y bolsos. Ejemplo de diálogo: “Este set es perfecto para entrenar, pero si lo combinas con esta chaqueta puedes usarlo para salir después.”",
             "image": {
-              "src": "../Ardene_Genially/images/5ab66124-28be-4cb7-a2d4-f89285555edf.jpeg"
+              "src": "assets/Ardene_Genially/images/5ab66124-28be-4cb7-a2d4-f89285555edf.jpeg"
             }
           }
         ]
@@ -337,17 +337,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/2bbf3402-295b-4f82-b195-c5312441ffed.png",
+            "src": "assets/Ardene_Genially/images/2bbf3402-295b-4f82-b195-c5312441ffed.png",
             "width": 361.9509048191821,
             "height": 1055.560824047546
           },
           {
-            "src": "../Ardene_Genially/images/625f897d-3b9e-4458-b735-8580300c4965.png",
+            "src": "assets/Ardene_Genially/images/625f897d-3b9e-4458-b735-8580300c4965.png",
             "width": 95.71490470779956,
             "height": 134.08337943980544
           }
         ],
-        "coverImage": "../Ardene_Genially/images/2bbf3402-295b-4f82-b195-c5312441ffed.png"
+        "coverImage": "assets/Ardene_Genially/images/2bbf3402-295b-4f82-b195-c5312441ffed.png"
       },
       {
         "id": "ardene-12",
@@ -361,16 +361,16 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
+            "src": "assets/Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
             "width": 734.1637678610285,
             "height": 804.5843562877669
           }
         ],
-        "coverImage": "../Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
+        "coverImage": "assets/Ardene_Genially/images/807ebdea-992e-4d0b-918f-cc1654aa9f06.png",
         "inlineImageAfter": {
           "match": "Tiro: Alto, Medio y Bajo. Largo / caída: Alto, Regular, Bajo y por encima del zapato según el fit. Tiro Medio Recto: corte recto con cintura media-alta. Tiro Bajo Pierna Ancha: pierna ancha con cintura baja. Tiro Bajo Pierna Ancha Slouchy: pierna ancha relajada con cintura baja. Tiro Medio Baggy: corte holgado con cintura media-alta.",
           "image": {
-            "src": "../Ardene_Genially/images/c62e485f-abd2-40ee-8861-50a04a1115ab.png",
+            "src": "assets/Ardene_Genially/images/c62e485f-abd2-40ee-8861-50a04a1115ab.png",
             "width": 309.866180617381,
             "height": 174.75477446280783,
             "fit": "contain",
@@ -389,12 +389,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/506a798d-5181-41e7-b6a5-87bac6286f13.png",
+            "src": "assets/Ardene_Genially/images/506a798d-5181-41e7-b6a5-87bac6286f13.png",
             "width": 437.8217415310435,
             "height": 547.2771769138044
           }
         ],
-        "coverImage": "../Ardene_Genially/images/506a798d-5181-41e7-b6a5-87bac6286f13.png"
+        "coverImage": "assets/Ardene_Genially/images/506a798d-5181-41e7-b6a5-87bac6286f13.png"
       },
       {
         "id": "ardene-14",
@@ -440,12 +440,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/319e7cc5-ba54-49fe-b530-b7153609234c.jpeg",
+            "src": "assets/Ardene_Genially/images/319e7cc5-ba54-49fe-b530-b7153609234c.jpeg",
             "width": 360.1663957783196,
             "height": 430.82104758172204
           }
         ],
-        "coverImage": "../Ardene_Genially/images/319e7cc5-ba54-49fe-b530-b7153609234c.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/319e7cc5-ba54-49fe-b530-b7153609234c.jpeg"
       },
       {
         "title": "Evaluación",
@@ -624,27 +624,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg",
+            "src": "assets/Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg",
             "width": 360.34249413064504,
             "height": 704.2480320397738
           },
           {
-            "src": "../Ardene_Genially/images/1cec6922-fdca-4eef-a2b5-8058b1a188aa.png",
+            "src": "assets/Ardene_Genially/images/1cec6922-fdca-4eef-a2b5-8058b1a188aa.png",
             "width": 336.2055913494856,
             "height": 354.70646829281594
           },
           {
-            "src": "../Ardene_Genially/images/0ff98a44-4ada-4cfe-8255-6096b74533e3.png",
+            "src": "assets/Ardene_Genially/images/0ff98a44-4ada-4cfe-8255-6096b74533e3.png",
             "width": 361.12096165979307,
             "height": 140.4166203181486
           },
           {
-            "src": "../Ardene_Genially/images/8f93d00b-3b73-4b5a-b701-9877255c855e.png",
+            "src": "assets/Ardene_Genially/images/8f93d00b-3b73-4b5a-b701-9877255c855e.png",
             "width": 358.99442270720766,
             "height": 141.24370729463908
           }
         ],
-        "coverImage": "../Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg"
+        "coverImage": "assets/Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg"
       }
     ]
   },
@@ -670,22 +670,22 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "heroImages": [
       {
-        "src": "../Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg",
+        "src": "assets/Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg",
         "width": 358.8716489640821,
         "height": 698.298898899716
       },
       {
-        "src": "../Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png",
+        "src": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png",
         "width": 209.20235974839466,
         "height": 169.10751374707257
       },
       {
-        "src": "../Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png",
+        "src": "assets/Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png",
         "width": 216.76647411331058,
         "height": 130.76481609111906
       },
       {
-        "src": "../Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png",
+        "src": "assets/Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png",
         "width": 144.9825263145373,
         "height": 130.58958786684715
       }
@@ -700,12 +700,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg",
             "width": 358.8716489640821,
             "height": 698.298898899716
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg"
       },
       {
         "id": "cottonon-2",
@@ -747,22 +747,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png",
+            "src": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png",
             "width": 209.20235974839466,
             "height": 169.10751374707257
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png",
+            "src": "assets/Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png",
             "width": 216.76647411331058,
             "height": 130.76481609111906
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png",
+            "src": "assets/Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png",
             "width": 144.9825263145373,
             "height": 130.58958786684715
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png"
       },
       {
         "id": "cottonon-5",
@@ -782,32 +782,32 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/dedb5614-2b8c-4ec5-b55b-ab2b904b968b.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/dedb5614-2b8c-4ec5-b55b-ab2b904b968b.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/db71ab1f-9bf8-4d90-b02c-e92ff3114a42.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/db71ab1f-9bf8-4d90-b02c-e92ff3114a42.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/49a5093d-3939-49c3-9248-cf8e27a5648f.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/49a5093d-3939-49c3-9248-cf8e27a5648f.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/0f2b1ba6-007b-4cff-b4d6-bcd0c4879feb.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/0f2b1ba6-007b-4cff-b4d6-bcd0c4879feb.jpeg",
             "width": 360,
             "height": 239.8
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg"
       },
       {
         "id": "cottonon-6",
@@ -819,62 +819,62 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/1901cb60-834d-472b-bb2a-64e14b1ee198.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/1901cb60-834d-472b-bb2a-64e14b1ee198.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/23a224e7-8c15-459c-b141-22af7c3174c6.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/23a224e7-8c15-459c-b141-22af7c3174c6.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/a946e1ca-c450-474b-9eb5-b980a5ccd724.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/a946e1ca-c450-474b-9eb5-b980a5ccd724.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/76a49e23-6529-4aad-b550-5b115ac6efcb.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/76a49e23-6529-4aad-b550-5b115ac6efcb.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/cb0a33b4-99ee-463c-bd7f-13f4349605d6.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/cb0a33b4-99ee-463c-bd7f-13f4349605d6.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/11f53146-d88d-4e25-bcd1-2535ff53dfb9.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/11f53146-d88d-4e25-bcd1-2535ff53dfb9.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/b2e40801-0f96-448c-a4c8-daea2104e0be.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/b2e40801-0f96-448c-a4c8-daea2104e0be.jpeg",
             "width": 95.71490470779955,
             "height": 134.0833794398054
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
       },
       {
         "id": "cottonon-7",
@@ -887,17 +887,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 1027.1896044890711
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
+            "src": "assets/Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
             "width": 208.70803926406128,
             "height": 110.85968415729857
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-8",
@@ -913,22 +913,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 985.3765790167823
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/0f05b4e1-9d54-492c-8a22-16755f247824.png",
+            "src": "assets/Cotton_On_Genially_Main/images/0f05b4e1-9d54-492c-8a22-16755f247824.png",
             "width": 280,
             "height": 286.678445229682
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/cd60eb82-7565-4aa1-8203-10f9c05bc5e6.png",
+            "src": "assets/Cotton_On_Genially_Main/images/cd60eb82-7565-4aa1-8203-10f9c05bc5e6.png",
             "width": 327.6679788340558,
             "height": 120.84611526258668
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-9",
@@ -940,12 +940,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 927.7095995457669
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-10",
@@ -960,17 +960,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 829.3338096980146
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/74380673-092c-410f-885f-3d3e659cee41.png",
+            "src": "assets/Cotton_On_Genially_Main/images/74380673-092c-410f-885f-3d3e659cee41.png",
             "width": 359.26694249054816,
             "height": 105.23202593646673
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-11",
@@ -983,27 +983,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 884.7421706950398
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
+            "src": "assets/Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
             "width": 208.70803926406128,
             "height": 110.85968415729857
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/e32663c5-aa4c-4f13-9680-93f8e1ae969d.png",
+            "src": "assets/Cotton_On_Genially_Main/images/e32663c5-aa4c-4f13-9680-93f8e1ae969d.png",
             "width": 112.27884286614729,
             "height": 186.7179945499478
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/5c7572a3-a4fe-4a06-913c-b6fa3baa32f5.png",
+            "src": "assets/Cotton_On_Genially_Main/images/5c7572a3-a4fe-4a06-913c-b6fa3baa32f5.png",
             "width": 102.11583793633115,
             "height": 186.79066310135164
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-12",
@@ -1017,37 +1017,37 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 1783.7766269126118
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/c5c94d14-16a6-489d-8f4c-aa0ea73acd81.png",
+            "src": "assets/Cotton_On_Genially_Main/images/c5c94d14-16a6-489d-8f4c-aa0ea73acd81.png",
             "width": 296.26186046068574,
             "height": 393.96984924623115
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/0371e950-3b0c-495a-8189-43f47471920c.png",
+            "src": "assets/Cotton_On_Genially_Main/images/0371e950-3b0c-495a-8189-43f47471920c.png",
             "width": 298.58512409332815,
             "height": 260.196463654224
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/40dfdba3-7581-44e8-b0b4-3ce482cce679.png",
+            "src": "assets/Cotton_On_Genially_Main/images/40dfdba3-7581-44e8-b0b4-3ce482cce679.png",
             "width": 297.4236124258948,
             "height": 162.04724409448818
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/a3992665-d603-4be7-95dd-cda53f27645a.png",
+            "src": "assets/Cotton_On_Genially_Main/images/a3992665-d603-4be7-95dd-cda53f27645a.png",
             "width": 360,
             "height": 201.2
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/a633b0ee-b4d1-4522-b85c-ddd9f2f4cc1f.png",
+            "src": "assets/Cotton_On_Genially_Main/images/a633b0ee-b4d1-4522-b85c-ddd9f2f4cc1f.png",
             "width": 360,
             "height": 176.8
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-13",
@@ -1058,22 +1058,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
             "width": 360.2713162224051,
             "height": 1301.7370070643037
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/925414da-57c8-4d7a-b73c-6c9c4c2ba279.png",
+            "src": "assets/Cotton_On_Genially_Main/images/925414da-57c8-4d7a-b73c-6c9c4c2ba279.png",
             "width": 318.6996635873196,
             "height": 615.5330482345395
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/c8c9edb3-2708-4bab-be46-19bea8196aba.png",
+            "src": "assets/Cotton_On_Genially_Main/images/c8c9edb3-2708-4bab-be46-19bea8196aba.png",
             "width": 317.1707702164668,
             "height": 144.21310077610093
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
       },
       {
         "id": "cottonon-14",
@@ -1090,32 +1090,32 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
+            "src": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
             "width": 361.4982551367903,
             "height": 397.3307334939477
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/36c6da09-c870-416d-a1f6-1cba80cd5f30.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/36c6da09-c870-416d-a1f6-1cba80cd5f30.jpeg",
             "width": 270,
             "height": 377.4
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/42625fab-6cfa-4336-9add-83f9bac680ec.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/42625fab-6cfa-4336-9add-83f9bac680ec.jpeg",
             "width": 270,
             "height": 378.3
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/9dbfcffa-b5c9-463a-a039-3c63ddec35b8.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/9dbfcffa-b5c9-463a-a039-3c63ddec35b8.jpeg",
             "width": 270,
             "height": 378.3
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/a474ca71-8c39-4b72-8ad3-6f193d416a0a.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/a474ca71-8c39-4b72-8ad3-6f193d416a0a.jpeg",
             "width": 270,
             "height": 377.4
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif"
       },
       {
         "id": "cottonon-15",
@@ -1131,37 +1131,37 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
+            "src": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
             "width": 361.4982551367903,
             "height": 397.3307334939477
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg",
             "width": 270,
             "height": 377
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/b8c56f6a-608e-4ea2-b2cb-86bc12226a61.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/b8c56f6a-608e-4ea2-b2cb-86bc12226a61.jpeg",
             "width": 270,
             "height": 378
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/e30536fb-cf09-43a5-9121-48af11b4e77a.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/e30536fb-cf09-43a5-9121-48af11b4e77a.jpeg",
             "width": 270,
             "height": 378
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/47317b8b-c965-42e2-829a-5b2c090adc54.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/47317b8b-c965-42e2-829a-5b2c090adc54.jpeg",
             "width": 270,
             "height": 378
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/fc33a264-acbc-402a-b3d3-370e1c485662.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/fc33a264-acbc-402a-b3d3-370e1c485662.jpeg",
             "width": 270,
             "height": 405
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif"
       },
       {
         "id": "cottonon-16",
@@ -1180,12 +1180,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png",
+            "src": "assets/Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png",
             "width": 270,
             "height": 337.5
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/75aec55f-ff0c-4844-935f-1f009d853287.png"
       },
       {
         "id": "cottonon-17",
@@ -1215,12 +1215,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg",
+            "src": "assets/Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg",
             "width": 358.19767630527645,
             "height": 201.67275421146036
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg"
       },
       {
         "id": "cottonon-19",
@@ -1453,17 +1453,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png",
+            "src": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png",
             "width": 362.80816215283636,
             "height": 461.66902769436894
           },
           {
-            "src": "../Cotton_On_Genially_Main/images/295f1002-360d-4ba0-bf3f-c36a379de1a6.png",
+            "src": "assets/Cotton_On_Genially_Main/images/295f1002-360d-4ba0-bf3f-c36a379de1a6.png",
             "width": 354.2403422824749,
             "height": 402.6108685759678
           }
         ],
-        "coverImage": "../Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png"
       }
     ]
   },
@@ -1489,22 +1489,22 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "heroImages": [
       {
-        "src": "../LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png",
+        "src": "assets/LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png",
         "width": 360.3340529628244,
         "height": 336.5234327229901
       },
       {
-        "src": "../LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png",
+        "src": "assets/LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png",
         "width": 360.6291503640385,
         "height": 456.7456616550935
       },
       {
-        "src": "../LCW_Genially/images/0e376b5d-ba03-458c-8eb2-335cedecbe34.png",
+        "src": "assets/LCW_Genially/images/0e376b5d-ba03-458c-8eb2-335cedecbe34.png",
         "width": 359.86228025165036,
         "height": 271.35043509666724
       },
       {
-        "src": "../LCW_Genially/images/deee66c9-b040-4e04-b702-80abb159f9d9.png",
+        "src": "assets/LCW_Genially/images/deee66c9-b040-4e04-b702-80abb159f9d9.png",
         "width": 184.12451361867704,
         "height": 374.17040358744396
       }
@@ -1520,12 +1520,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png",
+            "src": "assets/LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png",
             "width": 360.3340529628244,
             "height": 336.5234327229901
           }
         ],
-        "coverImage": "../LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png"
+        "coverImage": "assets/LCW_Genially/images/93eacd3c-ece7-423e-81f1-02d30bbcdc68.png"
       },
       {
         "id": "lcw-2",
@@ -1539,22 +1539,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png",
+            "src": "assets/LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png",
             "width": 360.6291503640385,
             "height": 456.7456616550935
           },
           {
-            "src": "../LCW_Genially/images/0e376b5d-ba03-458c-8eb2-335cedecbe34.png",
+            "src": "assets/LCW_Genially/images/0e376b5d-ba03-458c-8eb2-335cedecbe34.png",
             "width": 359.86228025165036,
             "height": 271.35043509666724
           },
           {
-            "src": "../LCW_Genially/images/deee66c9-b040-4e04-b702-80abb159f9d9.png",
+            "src": "assets/LCW_Genially/images/deee66c9-b040-4e04-b702-80abb159f9d9.png",
             "width": 184.12451361867704,
             "height": 374.17040358744396
           }
         ],
-        "coverImage": "../LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png"
+        "coverImage": "assets/LCW_Genially/images/6f490f75-1c82-401a-a1c0-bee77799a900.png"
       },
       {
         "id": "lcw-3",
@@ -1569,12 +1569,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png",
+            "src": "assets/LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png",
             "width": 359.93085040200543,
             "height": 201.44857772010482
           }
         ],
-        "coverImage": "../LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png"
+        "coverImage": "assets/LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png"
       },
       {
         "id": "lcw-4",
@@ -1597,12 +1597,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/8edc1572-6c28-4d43-a2df-de7103c84fa8.png",
+            "src": "assets/LCW_Genially/images/8edc1572-6c28-4d43-a2df-de7103c84fa8.png",
             "width": 361.25141929233416,
             "height": 203.46832649408992
           }
         ],
-        "coverImage": "../LCW_Genially/images/8edc1572-6c28-4d43-a2df-de7103c84fa8.png"
+        "coverImage": "assets/LCW_Genially/images/8edc1572-6c28-4d43-a2df-de7103c84fa8.png"
       },
       {
         "id": "lcw-5",
@@ -1637,12 +1637,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png",
+            "src": "assets/LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png",
             "width": 359.6339586044248,
             "height": 647.9864876557497
           }
         ],
-        "coverImage": "../LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png"
+        "coverImage": "assets/LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png"
       },
       {
         "id": "lcw-7",
@@ -1653,12 +1653,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png",
+            "src": "assets/LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png",
             "width": 359.7396569153362,
             "height": 132.96499790748254
           }
         ],
-        "coverImage": "../LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png"
+        "coverImage": "assets/LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png"
       },
       {
         "id": "lcw-8",
@@ -1677,27 +1677,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png",
+            "src": "assets/LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png",
             "width": 358.6590973251061,
             "height": 254.1078932785983
           },
           {
-            "src": "../LCW_Genially/images/1ffdf293-4a10-40a3-b00c-a1f3a966297e.png",
+            "src": "assets/LCW_Genially/images/1ffdf293-4a10-40a3-b00c-a1f3a966297e.png",
             "width": 280,
             "height": 260.44444444444446
           },
           {
-            "src": "../LCW_Genially/images/19c0b7b0-89bf-4de2-9fa3-123590cbe06d.png",
+            "src": "assets/LCW_Genially/images/19c0b7b0-89bf-4de2-9fa3-123590cbe06d.png",
             "width": 280,
             "height": 225.17482517482517
           },
           {
-            "src": "../LCW_Genially/images/8ea435ef-692e-4bcd-947f-8bc9ce3a7489.png",
+            "src": "assets/LCW_Genially/images/8ea435ef-692e-4bcd-947f-8bc9ce3a7489.png",
             "width": 224.10883394958526,
             "height": 274.32930094108895
           }
         ],
-        "coverImage": "../LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png"
+        "coverImage": "assets/LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png"
       },
       {
         "id": "lcw-9",
@@ -1710,27 +1710,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/7b83c4e3-ff60-47b0-b01a-12b5280507c4.png",
+            "src": "assets/LCW_Genially/images/7b83c4e3-ff60-47b0-b01a-12b5280507c4.png",
             "width": 330.8755960043978,
             "height": 418.62161041440385
           },
           {
-            "src": "../LCW_Genially/images/2cf82e7b-d7cf-4059-a6dd-1c757900ddbd.png",
+            "src": "assets/LCW_Genially/images/2cf82e7b-d7cf-4059-a6dd-1c757900ddbd.png",
             "width": 332.3550332366663,
             "height": 384.7009509714413
           },
           {
-            "src": "../LCW_Genially/images/04b278fa-92be-483f-9a1f-631cdb845e2a.png",
+            "src": "assets/LCW_Genially/images/04b278fa-92be-483f-9a1f-631cdb845e2a.png",
             "width": 332.66210279405914,
             "height": 194.90956331815087
           },
           {
-            "src": "../LCW_Genially/images/f63333fa-a32e-43d6-b5c2-108908cff187.png",
+            "src": "assets/LCW_Genially/images/f63333fa-a32e-43d6-b5c2-108908cff187.png",
             "width": 332.61141103776544,
             "height": 181.42440602059932
           }
         ],
-        "coverImage": "../LCW_Genially/images/7b83c4e3-ff60-47b0-b01a-12b5280507c4.png"
+        "coverImage": "assets/LCW_Genially/images/7b83c4e3-ff60-47b0-b01a-12b5280507c4.png"
       },
       {
         "id": "lcw-10",
@@ -1744,17 +1744,17 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/6be1ddd6-5a02-4641-a59a-0dba4b4c9b75.png",
+            "src": "assets/LCW_Genially/images/6be1ddd6-5a02-4641-a59a-0dba4b4c9b75.png",
             "width": 337.39228627109463,
             "height": 198.68656858186682
           },
           {
-            "src": "../LCW_Genially/images/7d7a91b1-8847-46b9-a86c-c37ab85079a8.png",
+            "src": "assets/LCW_Genially/images/7d7a91b1-8847-46b9-a86c-c37ab85079a8.png",
             "width": 280,
             "height": 69.7378277153558
           }
         ],
-        "coverImage": "../LCW_Genially/images/6be1ddd6-5a02-4641-a59a-0dba4b4c9b75.png"
+        "coverImage": "assets/LCW_Genially/images/6be1ddd6-5a02-4641-a59a-0dba4b4c9b75.png"
       },
       {
         "id": "lcw-11",
@@ -1778,12 +1778,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/04b8234d-739d-4f06-b7dc-2f39ddf7fb3d.png",
+            "src": "assets/LCW_Genially/images/04b8234d-739d-4f06-b7dc-2f39ddf7fb3d.png",
             "width": 359.9158041812336,
             "height": 197.86666666666667
           }
         ],
-        "coverImage": "../LCW_Genially/images/04b8234d-739d-4f06-b7dc-2f39ddf7fb3d.png"
+        "coverImage": "assets/LCW_Genially/images/04b8234d-739d-4f06-b7dc-2f39ddf7fb3d.png"
       },
       {
         "id": "lcw-13",
@@ -1801,12 +1801,12 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/be5a2e21-0cc6-4821-9084-37830a856c48.png",
+            "src": "assets/LCW_Genially/images/be5a2e21-0cc6-4821-9084-37830a856c48.png",
             "width": 359.97751230182155,
             "height": 204.7872069983696
           }
         ],
-        "coverImage": "../LCW_Genially/images/be5a2e21-0cc6-4821-9084-37830a856c48.png"
+        "coverImage": "assets/LCW_Genially/images/be5a2e21-0cc6-4821-9084-37830a856c48.png"
       },
       {
         "id": "lcw-14",
@@ -1817,27 +1817,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/b426e498-50cc-468f-b759-2eed222745b1.png",
+            "src": "assets/LCW_Genially/images/b426e498-50cc-468f-b759-2eed222745b1.png",
             "width": 359.4769563981646,
             "height": 231.96437563806091
           },
           {
-            "src": "../LCW_Genially/images/7df6ea45-0018-4ba9-94a9-05814e8e8122.png",
+            "src": "assets/LCW_Genially/images/7df6ea45-0018-4ba9-94a9-05814e8e8122.png",
             "width": 124.21866822058537,
             "height": 242.27045220326931
           },
           {
-            "src": "../LCW_Genially/images/20ac686b-f698-4b04-8f8b-9951943e07df.png",
+            "src": "assets/LCW_Genially/images/20ac686b-f698-4b04-8f8b-9951943e07df.png",
             "width": 118.88887576501024,
             "height": 242.18104322502086
           },
           {
-            "src": "../LCW_Genially/images/69ed3204-ae46-4450-bdc0-76ddfae7f865.png",
+            "src": "assets/LCW_Genially/images/69ed3204-ae46-4450-bdc0-76ddfae7f865.png",
             "width": 124.38973470786837,
             "height": 140.9750326689175
           }
         ],
-        "coverImage": "../LCW_Genially/images/b426e498-50cc-468f-b759-2eed222745b1.png"
+        "coverImage": "assets/LCW_Genially/images/b426e498-50cc-468f-b759-2eed222745b1.png"
       },
       {
         "id": "lcw-15",
@@ -1851,22 +1851,22 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/596e3974-e969-439b-9c3e-22b8a1a2a891.png",
+            "src": "assets/LCW_Genially/images/596e3974-e969-439b-9c3e-22b8a1a2a891.png",
             "width": 189.21926697616075,
             "height": 159.84935530810526
           },
           {
-            "src": "../LCW_Genially/images/01c1f8a5-e9ac-4333-afd7-68900aaabd2c.png",
+            "src": "assets/LCW_Genially/images/01c1f8a5-e9ac-4333-afd7-68900aaabd2c.png",
             "width": 163.4813823877025,
             "height": 126.72550111261502
           },
           {
-            "src": "../LCW_Genially/images/577f7f47-aac9-4902-b584-f011db6d178c.png",
+            "src": "assets/LCW_Genially/images/577f7f47-aac9-4902-b584-f011db6d178c.png",
             "width": 156.21976232436447,
             "height": 123.47266438008188
           }
         ],
-        "coverImage": "../LCW_Genially/images/596e3974-e969-439b-9c3e-22b8a1a2a891.png"
+        "coverImage": "assets/LCW_Genially/images/596e3974-e969-439b-9c3e-22b8a1a2a891.png"
       },
       {
         "id": "lcw-16",
@@ -1877,27 +1877,27 @@ window.BRAND_ONBOARDING_DATA = [
         ],
         "images": [
           {
-            "src": "../LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png",
+            "src": "assets/LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png",
             "width": 360.5124572065055,
             "height": 640.9110350337875
           },
           {
-            "src": "../LCW_Genially/images/735463f8-4add-415a-93ad-a47d3f28a1d7.png",
+            "src": "assets/LCW_Genially/images/735463f8-4add-415a-93ad-a47d3f28a1d7.png",
             "width": 358.18242706572414,
             "height": 536.1813390962326
           },
           {
-            "src": "../LCW_Genially/images/dd91f5b2-25d3-4458-b775-0d33e8143955.png",
+            "src": "assets/LCW_Genially/images/dd91f5b2-25d3-4458-b775-0d33e8143955.png",
             "width": 280,
             "height": 227.07592891760905
           },
           {
-            "src": "../LCW_Genially/images/eee4215e-9db8-41fe-998d-3d075513fdf9.png",
+            "src": "assets/LCW_Genially/images/eee4215e-9db8-41fe-998d-3d075513fdf9.png",
             "width": 280,
             "height": 147.7325581395349
           }
         ],
-        "coverImage": "../LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png"
+        "coverImage": "assets/LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png"
       }
     ]
   }

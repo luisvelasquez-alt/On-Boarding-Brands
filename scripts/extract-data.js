@@ -131,7 +131,7 @@ function isUsefulImage(image) {
 }
 
 function buildImagePath(folder, source) {
-  return `../${folder}/${source.replace(/^\.\//, "")}`;
+  return `assets/${folder}/${source.replace(/^\.\//, "")}`;
 }
 
 function reorderSectionBullets(brandKey, sectionTitle, bullets) {
@@ -290,7 +290,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Desde básicos esenciales hasta piezas trendy, los tops permiten a nuestros clientes expresarse día a día. Son la categoría más fácil de combinar y siempre generan venta cruzada. Claves: básicos + piezas de tendencia. Tips: siempre ofrecer como complemento de denim; promover packs o layering. Ejemplo de diálogo: “Este top básico es ideal para el día, y este trendy eleva tu look para la noche.”",
           image: {
-            src: "../Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg",
+            src: "assets/Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg",
           },
         },
         {
@@ -298,7 +298,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Denim es la base del armario Ardene. Es el producto más versátil y el más buscado por nuestros clientes. Claves: amplia variedad de fits como straight, baggy, wide leg, barrel y flare. Tips: promover fit guide y prueba en probador; cross-selling con tops y accesorios. Ejemplo de diálogo: “Este jean queda increíble con nuestros nuevos crop tops, ¿quieres probártelo con este top?”",
           image: {
-            src: "../Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg",
+            src: "assets/Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg",
           },
         },
         {
@@ -306,7 +306,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Representan feminidad, versatilidad y estilo. Son perfectos para ocasiones especiales pero también para looks casuales con sneakers. Tips: ofrecer accesorios como cinturones, bolsos y joyería; resaltar versatilidad del look de día con sneakers o de noche con tacones. Ejemplo de diálogo: “Lo puedes usar casual con sneakers o elevarlo con accesorios y tacones.”",
           image: {
-            src: "../Ardene_Genially/images/c8f0372f-a653-44d8-accc-18dc33a6f898.jpeg",
+            src: "assets/Ardene_Genially/images/c8f0372f-a653-44d8-accc-18dc33a6f898.jpeg",
           },
         },
         {
@@ -314,7 +314,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Los accesorios son el generador de UPT perfecto: pequeños, fáciles de vender y con gran impacto en el look final. Además, tenemos una promoción activa todo el año: BOGO 50% OFF, lo que los convierte en un must para cada transacción. Tips: impulsar la venta en caja; resaltar valor emocional. Ejemplo de diálogo: “Completa tu look con este collar o bolso, queda perfecto con lo que llevas.”",
           image: {
-            src: "../Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg",
+            src: "assets/Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg",
           },
         },
         {
@@ -322,7 +322,7 @@ function customizeSections(brandKey, sections) {
           body:
             "El calzado es clave para completar un look. Un par de sneakers o botines puede transformar un outfit básico en uno con estilo. Tips: ofrecer medias o accesorios de calzado; relacionar siempre con el outfit completo. Ejemplo de diálogo: “Estos sneakers combinan perfecto con tu jean baggy, y mira estas medias que completan el look.”",
           image: {
-            src: "../Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg",
+            src: "assets/Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg",
           },
         },
         {
@@ -330,7 +330,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Intimates es una categoría de cercanía y confianza. Combina funcionalidad con estilo, y siempre invita a la compra por packs. Claves: bras, panties, sets y loungewear íntimo. Tips: sugerir el set completo; promover packs y promos; resaltar comodidad. Ejemplo de diálogo: “Este bra queda perfecto, y tenemos las panties a juego en promo 3x$$.”",
           image: {
-            src: "file:///Users/luisvelasquez/Desktop/Screenshot%202026-05-06%20at%2010.47.38%E2%80%AFAM.png",
+            src: "assets/manual/ardene-ropa-intima.png",
           },
         },
         {
@@ -338,7 +338,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Swimwear es sinónimo de temporada, escapadas y diversión. Siempre asociada a accesorios de verano. Claves: bikinis, trikinis, one-piece y cover-ups. Tips: ofrecer look completo con traje de baño, cover-up y bolso de playa; resaltar versatilidad; incentivar prueba. Ejemplo de diálogo: “Este bikini combina con este kimono y bolso de playa, ¿quieres probártelos juntos para ver el look completo?”",
           image: {
-            src: "../Ardene_Genially/images/57168733-f106-4e21-822c-9d09940273aa.jpeg",
+            src: "assets/Ardene_Genially/images/57168733-f106-4e21-822c-9d09940273aa.jpeg",
           },
         },
         {
@@ -346,7 +346,7 @@ function customizeSections(brandKey, sections) {
           body:
             "Nuestra línea MOVE conecta con un cliente activo, moderno y aspiracional. Piezas que funcionan para el gym y para la calle, siempre con estilo. Claves: leggings, tops deportivos y chaquetas. Tips: hablar de versatilidad; ofrecer sets completos; cross-selling con sneakers y bolsos. Ejemplo de diálogo: “Este set es perfecto para entrenar, pero si lo combinas con esta chaqueta puedes usarlo para salir después.”",
           image: {
-            src: "../Ardene_Genially/images/5ab66124-28be-4cb7-a2d4-f89285555edf.jpeg",
+            src: "assets/Ardene_Genially/images/5ab66124-28be-4cb7-a2d4-f89285555edf.jpeg",
           },
         },
       ];
@@ -743,7 +743,7 @@ function customizeSections(brandKey, sections) {
     if (servicio) {
       servicio.images = [
         {
-          src: "../LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png",
+          src: "assets/LCW_Genially/images/8c3e5146-f70c-41c6-9451-a30d46f7327b.png",
           width: 359.93085040200543,
           height: 201.44857772010482,
         },
