@@ -1281,19 +1281,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "VMSSSSS es nuestro marco para ejecutar visual merchandising de forma consistente, clara y repetible."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 829.3338096980146
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/74380673-092c-410f-885f-3d3e659cee41.png",
-            "width": 359.26694249054816,
-            "height": 105.23202593646673
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Floorset",
@@ -1330,16 +1319,6 @@ window.BRAND_ONBOARDING_DATA = [
           "Las alturas de pila son parte de nuestra identidad visual. Seguir asignaciones como 8, 10 y 12 ayuda a que mesas y fixtures se vean listos para comprar."
         ],
         "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 884.7421706950398
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
-            "width": 208.70803926406128,
-            "height": 110.85968415729857
-          },
           {
             "src": "assets/Cotton_On_Genially_Main/images/e32663c5-aa4c-4f13-9680-93f8e1ae969d.png",
             "width": 112.27884286614729,
