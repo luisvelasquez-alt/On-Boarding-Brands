@@ -375,16 +375,89 @@ function customizeSections(brandKey, sections) {
 
     const guiaEstilos = items.find((section) => section.title === "Guía de Estilos");
     if (guiaEstilos) {
+      const styleGuideSprite = "assets/Ardene_Genially/images/625f897d-3b9e-4458-b735-8580300c4965.png";
+      const styleGuideFrame = {
+        width: 95.71490470779956,
+        height: 134.08337943980544,
+      };
       guiaEstilos.bullets = [
-        "Guía de Estilos",
-        "The Sunday: Jean relajado de cintura baja extendida y pierna ancha recta. Vibra effortless para días tranquilos; funciona perfecto con una camiseta corta o un suéter oversized.",
-        "The Idol: Jean de tiro bajo, ajustado al cuerpo y acampanado desde la rodilla. Inspiración Y2K para looks de impacto con baby tee, plataformas o top de cuello alto.",
-        "The Indie: Jean de tiro alto con silueta barrel. Estructurado, urbano y poco convencional; ideal con tank tops, hoodies oversized o fits más editoriales.",
-        "The Untamed: Denim de inspiración vintage con tiro medio y entrepierna ultra relajada. Aporta una actitud cool y desgastada cuando se combina con crop tops o boxy jackets.",
-        "The Era: Clásico moderno de cintura media y pierna recta. Atemporal, versátil y fácil de llevar con sneakers o tacones para un look diario pulido.",
-        "The Off-Duty: Silueta de tiro bajo y pierna ancha con referencia noventera. Se siente relajado pero elevado, ideal para looks casuales con intención.",
-        "The Muse: Versión actualizada del mom jean, con tiro alto, pierna relajada y tobillo cónico. Nostálgico pero moderno, perfecto con tee blanca y fashion sneakers.",
-        "The Legacy: High rise jegging con stretch alto que se siente como legging y se lleva como jean. Súper favorecedor, cómodo y fácil de combinar con tops cortos o knitwear.",
+        "Cada fit de denim expresa una actitud distinta. Usa esta guía para reconocer rápidamente la silueta, la energía del look y cómo recomendar cada estilo según el mood del cliente.",
+      ];
+      guiaEstilos.images = [];
+      guiaEstilos.coverImage = null;
+      guiaEstilos.styleGuideCards = [
+        {
+          title: "The Legacy",
+          body: "High rise jegging con stretch alto que se siente como legging y se lleva como jean. Súper favorecedor, cómodo y fácil de combinar con tops cortos o knitwear.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 314.648013394536, height: 487.1612583752637, left: 1.394478398703698, top: 0.5416544298417014 },
+          },
+        },
+        {
+          title: "The Untamed",
+          body: "Denim de inspiración vintage con tiro medio y entrepierna ultra relajada. Aporta una actitud cool y desgastada cuando se combina con crop tops o boxy jackets.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 314.6480133042801, height: 485.19751215997426, left: -213.35519500166578, top: -3.4401177363030104 },
+          },
+        },
+        {
+          title: "The Off-Duty",
+          body: "Silueta de tiro bajo y pierna ancha con referencia noventera. Se siente relajado pero elevado, ideal para looks casuales con intención.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 313.2535351035791, height: 486.07774719158025, left: -0.697239199351849, top: -119.40923207526775 },
+          },
+        },
+        {
+          title: "The Indie",
+          body: "Jean de tiro alto con silueta barrel. Estructurado, urbano y poco convencional; ideal con tank tops, hoodies oversized o fits más editoriales.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 317.43797010168753, height: 486.07774719158025, left: -220.32758699518428, top: -117.4183459921954 },
+          },
+        },
+        {
+          title: "The Era",
+          body: "Clásico moderno de cintura media y pierna recta. Atemporal, versátil y fácil de llevar con sneakers o tacones para un look diario pulido.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 313.2535351035791, height: 486.07774719158025, left: -0.697239199351849, top: -233.38746033116013 },
+          },
+        },
+        {
+          title: "The Idol",
+          body: "Jean de tiro bajo, ajustado al cuerpo y acampanado desde la rodilla. Inspiración Y2K para looks de impacto con baby tee, plataformas o top de cuello alto.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 314.6480133042801, height: 486.07774719158025, left: -211.9607166029621, top: -235.87606793500058 },
+          },
+        },
+        {
+          title: "The Muse",
+          body: "Versión actualizada del mom jean, con tiro alto, pierna relajada y tobillo cónico. Nostálgico pero moderno, perfecto con tee blanca y fashion sneakers.",
+          image: {
+            src: styleGuideSprite,
+            frame: styleGuideFrame,
+            crop: { width: 314.648013394536, height: 478.8117469915803, left: 1.394478398703698, top: -348.36113162858874 },
+          },
+        },
+        {
+          title: "The Sunday",
+          body: "Jean relajado de cintura baja extendida y pierna ancha recta. Vibra effortless para días tranquilos; funciona perfecto con una camiseta corta o un suéter oversized.",
+          image: {
+            src: styleGuideSprite,
+            frame: { width: 95.71490470779956, height: 134.08337943980555 },
+            crop: { width: 314.6480133042801, height: 486.07774719158037, left: -214.05243420101758, top: -350.8497392324288 },
+          },
+        },
       ];
     }
 

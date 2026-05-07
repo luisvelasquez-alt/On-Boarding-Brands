@@ -648,6 +648,56 @@
         margin-top: 0;
       }
 
+      .style-guide-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px 18px;
+        margin: 0 0 20px;
+      }
+
+      .style-guide-card {
+        display: grid;
+        gap: 14px;
+        align-content: start;
+      }
+
+      .style-guide-card.wide {
+        grid-column: span 1;
+      }
+
+      .style-guide-media {
+        position: relative;
+        overflow: hidden;
+        border-radius: 22px;
+        min-height: 290px;
+        background: color-mix(in srgb, var(--surface-alt) 80%, white);
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+      }
+
+      .style-guide-crop {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+
+      .style-guide-crop img {
+        position: absolute;
+        display: block;
+        max-width: none;
+      }
+
+      .style-guide-card h4 {
+        margin: 0;
+        font-size: 1.35rem;
+        line-height: 1.05;
+      }
+
+      .style-guide-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
       .empty-state {
         background: var(--surface);
         border-radius: var(--radius-xl);
@@ -707,6 +757,10 @@
           padding: 22px 18px;
         }
 
+        .style-guide-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
         .personas-hero {
           min-height: 360px;
         }
@@ -727,6 +781,10 @@
         .section-thumb {
           min-height: 88px;
           height: 110px;
+        }
+
+        .style-guide-grid {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -1020,6 +1078,13 @@
         return section.departmentCards || null;
       }
 
+      function getStyleGuideCards(section) {
+        if (!(currentBrand().key === "ardene" && section.title === "Guía de Estilos")) {
+          return null;
+        }
+        return section.styleGuideCards || null;
+      }
+
       function cleanSectionTitle(title) {
         return String(title || "").replace(/\s+Copy$/, "");
       }
@@ -1041,6 +1106,42 @@
                   </article>
                 `
               )
+              .join("")}
+          </div>
+        `;
+      }
+
+      function renderStyleGuideGrid(cards) {
+        return `
+          <div class="style-guide-grid">
+            ${cards
+              .map((card, index) => {
+                const frame = card.image.frame;
+                const crop = card.image.crop;
+                return `
+                  <article class="style-guide-card${cards.length % 3 === 2 && index >= cards.length - 2 ? " wide" : ""}">
+                    <div class="style-guide-media" style="aspect-ratio:${frame.width} / ${frame.height};">
+                      <div class="style-guide-crop">
+                        <img
+                          src="${card.image.src}"
+                          alt="${card.title}"
+                          loading="lazy"
+                          style="
+                            width:${crop.width}px;
+                            height:${crop.height}px;
+                            left:${crop.left}px;
+                            top:${crop.top}px;
+                          "
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <h4>${card.title}</h4>
+                      <p>${card.body}</p>
+                    </div>
+                  </article>
+                `;
+              })
               .join("")}
           </div>
         `;
@@ -1097,6 +1198,7 @@
           const conceptData = getConceptBullets(section);
           const personasData = getPersonasData(section);
           const departmentCards = getDepartmentCards(section);
+          const styleGuideCards = getStyleGuideCards(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
             conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
           ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
@@ -1242,6 +1344,7 @@
             : "";
           const personasFeature = personasData ? renderPersonasFeature(personasData) : "";
           const departmentGrid = departmentCards ? renderDepartmentGrid(departmentCards) : "";
+          const styleGuideGrid = styleGuideCards ? renderStyleGuideGrid(styleGuideCards) : "";
 
           article.innerHTML = `
             <button class="section-header" type="button" aria-expanded="${index === 0}">
@@ -1256,6 +1359,7 @@
               ${personasFeature}
               ${media}
               ${conceptBoard}
+              ${styleGuideGrid}
               <ul class="bullet-list${conceptData ? " concept-details" : ""}">${list}</ul>
               ${departmentGrid}
             </div>
