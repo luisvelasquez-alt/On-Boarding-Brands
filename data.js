@@ -824,8 +824,8 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "stats": {
       "sections": 22,
-      "points": 132,
-      "images": 36
+      "points": 151,
+      "images": 29
     },
     "heroImages": [
       {
@@ -852,10 +852,9 @@ window.BRAND_ONBOARDING_DATA = [
     "sections": [
       {
         "id": "cottonon-1",
-        "title": "HOME",
+        "title": "Bienvenida",
         "bullets": [
-          "Bienvenido/a a la familia Bon Bini na famia",
-          "Sé tú. Ama lo que haces. Sea bo mes. Stima loke bo ta hasi."
+          "Bienvenido/a a Cotton On."
         ],
         "images": [
           {
@@ -864,146 +863,210 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 698.298898899716
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/c4d29b0c-8af7-4796-a229-a445803c0f2b.jpeg",
+        "onboardingGuide": {
+          "headline": "Tu punto de partida en Cotton On",
+          "intro": "Entraste a una marca con mentalidad global, espíritu relajado y una obsesión clara por el cliente. Esta guía está pensada para darte contexto rápido, seguridad en piso y herramientas prácticas para vender mejor desde el primer turno.",
+          "cards": [
+            {
+              "title": "Qué vas a conocer",
+              "body": "La cultura Cotton On, nuestras marcas, el lenguaje de VM, el enfoque comercial y las rutinas clave de tienda."
+            },
+            {
+              "title": "Cómo aprovechar esta ruta",
+              "body": "Conecta cada bloque con situaciones reales de piso: saludo, probadores, exhibición, reposición y cierre de venta."
+            },
+            {
+              "title": "Qué esperamos de ti",
+              "body": "Actitud, curiosidad, atención al detalle y ganas de crear una experiencia simple, auténtica y comercial."
+            }
+          ],
+          "checklistTitle": "Mindset para arrancar bien",
+          "checklist": [
+            "Escucha y toma nota de las claves que puedas usar de inmediato en tienda.",
+            "Haz preguntas cuando algo no esté claro.",
+            "Relaciona cada tema con tu rol y tu zona de trabajo.",
+            "Piensa siempre en cómo convertir producto en inspiración y venta."
+          ],
+          "closing": "La meta no es solo terminar el recorrido, sino empezar con claridad, confianza y criterio comercial."
+        }
       },
       {
         "id": "cottonon-2",
         "title": "Historia y Cultura",
         "bullets": [
-          "Llevar nuestras marcas de estilo de vida australianas al mundo.",
-          "Marcar una diferencia positiva.",
-          "Celebramos la individualidad, fomentamos la creatividad y trabajamos con optimismo.",
-          "Espíritu australiano auténtico, diverso y relajado.",
-          "Nacimos en Geelong, Australia, en 1991. Hoy estamos presentes en más de 20 países. Lo que empezó en un pequeño taller es ahora una comunidad global de más de 18,000 personas.",
-          "Historia y Cultura"
+          "Cotton On nació en Geelong, Australia, en 1991 y hoy se ha convertido en una comunidad global presente en más de 20 países.",
+          "Nuestra ambición es llevar nuestras marcas de estilo de vida australianas al mundo y hacerlo dejando una diferencia positiva en la vida de las personas."
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "leadParagraph": "Cotton On nació en Geelong, Australia, en 1991 y hoy se ha convertido en una comunidad global presente en más de 20 países. Nuestra ambición es llevar nuestras marcas de estilo de vida australianas al mundo y hacerlo dejando una diferencia positiva en la vida de las personas.",
+        "identityCards": [
+          {
+            "title": "Visión",
+            "body": "Llevar nuestras marcas de estilo de vida australianas al mundo."
+          },
+          {
+            "title": "Propósito",
+            "body": "Marcar una diferencia positiva en la vida de las personas, dentro y fuera de la tienda."
+          },
+          {
+            "title": "Valores",
+            "body": "Celebramos la individualidad, impulsamos la creatividad y trabajamos con optimismo, cercanía y energía."
+          },
+          {
+            "title": "Cultura",
+            "body": "Tenemos un espíritu australiano auténtico, diverso y relajado: informal en actitud, serio en ejecución."
+          },
+          {
+            "title": "Escala",
+            "body": "Lo que empezó como un pequeño taller hoy conecta a miles de personas, tiendas y clientes en una red global."
+          }
+        ]
       },
       {
         "id": "cottonon-3",
-        "title": "Historia y Cultura Copy",
+        "title": "Nuestras Marcas",
         "bullets": [
-          "Llevar nuestras marcas de estilo de vida australianas al mundo.",
-          "Marcar una diferencia positiva.",
-          "Celebramos la individualidad, fomentamos la creatividad y trabajamos con optimismo.",
-          "Spíritu australiano auténtiko, diverso i relajá.",
-          "Nos a nase den Geelong, Australia, den aña 1991. Awe nos ta presente den mas ku 20 pais. Loke a kuminsá den un taller chikí, awor ta un komunidat global di mas di 18.000 persona.",
-          "Historia i Kultura"
+          "Cada marca cuenta una historia distinta. Conocer su personalidad te ayuda a recomendar mejor, a crear conexiones más naturales y a construir looks con más intención."
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "departmentCards": [
+          {
+            "title": "Cotton On",
+            "body": "Moda lifestyle para mujer y hombre con una energía relajada, actual y fácil de llevar. Aquí viven los esenciales del armario, las tendencias comerciales y los héroes de temporada que mueven volumen.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png"
+            }
+          },
+          {
+            "title": "Cotton On Body",
+            "body": "Una propuesta pensada para acompañar a la clienta en movimiento y en descanso: activewear, íntimo, sleep y loungewear con foco en comodidad, confianza y estilo.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png"
+            }
+          },
+          {
+            "title": "Rubi",
+            "body": "El toque final del look. Calzado y accesorios que convierten una compra básica en una compra completa y elevan naturalmente el potencial de venta cruzada.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png"
+            }
+          }
+        ]
       },
       {
         "id": "cottonon-4",
-        "title": "Nuestras Marcas",
-        "bullets": [
-          "Cotton On es una marca global de moda y estilo de vida que está llevando el estilo de vida australiano al mundo. Hacemos las cosas a nuestra manera. Relajado y siempre viviendo al máximo. Nos gusta cuidar de nuestros compañeros, dondequiera que estemos. No hay nada que nos emocione más que hacer una diferencia positiva en la vida de las personas. Defendemos la diversidad, empoderando a personas de todos los orígenes para expresar su estilo individual y dejen su huella en el mundo. Entregamos las tendencias del momento en ropa de mujer, ropa de hombre y accesorios, e inspiramos a nuestra comunidad a divertirse con ella.",
-          "Cada marca cuenta una historia. Conócelas y descubre cómo crear conexiones únicas con nuestros clientes",
-          "Nuestras Marcas",
-          "Empoderamos a las mujeres para que vivan la vida que quieren, para que se presenten por sí mismas y las demás, todos los días. Inspirándolas a mover su cuerpo, tomarse un tiempo para cuidarse y abrazar su autenticidad. Diseñada para mujeres, por mujeres, nuestra gama global liderada por la moda incluye ropa deportiva, ropa íntima, ropa de dormir, ropa de salón y trajes de baño. Estamos obsesionados con la comodidad, desde las telas hasta las siluetas, porque cuando te sientes bien con lo que llevas puesto, se nota.",
-          "Ningún atuendo está completo sin los toques finales. Convertimos las últimas tendencias globales en obsesiones fáciles de usar, desde el calzado digno de cada zapato, hasta el bolso y el bling más populares de la temporada. Cada día es diferente, por lo que nuestros productos están hechos para adaptarse a su estilo de vida, sea cual sea el aspecto. Vestido o pantalón, no hay límite para la autoexpresión."
-        ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png",
-            "width": 209.20235974839466,
-            "height": 169.10751374707257
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/36d5cfe0-d2b4-442d-b39c-0b93727184a3.png",
-            "width": 216.76647411331058,
-            "height": 130.76481609111906
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/24776a14-0309-4d28-ab65-34a5ac5e0f98.png",
-            "width": 144.9825263145373,
-            "height": 130.58958786684715
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/d23726d8-0916-4277-ac9a-1b6be72898f7.png"
-      },
-      {
-        "id": "cottonon-5",
         "title": "Sostenibilidad",
         "bullets": [
-          "Compromiso con el Planeta y las Personas",
-          "Sostenibilidad",
-          "Use this side of the card to provide more information about a topic. Focus on one concept. Make learning and communication more efficient.",
-          "Algodón trazable BCI, fibras recicladas y orgánicas.",
-          "Cotton On Foundation, educación y bienestar juvenil.",
-          "Condiciones éticas y procesos que reducen agua y energía.",
-          "Embalajes reciclados, reducción de plásticos.",
-          "Comunidad e Impacto Social",
-          "Destaca etiquetas “Better Cotton” y “Recycled”, y explica su valor.",
-          "Materiales responsables",
-          "Residuos y Reciclaje",
-          "Producción Consciente"
+          "Compromiso con el planeta y las personas.",
         ],
         "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg",
-            "width": 170.4401474003412,
-            "height": 152.66291659122976
-          },
           {
             "src": "assets/Cotton_On_Genially_Main/images/dedb5614-2b8c-4ec5-b55b-ab2b904b968b.jpeg",
             "width": 170.4401474003412,
             "height": 152.66291659122976
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/db71ab1f-9bf8-4d90-b02c-e92ff3114a42.jpeg",
-            "width": 170.4401474003412,
-            "height": 152.66291659122976
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/49a5093d-3939-49c3-9248-cf8e27a5648f.jpeg",
-            "width": 170.4401474003412,
-            "height": 152.66291659122976
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/06d4afa3-4bd7-490c-8753-5fd60ee987f1.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/dedb5614-2b8c-4ec5-b55b-ab2b904b968b.jpeg",
+        "leadParagraph": "Cotton On conecta producto, personas y planeta a través de decisiones más responsables en materiales, procesos y comunidad.",
+        "contentCards": [
+          {
+            "label": "Materiales",
+            "title": "Algodón trazable y fibras responsables",
+            "body": "Usamos algodón BCI, fibras recicladas y fibras orgánicas para avanzar hacia una oferta más consciente sin perder comodidad ni estilo."
+          },
+          {
+            "label": "Impacto",
+            "title": "Cotton On Foundation",
+            "body": "La fundación respalda educación y bienestar juvenil, reforzando la idea de que la marca quiere dejar una diferencia positiva."
+          },
+          {
+            "label": "Operación",
+            "title": "Menos agua, menos energía",
+            "body": "Los procesos buscan reducir consumos y mejorar la eficiencia, con estándares éticos que acompañan la cadena de valor."
+          },
+          {
+            "label": "En tienda",
+            "title": "Cómo contarlo al cliente",
+            "body": "Habla de Better Cotton o Recycled como señales simples de valor, no como un discurso técnico. La sostenibilidad también vende cuando se entiende rápido."
+          }
+        ],
+        "hideBullets": true
+      },
+      {
+        "id": "cottonon-5",
+        "title": "Departamentos y Categorías",
+        "bullets": [
+          "Dominar nuestras categorías es la clave para construir looks completos, recomendar con criterio y elevar cada interacción con el cliente."
+        ],
+        "images": [],
+        "coverImage": null,
+        "departmentCards": [
+          {
+            "title": "Mujer Tops",
+            "body": "Una categoría versátil que va de básicos a piezas de temporada. Funciona muy bien para compras múltiples y para construir looks del día a la noche.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
+            }
+          },
+          {
+            "title": "Mujer Bottoms",
+            "body": "Pantalones, leggings, joggers y shorts que combinan comodidad, tendencia y facilidad de styling. Son una gran puerta para hablar de fit y ocasión de uso.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg"
+            }
+          },
+          {
+            "title": "Mujer Activewear",
+            "body": "Ropa deportiva y de descanso con foco en rendimiento, comodidad y estética. Ideal para subir ticket con sets, capas y accesorios.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg"
+            }
+          },
+          {
+            "title": "Shoes & Accs / Rubi",
+            "body": "La categoría perfecta para cerrar looks, activar compras impulsivas y sumar venta cruzada en probadores y caja.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg"
+            }
+          },
+          {
+            "title": "Hombre Tops",
+            "body": "Camisas, polos y básicos premium que cubren desde ocasiones casuales hasta looks smart-casual. Funcionan muy bien en múltiples colores y combinaciones.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
+            }
+          },
+          {
+            "title": "Hombre Bottoms",
+            "body": "Alternativas al denim como chinos, cargos, joggers y boardshorts. La recomendación correcta depende del uso principal que el cliente les quiera dar.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg"
+            }
+          },
+          {
+            "title": "Hombre Graphics",
+            "body": "Camisetas gráficas con cultura pop, música, deporte y colaboraciones. Son un motor de novedad y una categoría muy fácil de coleccionar.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg"
+            }
+          },
+          {
+            "title": "Hombre Activewear",
+            "body": "Prendas inspiradas en el deporte para el día a día. Combinan tendencia y confort y se venden bien como propuesta casual completa.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg"
+            }
+          }
+        ]
       },
       {
         "id": "cottonon-6",
-        "title": "Departamentos y Categorías",
+        "title": "Visual Merchandising",
         "bullets": [
-          "Dominar nuestras categorías es la clave para ofrecer looks completos y elevar cada interacción con el cliente.",
-          "Departamentos y Categorías",
-          "Shoes & Accs"
-        ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg",
-            "width": 95.71490470779955,
-            "height": 134.0833794398054
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
-      },
-      {
-        "id": "cottonon-7",
-        "title": "VM",
-        "bullets": [
-          "Así es como hacemos VM",
-          "Nuestro objetivo es ofrecer una experiencia de tienda líder en la industrisa con una identidad y un VM reconocible para que todos puedan difundir las novedades a medida que llegan.",
-          "Es la forma en que presentamos los productos en la tienda para que los clientes los vean, se inspiren y quieran comprarlos. Incluye cómo organizamos la ropa, los maniquíes, los colores, la iluminación y los carteles, todo pensado para que la tienda se vea atractiva y fácil de recorrer.",
-          "SEÑALIZACION"
+          "Así es como hacemos VM en Cotton On.",
         ],
         "images": [
           {
@@ -1017,19 +1080,32 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 110.85968415729857
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "leadParagraph": "El VM de Cotton On está pensado para que el cliente lea la tienda rápido: una historia clara, una navegación fácil y producto que se vea deseable desde el primer vistazo.",
+        "contentCards": [
+          {
+            "label": "Big Idea",
+            "title": "Lo primero que se debe ver",
+            "body": "La historia comercial principal debe aparecer con fuerza en el recorrido, ayudando a entender qué producto lidera la temporada."
+          },
+          {
+            "label": "Key Look",
+            "title": "Looks que inspiran",
+            "body": "Los outfits deben cerrar la idea de temporada y mostrar combinaciones reales que el cliente pueda llevarse completas."
+          },
+          {
+            "label": "Lectura",
+            "title": "Recorrido simple",
+            "body": "Color, señalización, maniquíes y mesas tienen que ordenar el espacio y no competir entre sí."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-8",
+        "id": "cottonon-7",
         "title": "Top 20",
         "bullets": [
-          "La inversión en nuestro Top 20 nos permite mostrarnos con confianza en el VM y el marketing. Entregamos el producto por el que nuestro cliente está votando y esto, a su vez, impulsa las ventas al inspirar a nuestro cliente a comprar. Los productos del top 20 por marca se pueden encontrar en el kit de herramientas de experiencia del cliente y en los boletínes mensuales.",
-          "Conoce, com parte + inspira",
-          "Muestra con confianza",
-          "Manteen el Stock",
-          "Animamos a al equipo a usar los productos de nuestro Top 20.",
-          "Nos aseguramos de que los looks clave estén representados en los maniquíes y se mantengan durante todo el día.",
-          "Dirigimos al equipo a que priorice la rreposición del Top 20 en cada despacho para lograr velocidad hacia el piso de ventas."
+          "Top 20 es la selección de producto con mayor potencial comercial y visual dentro de cada marca.",
         ],
         "images": [
           {
@@ -1048,15 +1124,31 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 120.84611526258668
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Conoce",
+            "title": "Producto que importa",
+            "body": "El equipo debe saber cuáles son los artículos con más peso comercial para hablar de ellos con seguridad."
+          },
+          {
+            "label": "Comparte",
+            "title": "Hazlo visible",
+            "body": "El Top 20 debe aparecer en maniquíes, mesas y zonas de alto tráfico para construir deseo inmediato."
+          },
+          {
+            "label": "Mantén",
+            "title": "Reposición prioritaria",
+            "body": "Cuando el Top 20 baja, la velocidad de venta también. Su reposición tiene que ir primero."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-9",
+        "id": "cottonon-8",
         "title": "VM Slang",
         "bullets": [
-          "Este es el lenguaje que usamos internamente a lo largo de nuestras directivas, en la tienda y que ayuda a construir la gama que respalda nuestra estrategia. ¡A continuación se muestra una \"hoja de trucos\" de algunas palabras clave que usamos en repetición y que escucharás a lo largo de tu viaje!",
-          "FRONT + CENTER",
-          "RULES VS. FRAMEWORK"
+          "Este es el lenguaje que usamos en directivas, en tienda y en conversación diaria para ejecutar VM con consistencia.",
         ],
         "images": [
           {
@@ -1065,18 +1157,41 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 927.7095995457669
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Big Idea",
+            "title": "La historia principal",
+            "body": "La gran idea visual es la narrativa que debe capturar la atención primero."
+          },
+          {
+            "label": "Key Look",
+            "title": "La combinación que resume la temporada",
+            "body": "Un key look junta las piezas más representativas de la propuesta y sirve como referencia para el piso."
+          },
+          {
+            "label": "Front + Center",
+            "title": "Producto protagonista",
+            "body": "Lo más relevante debe estar donde el cliente lo vea primero, no escondido ni compitiendo con ruido visual."
+          },
+          {
+            "label": "VM Identity",
+            "title": "La huella de Cotton On",
+            "body": "Son las reglas que hacen reconocible la tienda y sostienen la consistencia entre ubicaciones."
+          },
+          {
+            "label": "Rules vs. Framework",
+            "title": "Principios y criterio",
+            "body": "Hay elementos que no cambian y otros donde el equipo adapta con inteligencia según el piso."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-10",
+        "id": "cottonon-9",
         "title": "VMSSSSS",
         "bullets": [
-          "¡VMSSSSS es nuestro marco de VM para una ejecución consistente y de clase mundial, siempre! ¡Estas son las herramientas que utilizamos para hacer que hacer que nuestras ejecuciones sean fácil, efectivas y ejecutadas a la perfección para garantizar que estamos dando al cliente la mejor experiencia en todo momento!",
-          "Estándares de exhibición",
-          "Exito en estilizar",
-          "Simetría en la tienda",
-          "Floorset de Temporada",
-          "Diseños y Sistemas simplificados"
+          "VMSSSSS es nuestro marco para ejecutar visual merchandising de forma consistente, clara y repetible.",
         ],
         "images": [
           {
@@ -1090,16 +1205,41 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 105.23202593646673
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Floorset",
+            "title": "Ciclos más largos",
+            "body": "Los floorsets sostienen la coherencia visual y permiten trabajar la historia de temporada con más estabilidad."
+          },
+          {
+            "label": "Simetría",
+            "title": "Orden que se siente",
+            "body": "La repetición visual ayuda a que la tienda sea fácil de leer y recorrer."
+          },
+          {
+            "label": "Styling",
+            "title": "Looks intencionales",
+            "body": "Cada torso y cada outfit deben verse pensados, no improvisados."
+          },
+          {
+            "label": "Standards",
+            "title": "Exhibición consistente",
+            "body": "Alturas, densidad y ejecución deben mantenerse con el mismo nivel en toda la tienda."
+          },
+          {
+            "label": "Simplified systems",
+            "title": "Menos ruido, más claridad",
+            "body": "Horizontal Big Idea y Vertical Outfitting hacen que el producto respire y venda mejor."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-11",
+        "id": "cottonon-10",
         "title": "Estándares de Exhibición",
         "bullets": [
-          "Estándares de Exhibición",
-          "Las alturas de la pila en nuestras grandes ideas son parte de nuestra identidad de VM. Ceñirse a nuestra asignación de 8, 10, 12 significa pilas y Fixtures listos para nuestros cliente. La densidad también es importante, para garantizar que todos las tallas estén disponibles para el cliente, pero no estamos llenando en exceso y dificultando la compra. Una experiencia elevada es clave. El exceso se puede guardar en los carritos debajo de las mesas dentro del mismo shop sólo cuando el mismo producto esté exhibido en ese mueble.",
-          "Altos de Pilas",
-          "Unidades por brazo"
+          "Las alturas de pila son parte de nuestra identidad visual. Seguir asignaciones como 8, 10 y 12 ayuda a que mesas y fixtures se vean listos para comprar.",
         ],
         "images": [
           {
@@ -1123,17 +1263,31 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 186.79066310135164
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Alturas",
+            "title": "8, 10 y 12",
+            "body": "Las pilas se construyen con proporciones claras para que la mesa se vea lista para comprar."
+          },
+          {
+            "label": "Densidad",
+            "title": "Tallas visibles",
+            "body": "Hay que mostrar disponibilidad sin saturar la exhibición ni dificultar la compra."
+          },
+          {
+            "label": "Exceso",
+            "title": "Dónde guardar lo extra",
+            "body": "Solo debajo de mesas y siempre que el mismo producto esté expuesto arriba."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-12",
+        "id": "cottonon-11",
         "title": "Guía de Muebles",
         "bullets": [
-          "Guía de Muebles",
-          "Hemos refinado el aspecto y la sensación de nuestras tiendas con el lanzamiento del conjunto de accesorios 3.2. Esto nos permite implementar nuestros sistemas y elevar nuestra experiencia en la tienda. Echa un vistazo rápido a nuestros muebles.",
-          "Tables, Benches, Risers",
-          "Floor Fixtures",
-          "Accessory Fixtures"
+          "El sistema de muebles define cómo aterrizamos el producto en piso y cómo mantenemos consistencia entre tiendas.",
         ],
         "images": [
           {
@@ -1157,14 +1311,31 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 162.04724409448818
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Tables / Benches / Risers",
+            "title": "Soporte para la gran idea",
+            "body": "Estos muebles ayudan a construir el relato visual y a dar altura al producto clave."
+          },
+          {
+            "label": "Floor Fixtures",
+            "title": "Navegación y outfit building",
+            "body": "Ordenan el recorrido y hacen más fácil combinar piezas en tienda."
+          },
+          {
+            "label": "Accessory Fixtures",
+            "title": "Venta impulsiva",
+            "body": "Son el lugar perfecto para elevar el ticket con complementos fáciles de llevar."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-13",
+        "id": "cottonon-12",
         "title": "Señalización",
         "bullets": [
-          "Señalización",
-          "El manejo de pricepoints en tienda es una de las herramientas más efectivas para comunicar valor al cliente y guiar su decisión de compra. Una correcta ejecución no se trata solo de mostrar precios, sino de presentarlos de forma estratégica para reforzar nuestro mensaje de accesibilidad, conveniencia y oportunidad. Los precios puntuales (Price points) siempre deben colocarse en línea recta y en línea con la parte superior de los ganchos sujetadores sin espacio que muestre la madera. Las señalizaciones se colocan juntas para elevar la presentación y resaltar la Gran Idea/Campaña junto con el valor del producto El tamaño de la señalización para los rieles es A5. Solo coloque 1 precio puntual por agrupación de accesorios."
+          "Los price points son una de las herramientas más efectivas para comunicar valor y guiar la decisión de compra.",
         ],
         "images": [
           {
@@ -1183,20 +1354,31 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 144.21310077610093
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "contentCards": [
+          {
+            "label": "Valor",
+            "title": "Precio con intención",
+            "body": "La señalización tiene que ayudar a vender mejor, no solo a mostrar números."
+          },
+          {
+            "label": "Alineación",
+            "title": "Orden visual",
+            "body": "Los price points deben ir rectos y sin dejar huecos que rompan la lectura."
+          },
+          {
+            "label": "Regla",
+            "title": "A5 y un solo price point",
+            "body": "En rieles, el tamaño estándar es A5 y solo debe haber un precio por agrupación de accesorios."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-14",
+        "id": "cottonon-13",
         "title": "Denim - Mujer",
         "bullets": [
-          "Ajustado en muslo con apertura gradual desde la rodilla.",
-          "Flare & bootcut",
-          "Ajuste cómodo en cadera y muslo, entalle perfecto en cintura.",
-          "Tiro bajo con pierna recta para un look relajado.",
-          "Corte recto clásico, tiro medio, versátil y atemporal.",
-          "Pierna extra ancha desde la cadera, inspirado en el look 90s oversize.",
-          "El denim no es solo una tela, es tu básico de todos los días y tu aliado de estilo. Desde jeans clásicos hasta shorts y faldas inspirados en los 90, pasando por chaquetas icónicas, nuestra colección de denim para mujer ofrece piezas versátiles, cómodas y listas para cualquier ocasión.",
-          "Denim - Mujer"
+          "El denim femenino es un básico comercial: fácil de recomendar, fácil de combinar y clave para construir looks completos.",
         ],
         "images": [
           {
@@ -1205,19 +1387,41 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 397.3307334939477
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/244a5422-13f7-40f2-a86b-9edf2843b70e.gif",
+        "contentCards": [
+          {
+            "label": "Flare & Bootcut",
+            "title": "Pierna que abre desde la rodilla",
+            "body": "Una silueta que alarga y funciona muy bien con looks retro o más pulidos."
+          },
+          {
+            "label": "Curvy",
+            "title": "Más cómodo en cadera y muslo",
+            "body": "Buscado por clientes que necesitan mejor entalle en cintura sin sacrificar comodidad."
+          },
+          {
+            "label": "Low",
+            "title": "Tiro bajo relajado",
+            "body": "Perfecto para un look más casual y desenfadado."
+          },
+          {
+            "label": "Straight",
+            "title": "Recto y atemporal",
+            "body": "El fit clásico que siempre funciona y nunca se siente fuera de lugar."
+          },
+          {
+            "label": "Baggy",
+            "title": "Volumen con actitud",
+            "body": "Pierna ancha desde la cadera para un resultado noventero y con personalidad."
+          }
+        ],
+        "hideBullets": true
       },
       {
-        "id": "cottonon-15",
+        "id": "cottonon-14",
         "title": "Denim - Hombre",
         "bullets": [
-          "Shorts de denim a la altura de la rodilla, estilo relajado y versátil para climas cálidos.",
-          "Amplio en muslo con volumen redondeado, afina en el tobillo; look retro con personalidad.",
-          "Corte ancho moderado para comodidad y look relajado.",
-          "Inspirado en los 2000, tiro bajo y fit relajado para un look desenfadado y nostálgico.",
-          "Pierna muy ancha, tiro relajado, estilo urbano 90s.",
-          "¿Buscas jeans nuevos? Estás en el lugar correcto. Nuestro denim tiene todo: desde fits baggy, relaxed y wide-leg con vibras noventeras, hasta chaquetas, jorts y shorts para cualquier ocasión. Cómodos, versátiles y pensados para tu estilo, se combinan fácilmente con camisetas oversized, sudaderas o camisas, y con tus sneakers o calzado favorito.",
-          "Denim - hombre"
+          "El denim masculino combina fits relajados, referencias 90s y siluetas fáciles de estilizar con graphics, sudaderas y sneakers.",
         ],
         "images": [
           {
@@ -1226,39 +1430,105 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 397.3307334939477
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/993de4c8-10d1-48ad-8558-dcb005c83d0d.gif",
+        "contentCards": [
+          {
+            "label": "Jorts",
+            "title": "Short de denim a la rodilla",
+            "body": "Relajado, versátil y muy fácil de vender en clima cálido."
+          },
+          {
+            "label": "Balloon",
+            "title": "Volumen redondeado",
+            "body": "Amplio en muslo y con personalidad retro."
+          },
+          {
+            "label": "Baggy",
+            "title": "Comodidad con actitud",
+            "body": "Un corte ancho moderado que conecta con looks relajados."
+          },
+          {
+            "label": "Y2K Wide",
+            "title": "Nostalgia de los 2000",
+            "body": "Tiro bajo y energía desenfadada para un look muy actual."
+          },
+          {
+            "label": "Super Baggy",
+            "title": "Pierna muy ancha",
+            "body": "La silueta más urbana y noventera del bloque."
+          }
+        ],
+        "hideBullets": true
+      },
+      {
+        "id": "cottonon-15",
+        "title": "E.D.R.C",
+        "bullets": [
+          "El E.D.R.C. es nuestra guía para ofrecer una experiencia de compra cercana, personalizada y orientada a la conversión.",
+        ],
+        "images": [],
+        "coverImage": null,
+        "contentCards": [
+          {
+            "label": "Engage",
+            "title": "Conectar rápido",
+            "body": "Saluda en menos de 30 segundos con energía y presencia abierta."
+          },
+          {
+            "label": "Discover",
+            "title": "Entender la necesidad",
+            "body": "Haz preguntas abiertas y escucha antes de proponer."
+          },
+          {
+            "label": "Recommend",
+            "title": "Presentar valor",
+            "body": "Ofrece hasta tres opciones y añade piezas complementarias."
+          },
+          {
+            "label": "Close",
+            "title": "Cerrar con seguridad",
+            "body": "Resume beneficios, crea urgencia positiva y acompaña la decisión."
+          }
+        ],
+        "hideBullets": true
       },
       {
         "id": "cottonon-16",
-        "title": "E.D.R.C",
+        "title": "KPIs",
         "bullets": [
-          "El E.D.R.C. es nuestra guía para ofrecer una experiencia de compra cercana, personalizada y orientada a la conversión. Aplicarlo en cada interacción garantiza que el cliente se sienta bienvenido, entendido y motivado a comprar.",
-          "Modelo de Ventas E.D.R.C."
+          "Nuestros KPIs no son solo números: muestran qué tan bien convertimos tráfico en ventas reales y cuánto valor generamos en cada transacción.",
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "contentCards": [
+          {
+            "label": "CR",
+            "title": "Conversion Rate",
+            "body": "Mide el porcentaje de clientes que compran."
+          },
+          {
+            "label": "UPT",
+            "title": "Unidades por transacción",
+            "body": "Mide cuántos artículos vendemos por compra."
+          },
+          {
+            "label": "DPT",
+            "title": "Dinero por transacción",
+            "body": "Mide cuánto gasta en promedio cada cliente."
+          },
+          {
+            "label": "Uso",
+            "title": "Mirarlos juntos",
+            "body": "Los tres indicadores nos dicen cómo convertir mejor, vender más y hacer crecer la tienda."
+          }
+        ],
+        "hideBullets": true
       },
       {
         "id": "cottonon-17",
-        "title": "KPI",
-        "bullets": [
-          "Nuestros KPIs (Key Performance Indicators) son herramientas esenciales para medir el rendimiento de la tienda y de cada asociado. No son solo números: son indicadores que nos muestran qué tan bien estamos convirtiendo el tráfico en ventas, cuántos productos llevamos por cliente y cuánto gasta cada uno en promedio. Trabajarlos en conjunto nos permite: • Alcanzar las metas de ventas diarias y mensuales. • Detectar oportunidades de mejora en tiempo real. • Motivar al equipo con resultados claros y medibles.",
-          "Conversion Rate"
-        ],
-        "images": [],
-        "coverImage": null
-      },
-      {
-        "id": "cottonon-18",
         "title": "Dinámica de Tienda",
         "bullets": [
-          "Roles y Zonas clave",
-          "Otros Documentos",
-          "Comunicación Interna",
-          "Estándares de Atención",
-          "Flujos durante el día",
-          "Para tener una buena dinámica de tienda, es necesario comprender cómo debe fluir la operación en tienda durante el día para garantizar una excelente experiencia al cliente, altos niveles de venta y un ambiente de trabajo organizado.",
-          "Dinámica de Tienda"
+          "Una buena dinámica de tienda asegura experiencia de cliente, velocidad comercial y operación ordenada durante todo el día.",
         ],
         "images": [
           {
@@ -1267,77 +1537,117 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 201.67275421146036
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/6ae27d46-219b-47a4-be22-e0dbb80232a1.jpeg",
+        "contentCards": [
+          {
+            "label": "Roles",
+            "title": "Cada persona sabe su zona",
+            "body": "La tienda funciona mejor cuando cada asociado entiende qué debe cubrir y cuándo rotar."
+          },
+          {
+            "label": "Atención",
+            "title": "El método se repite",
+            "body": "Conectar, descubrir, recomendar y cerrar debe sentirse natural en toda la jornada."
+          },
+          {
+            "label": "Comunicación",
+            "title": "Incidencias y prioridades",
+            "body": "Usar canales claros evita ruido y mantiene el equipo alineado."
+          },
+          {
+            "label": "Flujo",
+            "title": "Apertura, pico, valle y cierre",
+            "body": "Cada momento del día pide un foco distinto para que la operación no se rompa."
+          }
+        ],
+        "hideBullets": true
+      },
+      {
+        "id": "cottonon-18",
+        "title": "Conversión",
+        "bullets": [
+          "Es el porcentaje de clientes que entran a la tienda y realizan al menos una compra.",
+        ],
+        "images": [],
+        "coverImage": null,
+        "contentCards": [
+          {
+            "label": "Fórmula",
+            "title": "CR (%) = transacciones / tráfico",
+            "body": "Es la manera de medir cuántos clientes que entran realmente compran."
+          },
+          {
+            "label": "Ejemplo",
+            "title": "500 entradas, 125 compras",
+            "body": "Eso da una conversión de 25%."
+          },
+          {
+            "label": "Acción",
+            "title": "Qué mejora el CR",
+            "body": "Saludar rápido, ayudar en probadores y cerrar con urgencia positiva."
+          }
+        ],
+        "hideBullets": true
       },
       {
         "id": "cottonon-19",
-        "title": "Conversión",
+        "title": "UPT",
         "bullets": [
-          "Es el porcentaje de clientes que entran a la tienda y realizan al menos una compra. Indica nuestra efectividad para transformar tráfico en ventas reales. Fórmula: CR (%) = (Transacciones / Clientes que entran)*100 Ejemplo: • Entraron: 500 personas. • Compraron: 125 personas. CR= (125 ÷ 500) * 100 = 25% Por qué es importante: • Una conversión alta significa que sabemos detectar y satisfacer necesidades. • Una conversión baja puede indicar problemas en atención, disponibilidad de producto o presentación visual. Acciones para mejorar: • Saludar a cada cliente en menos de 30 segundos (Engage). • Ofrecer asistencia en probadores. • Presentar opciones y cerrar la venta con urgencia positiva (Close)."
+          "Es el promedio de artículos vendidos en cada transacción y muestra nuestra capacidad de complementar la compra.",
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "contentCards": [
+          {
+            "label": "Fórmula",
+            "title": "Unidades / transacciones",
+            "body": "Te dice cuántas piezas llevamos por compra."
+          },
+          {
+            "label": "Ejemplo",
+            "title": "300 unidades en 150 transacciones",
+            "body": "El resultado es 2.0."
+          },
+          {
+            "label": "Acción",
+            "title": "Qué lo impulsa",
+            "body": "Combos visibles, promociones y accesorios cerca del cliente."
+          }
+        ],
+        "hideBullets": true
       },
       {
         "id": "cottonon-20",
-        "title": "UPT",
+        "title": "DPT",
         "bullets": [
-          "Es el promedio de artículos vendidos en cada transacción. Mide nuestra capacidad para complementar la compra del cliente. Fórmula: UPT = Unidades vendidas / transacciones Ejemplo: • Unidades vendidas: 300. • Transacciones: 150. UPT = 300 ÷ 150 = 2.0 Por qué es importante: • Un UPT alto aumenta las ventas sin necesidad de más clientes. • Impulsa la venta cruzada y la rotación de productos complementarios. Acciones para mejorar: • Mostrar artículos combinados (ej.: camiseta + jeans + accesorios). • Ofrecer promociones que incentiven llevar más de un producto (“2x1”, “2ª unidad al 50%”). • Tener accesorios y complementos visibles en probadores y caja."
+          "El DPT es el monto promedio que gasta un cliente en cada compra.",
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "contentCards": [
+          {
+            "label": "Fórmula",
+            "title": "Ventas / transacciones",
+            "body": "Permite leer cuánto deja cada compra en promedio."
+          },
+          {
+            "label": "Ejemplo",
+            "title": "10,000 en 200 transacciones",
+            "body": "El DPT resulta en 50."
+          },
+          {
+            "label": "Acción",
+            "title": "Cómo subirlo",
+            "body": "Propón opciones premium, suma temporadas y completa el look con calzado y accesorios."
+          }
+        ],
+        "hideBullets": true
       },
       {
         "id": "cottonon-21",
-        "title": "DPT",
+        "title": "Quiz Final",
         "bullets": [
-          "El DPT es Monto promedio que gasta un cliente en cada compra. Mide nuestra capacidad para aumentar el valor de la venta. Fórmula: DPT = Ventas / transacciones Ejemplo: • Ventas totales: $10,000. • Transacciones: 200. DPT = 10,000 ÷ 200 = 50 Cada cliente gastó en promedio $50. Por qué es importante: •Un DPT alto significa que estamos ofreciendo opciones de mayor valor y completando el look. • Un DPT bajo puede indicar que solo estamos vendiendo artículos básicos o de bajo precio. Acciones para mejorar: • Recomendar versiones premium o sets completos (up-selling). • Añadir artículos de temporada o edición limitada. • Combinar prendas con calzado o accesorios para aumentar el ticket."
-        ],
-        "images": [],
-        "coverImage": null
-      },
-      {
-        "id": "cottonon-22",
-        "title": "Felicitaciones",
-        "bullets": [
-          "¡Felicitaciones!",
-          "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces nuestra historia, nuestras marcas, nuestros productos y la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido, crecer profesionalmente y vivir la cultura Cotton On. 🔹Próximo paso: Registra tu finalización en el formulario para que quede constancia de tu participación.",
-          "Apertura de tienda • Checklist visual merchandising y limpieza. • Revisión de reposición y facing del producto. • Brief rápido de objetivos y promociones del día. Horas pico • Refuerzo en probadores y caja. • Priorización de atención al cliente sobre tareas de backroom. Horas de bajo tráfico • Reposición de producto. • Cambio de visual según instrucciones. • Preparación de mercadería para el día siguiente. Cierre de tienda • Revisión de probadores y piso de ventas. • Cuadre de caja y reportes. • Checklist de cierre.",
-          "Flujos del día",
-          "Close – Cerrar la venta con urgencia positiva",
-          "Objetivo : Ayudar al cliente a tomar la decisión final y generar sensación de oportunidad. • Resume los beneficios clave y confirma que cumple lo que el cliente busca. • Utiliza urgencia positiva: destacar unidades limitadas, promociones o lanzamientos exclusivos. • Acompaña hasta caja y ofrece agradecimiento genuino. Ejemplos de frases : • “Me alegra que te haya gustado, y justo nos quedan pocas unidades en tu talla.” • “Esta promoción termina hoy, es una buena oportunidad para aprovecharla.” • “Con esto ya tienes un look completo para la ocasión que me comentaste.” Tip : El cierre no es presión, es ayudar al cliente a sentirse seguro de su elección.",
-          "Tener simetría en toda la tienda permite una experiencia fácil, consistente y repetible en bloques de fixtures y estructuras de paredes en toda la tienda.",
-          "Simetría en toda la tienda",
-          "¡Hora de poner a prueba lo aprendido! Responde las siguientes preguntas y demuestra que estás listo para brillar en tienda.",
-          "Calzados & Accesorios - Rubi",
-          "La propuesta de calzado y accesorios es el toque final para cualquier outfit. Ofrece sandalias, sneakers, botines, bolsos, mochilas, carteras, cinturones, gafas de sol y sombreros, diseñados para complementar el look con estilo y funcionalidad. La variedad cubre desde opciones básicas hasta piezas de tendencia, asegurando que cada cliente encuentre el accesorio perfecto. Es una de las categorías con mayor potencial de venta cruzada y perfecta para compras impulsivas en caja o probador. Tip de venta: presentar el accesorio como la pieza clave que eleva y completa el outfit del cliente.",
-          "• Uso de grupo de WhatsApp o canal interno para comunicar incidencias y prioridades. • informe de rendimiento actualizado semanalmente.",
-          "Comunicación interna",
-          "Calzados & Accesorios",
-          "Selección de calzado y accesorios masculinos para completar cualquier look. Incluye sneakers, sandalias, botines, mochilas, riñoneras, gorras, sombreros y gafas de sol. Cada pieza está pensada para aportar practicidad y estilo, con opciones que van desde lo clásico hasta lo más actual. Es un segmento ideal para venta cruzada en caja y probadores. Tip de venta: mostrar cómo un accesorio puede transformar un look básico en uno con personalidad.",
-          "Prendas masculinas inspiradas en el deporte, pensadas para máxima comodidad en el día a día. Incluye joggers, sudaderas, shorts y camisetas de estilo deportivo que funcionan para actividades ligeras, viajes o looks urbanos relajados. Los diseños se centran en tendencia y confort, con tejidos suaves y cortes versátiles que permiten combinarlos con sneakers, denim o outerwear. Tip de venta: sugerir como opción ideal para clientes que buscan un look casual y cómodo, con toques deportivos.",
-          "Las camisetas gráficas son un elemento esencial en el guardarropa de nuestros clientes. Incluyen colaboraciones especiales y referencias a la cultura pop, música, películas y deportes. Fabricadas en algodón de alta calidad con fits que van desde relaxed hasta oversized, se renuevan con colecciones limitadas y rotación constante, generando interés. Son perfectas para combinar con denim, cargos o shorts, adaptándose a cualquier ocasión casual. Tip de venta: resaltar la novedad de los diseños y la posibilidad de coleccionarlos.",
-          "• Conecta: Saludo inmediato y con energía. • Descubre: Preguntar necesidades (“¿Buscas algo en especial hoy?”). • Recomienda: Mostrar alternativas y complementar con otros productos. • Cierra: Confirmar decisión y despedida positiva.",
-          "Estándares de atención",
-          "Recommend – Recomendar y crear valor",
-          "Objetivo : Presentar opciones que respondan a la necesidad descubierta y añadir valor con venta cruzada. • Muestra máximo 3 opciones para no abrumar. • Explica beneficios y características de cada prenda, no solo precio. • Sugiere productos complementarios (venta cruzada) para completar el look. Ejemplos de frases: • “Estos jeans tienen un fit que realza la silueta y son muy versátiles para combinar.” • “Si te llevas esta camisa, podrías combinarla con este pantalón cargo para un look más relajado.” • “Tenemos una chaqueta que quedaría perfecta con ese vestido y está en promoción esta semana.” Tip : Relaciona siempre tu recomendación con lo que el cliente dijo en la fase de Discover.",
-          "Nuestra línea de ropa deportiva y de descanso está diseñada para acompañar a la clienta en cada momento de su día, combinando alto rendimiento, comodidad y estilo moderno. Incluye leggings y bikers con soporte y elasticidad para entrenamientos de baja a alta intensidad, tops deportivos con diferentes niveles de soporte según la actividad, y prendas de loungewear y pijamas que ofrecen suavidad y libertad de movimiento. Los diseños siguen las tendencias actuales, con colores de temporada, estampados exclusivos y detalles funcionales como bolsillos ocultos, costuras planas y tejidos transpirables. Perfecta tanto para un entrenamiento intenso como para relajarse en casa, esta categoría busca que la clienta se sienta cómoda, segura y a la moda en todo momento. Tip de venta: recomendar looks completos con prendas deportivas y accesorios para aumentar el ticket promedio (DPT).",
-          "Engage – Conectar en menos de 30 segundos",
-          "Objetivo : Romper el hielo y generar una primera impresión positiva. • Saluda al cliente con energía y contacto visual antes de que pasen 30 segundos de entrar. • Usa lenguaje corporal abierto (sonrisa, postura relajada, manos visibles). • Si el cliente lleva bolsas o prendas de otras tiendas, puedes comentarlo para iniciar conversación.",
-          "Mostramos increíbles outfits en nuestros maniquíes a nuestros clientes. Al seguir la directiva de VM, nos aseguramos de que todos los torsos estén estilizados. Prestamos especial atención a los detalles de las páginas de la VM, manteniéndonos enfocados en nuestro cliente, ¡siempre! Sigue el directivo y nunca tendrás problemas para estilizar!",
-          "Éxito al estilizar",
-          "Nuestra colección de camisetas gráficas es un pilar clave de nuestra identidad. Incluye diseños con logos icónicos, colaboraciones especiales, referencias a la cultura pop y mensajes de tendencia que permiten a cada cliente expresar su personalidad. Fabricadas en algodón de calidad y con fits que van desde relajados hasta entallados, las Graphics se renuevan constantemente con ediciones limitadas y rotación rápida, incentivando compras por impulso y coleccionismo. Ideales para combinar con denim, shorts o capas ligeras, son el punto de partida perfecto para cualquier look casual. Tip de venta: Resalta la exclusividad y la constante llegada de nuevos diseños para generar urgencia.",
-          "Una selección versátil de prendas superiores que va desde camisetas básicas hasta blusas y camisas de temporada. Incluye modelos oversized, cropped y ajustados, además de tejidos ligeros (knitwear) perfectos para entretiempo. Nuestros Tops están diseñados para maximizar combinaciones con denim, bottoms y accesorios, permitiendo crear looks para cualquier ocasión, del día a la noche. La variedad de colores, estampados y texturas asegura que siempre haya una opción para cada cliente. Tip de venta: sugerir compras de más de una prenda para facilitar mezclas y multiplicar el uso.",
-          "Discover – Descubrir necesidades",
-          "Objetivo : Entender qué busca el cliente para ofrecer soluciones personalizadas. • Haz preguntas abiertas para obtener información útil (“¿Para qué ocasión buscas la prenda?” en vez de “¿Buscas algo en especial?”). • Observa lo que el cliente ya mira o lleva en mano para identificar preferencias de estilo, color o talla. • Escucha activamente y evita interrumpir. Ejemplos de frases: • “¿Es para uso diario o para un evento en particular?” • “¿Prefieres un fit más ajustado o relajado?” • “¿Tienes algún color o estilo en mente?” Tip : Cuanto más sepas del cliente, más relevante será tu recomendación y mayor la probabilidad de cierre.",
-          "Los floorsets ahora están bloqueados por períodos más largos de 3 meses para que podamos construir consistencia y amor por la marca.",
-          "Floorsets de Temporada",
-          "Cada asociado tiene un rol definido y zonas asignadas para cubrir en cada turno:",
-          "Camisas, polos y camisetas básicas que ofrecen estilo y versatilidad para el día a día. Incluyen camisas Oxford para un look smart-casual, camisas casuales en lino o algodón, polos en piqué y camisetas básicas premium para layering. Los Tops masculinos están pensados para funcionar tanto en entornos relajados como en ocasiones más formales, dependiendo de la combinación. Tip de venta: sugerir compras en múltiples colores para maximizar opciones de uso.",
-          "Horizontal Big Idea y Vertical Outfitting es nuestra fórmula ganadora. Cada pared, cada mesa y cada bloque de fixtures tiene esta fórmula aplicada para resaltar nuestras grandes ideas y productos héroe de la temporada.",
-          "Diseños y sistemas simplificados",
-          "Alternativas al denim que ofrecen comodidad y funcionalidad. Incluyen chinos para un estilo más formal o de oficina, cargo pants con un toque utilitario, joggers para un look deportivo o casual, y boardshorts para el verano y actividades al aire libre. Todos están diseñados para ser fáciles de combinar y adaptarse a diferentes contextos. Tip de venta: orientar la elección según el uso principal que el cliente les dará (trabajo, ocio, deporte).",
-          "Pantalones, leggings, joggers y shorts que ofrecen una alternativa cómoda y moderna al denim. La categoría incluye pantalones relajados para un look más formal, leggings y bikers para uso diario o deportivo, y joggers y shorts para un estilo casual. Se caracterizan por su versatilidad, confort y facilidad de combinación con el resto del closet. Perfectos para clientes que buscan estilo funcional y adaptabilidad en múltiples contextos. Tip de venta: destacar la transición fácil de un look casual a uno más arreglado con solo cambiar la parte superior y accesorios."
+          "Hora de poner a prueba lo aprendido."
         ],
         "images": [
           {
@@ -1351,7 +1661,89 @@ window.BRAND_ONBOARDING_DATA = [
             "height": 402.6108685759678
           }
         ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png"
+        "coverImage": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png",
+        "quizData": {
+          "intro": "Responde estas preguntas rápidas para confirmar los conceptos clave del playbook de Cotton On.",
+          "questions": [
+            {
+              "question": "¿En qué país nació Cotton On?",
+              "options": [
+                { "label": "Australia", "value": "australia" },
+                { "label": "Estados Unidos", "value": "usa" },
+                { "label": "Reino Unido", "value": "uk" }
+              ]
+            },
+            {
+              "question": "¿Cuál es el propósito de Top 20 en tienda?",
+              "options": [
+                { "label": "Priorizar producto con alto potencial comercial", "value": "top20" },
+                { "label": "Fijar promociones al azar", "value": "promo" },
+                { "label": "Mostrar solo producto barato", "value": "cheap" }
+              ]
+            },
+            {
+              "question": "La D en E.D.R.C. significa:",
+              "options": [
+                { "label": "Discover", "value": "discover" },
+                { "label": "Deliver", "value": "deliver" },
+                { "label": "Drive", "value": "drive" }
+              ]
+            },
+            {
+              "question": "¿Qué mide el CR?",
+              "options": [
+                { "label": "Porcentaje de clientes que compran", "value": "conversion" },
+                { "label": "Unidades por transacción", "value": "upt" },
+                { "label": "Monto promedio por ticket", "value": "dpt" }
+              ]
+            },
+            {
+              "question": "¿Qué acción ayuda a subir UPT?",
+              "options": [
+                { "label": "Sugerir combinaciones y complementos", "value": "crosssell" },
+                { "label": "Reducir opciones al mínimo", "value": "reduce" },
+                { "label": "Esperar a que el cliente pregunte", "value": "wait" }
+              ]
+            },
+            {
+              "question": "¿Qué busca la señalización bien ejecutada?",
+              "options": [
+                { "label": "Comunicar valor y guiar la compra", "value": "value" },
+                { "label": "Llenar espacio visual", "value": "space" },
+                { "label": "Complicar la exhibición", "value": "complicate" }
+              ]
+            },
+            {
+              "question": "¿Cuál de estas marcas se enfoca en calzado y accesorios?",
+              "options": [
+                { "label": "Rubi", "value": "rubi" },
+                { "label": "Cotton On Body", "value": "body" },
+                { "label": "Cotton On Denim", "value": "denim" }
+              ]
+            },
+            {
+              "question": "¿Qué debe pasar idealmente en los primeros 30 segundos?",
+              "options": [
+                { "label": "El saludo y la conexión inicial", "value": "engage" },
+                { "label": "La oferta de descuento", "value": "discount" },
+                { "label": "El cierre de venta", "value": "close" }
+              ]
+            }
+          ],
+          "footer": "Úsalo como repaso rápido antes de salir a piso: la idea es convertir conceptos en hábitos."
+        }
+      },
+      {
+        "id": "cottonon-22",
+        "title": "Felicitaciones",
+        "bullets": [
+          "Has completado el recorrido base de Cotton On.",
+          "Ahora conoces nuestra historia, nuestras marcas, las categorías más importantes, el lenguaje de VM y los indicadores comerciales que mueven la tienda.",
+          "El siguiente paso es llevar esto a piso: observar, preguntar, probar y repetir hasta que cada interacción se sienta más natural.",
+          "Cada turno es una oportunidad para mejorar experiencia, conversión y confianza."
+        ],
+        "images": [],
+        "coverImage": null
       }
     ]
   },
