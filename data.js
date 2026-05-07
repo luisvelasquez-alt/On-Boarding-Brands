@@ -1008,27 +1008,39 @@ window.BRAND_ONBOARDING_DATA = [
             "cards": [
               {
                 "title": "Denim",
-                "image": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg"
+                }
               },
               {
                 "title": "Graphics",
-                "image": "assets/Cotton_On_Genially_Main/images/1901cb60-834d-472b-bb2a-64e14b1ee198.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/1901cb60-834d-472b-bb2a-64e14b1ee198.jpeg"
+                }
               },
               {
                 "title": "Tops",
-                "image": "assets/Cotton_On_Genially_Main/images/23a224e7-8c15-459c-b141-22af7c3174c6.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/23a224e7-8c15-459c-b141-22af7c3174c6.jpeg"
+                }
               },
               {
                 "title": "Bottoms",
-                "image": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/d79fd992-0354-4a58-b28b-0337aba0f97b.jpeg"
+                }
               },
               {
                 "title": "Activewear",
-                "image": "assets/Cotton_On_Genially_Main/images/a946e1ca-c450-474b-9eb5-b980a5ccd724.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/a946e1ca-c450-474b-9eb5-b980a5ccd724.jpeg"
+                }
               },
               {
                 "title": "Shoes & Accs",
-                "image": "assets/Cotton_On_Genially_Main/images/76a49e23-6529-4aad-b550-5b115ac6efcb.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/76a49e23-6529-4aad-b550-5b115ac6efcb.jpeg"
+                }
               }
             ]
           },
@@ -1038,27 +1050,39 @@ window.BRAND_ONBOARDING_DATA = [
             "cards": [
               {
                 "title": "Denim",
-                "image": "assets/Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg"
+                }
               },
               {
                 "title": "Graphics",
-                "image": "assets/Cotton_On_Genially_Main/images/cb0a33b4-99ee-463c-bd7f-13f4349605d6.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/cb0a33b4-99ee-463c-bd7f-13f4349605d6.jpeg"
+                }
               },
               {
                 "title": "Tops",
-                "image": "assets/Cotton_On_Genially_Main/images/fc33a264-acbc-402a-b3d3-370e1c485662.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/fc33a264-acbc-402a-b3d3-370e1c485662.jpeg"
+                }
               },
               {
                 "title": "Bottoms",
-                "image": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/6cfbf014-7901-4c00-af4d-df7137517cc9.jpeg"
+                }
               },
               {
                 "title": "Outerwear",
-                "image": "assets/Cotton_On_Genially_Main/images/11f53146-d88d-4e25-bcd1-2535ff53dfb9.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/11f53146-d88d-4e25-bcd1-2535ff53dfb9.jpeg"
+                }
               },
               {
                 "title": "Accessories",
-                "image": "assets/Cotton_On_Genially_Main/images/b2e40801-0f96-448c-a4c8-daea2104e0be.jpeg"
+                "image": {
+                  "src": "assets/Cotton_On_Genially_Main/images/b2e40801-0f96-448c-a4c8-daea2104e0be.jpeg"
+                }
               }
             ]
           }
@@ -2152,33 +2176,69 @@ window.BRAND_ONBOARDING_DATA = [
             {
               "question": "Cual fue el primer error del asociado?",
               "options": [
-                { "label": "Priorizar la tarea por encima del cliente", "value": "priority" },
-                { "label": "No conocer el producto", "value": "product" },
-                { "label": "No hablar con su gerente", "value": "manager" }
+                {
+                  "label": "Priorizar la tarea por encima del cliente",
+                  "value": "priority"
+                },
+                {
+                  "label": "No conocer el producto",
+                  "value": "product"
+                },
+                {
+                  "label": "No hablar con su gerente",
+                  "value": "manager"
+                }
               ]
             },
             {
               "question": "Que habria mejorado mas la experiencia de Kate?",
               "options": [
-                { "label": "Acompanarla y verificar opciones activamente", "value": "accompany" },
-                { "label": "Pedirle que vuelva otro dia", "value": "return" },
-                { "label": "Senalar la pared desde lejos", "value": "point" }
+                {
+                  "label": "Acompanarla y verificar opciones activamente",
+                  "value": "accompany"
+                },
+                {
+                  "label": "Pedirle que vuelva otro dia",
+                  "value": "return"
+                },
+                {
+                  "label": "Senalar la pared desde lejos",
+                  "value": "point"
+                }
               ]
             },
             {
               "question": "Cuando no encuentras el producto, lo correcto es:",
               "options": [
-                { "label": "Buscar alternativa, bodega o tienda cercana si aplica", "value": "alternative" },
-                { "label": "Cerrar la conversacion rapido", "value": "closefast" },
-                { "label": "Esperar a que el cliente insista", "value": "wait" }
+                {
+                  "label": "Buscar alternativa, bodega o tienda cercana si aplica",
+                  "value": "alternative"
+                },
+                {
+                  "label": "Cerrar la conversacion rapido",
+                  "value": "closefast"
+                },
+                {
+                  "label": "Esperar a que el cliente insista",
+                  "value": "wait"
+                }
               ]
             },
             {
               "question": "Que tono deberia mantenerse incluso en presion operativa?",
               "options": [
-                { "label": "Respetuoso, positivo y calmado", "value": "calm" },
-                { "label": "Seco y eficiente", "value": "dry" },
-                { "label": "Distante y neutral", "value": "neutral" }
+                {
+                  "label": "Respetuoso, positivo y calmado",
+                  "value": "calm"
+                },
+                {
+                  "label": "Seco y eficiente",
+                  "value": "dry"
+                },
+                {
+                  "label": "Distante y neutral",
+                  "value": "neutral"
+                }
               ]
             }
           ],
