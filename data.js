@@ -1000,7 +1000,7 @@ window.BRAND_ONBOARDING_DATA = [
         "title": "Departamentos y Categorías",
         "images": [],
         "coverImage": null,
-        "leadParagraph": "Mujer y Hombre se leen como dos universos editoriales. Cada categoría está pensada para navegar rápido, entender el estilo de un vistazo y construir una propuesta completa desde el primer paso.",
+        "leadParagraph": "Cada categoría está pensada para navegar rápido, entender el estilo de un vistazo y construir una propuesta completa desde el primer paso.",
         "departmentGroups": [
           {
             "title": "Mujer",
@@ -1095,19 +1095,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Así es como hacemos VM en Cotton On."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 1027.1896044890711
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/c74a1bfc-d499-4d2a-a72d-b9007752bd21.png",
-            "width": 208.70803926406128,
-            "height": 110.85968415729857
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "leadParagraph": "El VM de Cotton On está pensado para que el cliente lea la tienda rápido: una historia clara, una navegación fácil y producto que se vea deseable desde el primer vistazo.",
         "contentCards": [
           {

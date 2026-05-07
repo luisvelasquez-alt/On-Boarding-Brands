@@ -1941,7 +1941,7 @@
           const productGuide = getProductGuide(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
             conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
-          ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
+          ) : personasData ? [personasData.description, ...personasData.rest] : (section.bullets || []);
 
           const formatBullet = (bullet, bulletIndex) => {
             const quizData = getQuizData(section, bullet, bulletIndex);
@@ -2199,6 +2199,12 @@
         state.query = event.target.value || "";
         render();
       });
+
+      const brandParam = new URLSearchParams(window.location.search).get("brand");
+      if (brandParam) {
+        const idx = data.findIndex((b) => b.key === brandParam);
+        if (idx !== -1) state.brandIndex = idx;
+      }
 
       render();
       window.addEventListener("hashchange", openSectionFromHash);
