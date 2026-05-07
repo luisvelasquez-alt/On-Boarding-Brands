@@ -729,6 +729,168 @@
         line-height: 1.65;
       }
 
+      .welcome-guide,
+      .product-guide {
+        display: grid;
+        gap: 18px;
+        margin: 0 0 20px;
+      }
+
+      .welcome-hero,
+      .welcome-checklist,
+      .welcome-card,
+      .product-hero,
+      .product-panel,
+      .product-label-card,
+      .product-terms-card {
+        background: var(--surface);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .welcome-hero,
+      .welcome-checklist,
+      .product-panel,
+      .product-label-card,
+      .product-terms-card {
+        padding: 22px 24px;
+      }
+
+      .welcome-hero {
+        background:
+          radial-gradient(circle at top right, rgba(255, 79, 162, 0.14), transparent 34%),
+          linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 72%, white) 0%, #fff 100%);
+      }
+
+      .welcome-kicker,
+      .product-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 12px;
+        color: var(--accent-strong);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .welcome-hero h4,
+      .welcome-checklist h4,
+      .product-panel h4,
+      .product-terms-card h4,
+      .product-label-card h4 {
+        margin: 0 0 10px;
+        font-size: 1.22rem;
+        line-height: 1.08;
+      }
+
+      .welcome-hero p,
+      .welcome-checklist p,
+      .welcome-card p,
+      .product-panel p,
+      .product-terms-card p,
+      .product-label-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.68;
+      }
+
+      .welcome-card-grid,
+      .product-grid,
+      .product-terms-grid,
+      .product-label-grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .welcome-card-grid,
+      .product-terms-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .welcome-card {
+        padding: 20px 18px;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+      }
+
+      .welcome-card h4 {
+        margin: 0 0 8px;
+        font-size: 1.02rem;
+      }
+
+      .welcome-checklist ul,
+      .product-label-card ul {
+        margin: 14px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .welcome-checklist li,
+      .product-label-card li {
+        margin: 0 0 6px;
+      }
+
+      .product-grid {
+        grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+        align-items: stretch;
+      }
+
+      .product-hero {
+        overflow: hidden;
+        position: relative;
+        min-height: 420px;
+      }
+
+      .product-hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        display: block;
+      }
+
+      .product-panel {
+        background:
+          radial-gradient(circle at top right, rgba(255, 79, 162, 0.16), transparent 34%),
+          linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 74%, white) 0%, #fff 100%);
+      }
+
+      .product-terms-card,
+      .product-label-card {
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+      }
+
+      .product-terms-card h5 {
+        margin: 0 0 6px;
+        font-size: 1rem;
+      }
+
+      .product-terms-card p {
+        font-size: 0.97rem;
+      }
+
+      .product-label-grid {
+        grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .product-label-media {
+        border-radius: 18px;
+        overflow: hidden;
+        background: var(--surface-alt);
+        min-height: 260px;
+      }
+
+      .product-label-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+
       .fits-guide {
         display: grid;
         gap: 18px;
@@ -741,25 +903,11 @@
         margin: 0 0 20px;
       }
 
-      .fabric-hero-card,
       .fabric-summary-card,
       .fabric-card {
         background: var(--surface);
         border-radius: 24px;
         box-shadow: var(--shadow);
-      }
-
-      .fabric-hero-card {
-        overflow: hidden;
-        border: 1px solid rgba(0, 0, 0, 0.05);
-      }
-
-      .fabric-hero-card img {
-        width: 100%;
-        height: min(54vw, 520px);
-        display: block;
-        object-fit: cover;
-        object-position: top left;
       }
 
       .fabric-summary-card {
@@ -912,7 +1060,11 @@
         .fits-type-grid,
         .fits-note-grid,
         .fabric-card-grid,
-        .identity-grid {
+        .identity-grid,
+        .welcome-card-grid,
+        .product-grid,
+        .product-terms-grid,
+        .product-label-grid {
           grid-template-columns: 1fr;
         }
 
@@ -1261,6 +1413,20 @@
         return section.identityCards || null;
       }
 
+      function getWelcomeGuide(section) {
+        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Bienvenida")) {
+          return null;
+        }
+        return section.onboardingGuide || null;
+      }
+
+      function getProductGuide(section) {
+        if (!(currentBrand().key === "ardene" && cleanSectionTitle(section.title) === "Producto")) {
+          return null;
+        }
+        return section.productGuide || null;
+      }
+
       function cleanSectionTitle(title) {
         return String(title || "").replace(/\s+Copy$/, "");
       }
@@ -1341,9 +1507,6 @@
       function renderFabricGuide(guide) {
         return `
           <div class="fabric-guide">
-            <div class="fabric-hero-card">
-              <img src="${guide.heroImage}" alt="Guía visual de telas denim Ardene" loading="lazy" />
-            </div>
             <article class="fabric-summary-card">
               <h4>${guide.summary.title}</h4>
               <p>${guide.summary.body}</p>
@@ -1370,6 +1533,79 @@
                 <p>${card.body}</p>
               </article>
             `).join("")}
+          </div>
+        `;
+      }
+
+      function renderWelcomeGuide(guide) {
+        return `
+          <div class="welcome-guide">
+            <article class="welcome-hero">
+              <div class="welcome-kicker">Primer día</div>
+              <h4>${guide.headline}</h4>
+              <p>${guide.intro}</p>
+            </article>
+            <div class="welcome-card-grid">
+              ${guide.cards.map((card) => `
+                <article class="welcome-card">
+                  <h4>${card.title}</h4>
+                  <p>${card.body}</p>
+                </article>
+              `).join("")}
+            </div>
+            <article class="welcome-checklist">
+              <h4>${guide.checklistTitle}</h4>
+              <ul>
+                ${guide.checklist.map((item) => `<li>${item}</li>`).join("")}
+              </ul>
+              <p>${guide.closing}</p>
+            </article>
+          </div>
+        `;
+      }
+
+      function renderProductGuide(guide) {
+        return `
+          <div class="product-guide">
+            <div class="product-grid">
+              ${guide.heroImage ? `
+                <div class="product-hero">
+                  <img src="${guide.heroImage}" alt="Producto Ardene" loading="lazy" />
+                </div>
+              ` : ""}
+              <article class="product-panel">
+                <div class="product-kicker">Producto</div>
+                <h4>${guide.seasonCard.title}</h4>
+                <p>${guide.seasonCard.body}</p>
+              </article>
+            </div>
+            <article class="product-panel">
+              <h4>${guide.hierarchyTitle}</h4>
+              <div class="product-terms-grid">
+                ${guide.hierarchyCards.map((card) => `
+                  <article class="product-terms-card">
+                    <h5>${card.title}</h5>
+                    <p>${card.body}</p>
+                  </article>
+                `).join("")}
+              </div>
+            </article>
+            ${guide.labelGuide ? `
+              <article class="product-label-card">
+                <h4>${guide.labelGuide.title}</h4>
+                <div class="product-label-grid">
+                  <div class="product-label-media">
+                    <img src="${guide.labelGuide.image.src}" alt="${guide.labelGuide.title}" loading="lazy" />
+                  </div>
+                  <div>
+                    <p>${guide.labelGuide.body}</p>
+                    <ul>
+                      ${guide.labelGuide.checklist.map((item) => `<li>${item}</li>`).join("")}
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            ` : ""}
           </div>
         `;
       }
@@ -1429,6 +1665,8 @@
           const fitsGuide = getFitsGuide(section);
           const fabricGuide = getFabricGuide(section);
           const identityCards = getIdentityCards(section);
+          const welcomeGuide = getWelcomeGuide(section);
+          const productGuide = getProductGuide(section);
           const bulletsForList = conceptData ? conceptData.regularBullets.concat(
             conceptData.concepts.map(({ label, description }) => `${label}: ${description}`)
           ) : personasData ? [personasData.description, ...personasData.rest] : section.bullets;
@@ -1534,8 +1772,12 @@
             })
             .join("");
 
+          const shouldHideDefaultList = Boolean(welcomeGuide || productGuide);
+
           const mediaImages = (
             personasData
+              ? []
+              : productGuide
               ? []
               : section.images && section.images.length
               ? section.images
@@ -1578,6 +1820,8 @@
           const fitsGuideBlock = fitsGuide ? renderFitsGuide(fitsGuide) : "";
           const fabricGuideBlock = fabricGuide ? renderFabricGuide(fabricGuide) : "";
           const identityGrid = identityCards ? renderIdentityGrid(identityCards) : "";
+          const welcomeGuideBlock = welcomeGuide ? renderWelcomeGuide(welcomeGuide) : "";
+          const productGuideBlock = productGuide ? renderProductGuide(productGuide) : "";
 
           article.innerHTML = `
             <button class="section-header" type="button" aria-expanded="${index === 0}">
@@ -1592,11 +1836,13 @@
               ${personasFeature}
               ${media}
               ${conceptBoard}
+              ${welcomeGuideBlock}
               ${identityGrid}
+              ${productGuideBlock}
               ${styleGuideGrid}
               ${fitsGuideBlock}
               ${fabricGuideBlock}
-              <ul class="bullet-list${conceptData ? " concept-details" : ""}">${list}</ul>
+              ${shouldHideDefaultList ? "" : `<ul class="bullet-list${conceptData ? " concept-details" : ""}">${list}</ul>`}
               ${departmentGrid}
             </div>
           `;

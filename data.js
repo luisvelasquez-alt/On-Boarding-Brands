@@ -16,7 +16,7 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "stats": {
       "sections": 19,
-      "points": 86,
+      "points": 69,
       "images": 18
     },
     "heroImages": [
@@ -47,16 +47,36 @@ window.BRAND_ONBOARDING_DATA = [
         "id": "ardene-1",
         "title": "Bienvenida",
         "bullets": [
-          "Bienvenid@ al equipo Ardene!",
-          "¡Estamos muy contentos de tenerte en nuestro equipo! A estas alturas ya has conocido a tu equipo y has recorrido la tienda, pero como nuevo miembro del equipo, todavía tenemos mucho que compartirte sobre tu función, nuestros clientes, tiendas, producto y empresa.",
-          "Hemos diseñado esta capacitación como una experiencia de aprendizaje interactiva, interesante y estimulante que te proporcionará la base necesaria para sobresalir en Ardene y ser la mejor versión de ti.",
-          "La mejor manera de aprender es a través de la participación, por lo que damos la bienvenida a las preguntas y fomentamos tu participación activa siempre que sea posible. ¡Sé curiosa e involúcrate!",
-          "Esta guía te llevará a través de cada punto importante que debes conocer inicialmente de nuestro negocio.",
-          "ESCUCHA. HAZ PREGUNTAS. TOMA NOTAS. PRÁCTICA.",
-          "Utiliza todos los recursos de la tienda para obtener más información sobre tu función, tu tienda y la empresa. ¿Estás lista para empezar? ¡Genial, empecemos!"
+          "Bienvenid@ al equipo Ardene!"
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "onboardingGuide": {
+          "headline": "Tu punto de partida en Ardene",
+          "intro": "Entraste a un equipo que mezcla moda, energía comercial y aprendizaje constante. Esta guía está pensada para darte contexto rápido, seguridad en piso y una base clara para crecer desde el primer día.",
+          "cards": [
+            {
+              "title": "Qué vas a conocer",
+              "body": "Tu función, nuestros clientes, la tienda, el producto y la empresa. La idea es que entiendas cómo se conecta todo para trabajar con más criterio y confianza."
+            },
+            {
+              "title": "Cómo aprender mejor aquí",
+              "body": "Participa, pregunta y prueba. Esta capacitación funciona mejor cuando la vives de forma activa, no solo leyendo contenido."
+            },
+            {
+              "title": "Qué esperamos de ti",
+              "body": "Curiosidad, atención al detalle y ganas de involucrarte. Ardene valora a las personas que se mueven con iniciativa y energía."
+            }
+          ],
+          "checklistTitle": "Mindset para arrancar bien",
+          "checklist": [
+            "Escucha con atención y toma notas de lo que te ayude en piso.",
+            "Haz preguntas cuando algo no esté claro.",
+            "Conecta cada tema con situaciones reales de tienda.",
+            "Usa todos los recursos disponibles para seguir aprendiendo."
+          ],
+          "closing": "La meta no es solo terminar la guía, sino empezar con claridad, confianza y contexto para aportar desde el día uno."
+        }
       },
       {
         "id": "ardene-2",
@@ -253,18 +273,7 @@ window.BRAND_ONBOARDING_DATA = [
         "id": "ardene-10",
         "title": "Producto",
         "bullets": [
-          "Temporadas: Ardene ofrece sobre 10,000 estilos por temporada Las temporadas son las siguientes: • Temporada A para Spring/Summer (Primavera/Verano) . Los despachos son desde diciembre a Mayo. • Temporada B para Fall / Winter (Otoño/Invierno). los despachos son de Junio a Noviembre.",
-          "Jerarquía de producto",
-          "Group: AP: Ropa; FW: Calzado: WL: Bolsos/Billeteras: AC= Accesorios",
-          "Dept#: Cada departamento dentro de los grupos tiene un código numérico de 2 dígitos",
-          "Class: Cada clase identifica diferentes Precios puntuales y promociones",
-          "Style: 11 dígitos alfa-numéricos. Nos referimos a estos como ASN (Ardene Style Number) Es una combinación del año + Temporada + grupo + 5 números aleatorios+ mes code (e.g., Enero=01) Ex: 9B-AP00680-01",
-          "SKU: Número de identificación a nivel de talla (Código de barras escaneable)",
-          "Etiqueta de producto",
-          "La mercancía tendrá actualmente el ticket de precio de venta al público canadiense/EE. UU. Es por esto que será necesario retirar todos y cada uno de los precios que recibamos en los productos.",
-          "Etiqueta de producto internacional (frente)",
-          "Etiqueta de producto internacional (opuesta)",
-          "1.Certificados 2.Reciclable 3.ASN 4.Class 5. SKU 6.Precios 7.Talla"
+          "Producto"
         ],
         "images": [
           {
@@ -274,13 +283,52 @@ window.BRAND_ONBOARDING_DATA = [
           }
         ],
         "coverImage": "assets/Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
-        "inlineImageAfter": {
-          "match": "Etiqueta de producto",
-          "image": {
-            "src": "assets/Ardene_Genially/images/483d20fc-9626-4313-98ff-a1c31363f397.png",
-            "width": 220.86990079668342,
-            "height": 224.65474531613347,
-            "fit": "contain"
+        "inlineImageAfter": null,
+        "productGuide": {
+          "heroImage": "assets/Ardene_Genially/images/06c5c112-dc53-4a56-a7d3-0d41dc62e3eb.jpeg",
+          "seasonCard": {
+            "title": "Temporadas",
+            "body": "Ardene trabaja con más de 10,000 estilos por temporada. La Temporada A cubre Spring/Summer y se despacha de diciembre a mayo. La Temporada B cubre Fall/Winter y se despacha de junio a noviembre."
+          },
+          "hierarchyTitle": "Jerarquía de producto",
+          "hierarchyCards": [
+            {
+              "title": "Group",
+              "body": "AP = Ropa, FW = Calzado, WL = Bolsos/Billeteras, AC = Accesorios."
+            },
+            {
+              "title": "Dept#",
+              "body": "Cada departamento dentro de los grupos tiene un código numérico de 2 dígitos."
+            },
+            {
+              "title": "Class",
+              "body": "Cada class ayuda a identificar precios puntuales y promociones."
+            },
+            {
+              "title": "Style / ASN",
+              "body": "Código alfa-numérico de 11 dígitos. Combina año, temporada, grupo, 5 números aleatorios y mes code. Ejemplo: 9B-AP00680-01."
+            },
+            {
+              "title": "SKU",
+              "body": "Número de identificación a nivel de talla; es el código de barras escaneable."
+            }
+          ],
+          "labelGuide": {
+            "title": "Etiqueta de producto",
+            "body": "La mercancía aún puede llegar con ticket canadiense o de EE. UU., por lo que debemos retirar esos precios antes de sacar producto a piso.",
+            "image": {
+              "src": "assets/Ardene_Genially/images/483d20fc-9626-4313-98ff-a1c31363f397.png",
+              "fit": "contain"
+            },
+            "checklist": [
+              "Certificados",
+              "Reciclable",
+              "ASN",
+              "Class",
+              "SKU",
+              "Precios",
+              "Talla"
+            ]
           }
         }
       },
@@ -484,7 +532,6 @@ window.BRAND_ONBOARDING_DATA = [
         "images": [],
         "coverImage": null,
         "fabricGuide": {
-          "heroImage": "assets/denim-pk/our-jeans-fabric.png",
           "summary": {
             "title": "Cómo leer la familia de telas",
             "body": "Empieza por identificar cuánto stretch necesita el cliente. Si busca estructura y autenticidad, ve hacia rigid. Si quiere movimiento sin perder look denim, comfort stretch es la base. Si prioriza comodidad total y ajuste amable al cuerpo, super stretch es la opción más fácil de vender."

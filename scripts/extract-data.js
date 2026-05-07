@@ -214,6 +214,40 @@ function customizeSections(brandKey, sections) {
       );
     }
 
+    if (bienvenida) {
+      bienvenida.onboardingGuide = {
+        headline: "Tu punto de partida en Ardene",
+        intro:
+          "Entraste a un equipo que mezcla moda, energía comercial y aprendizaje constante. Esta guía está pensada para darte contexto rápido, seguridad en piso y una base clara para crecer desde el primer día.",
+        cards: [
+          {
+            title: "Qué vas a conocer",
+            body: "Tu función, nuestros clientes, la tienda, el producto y la empresa. La idea es que entiendas cómo se conecta todo para trabajar con más criterio y confianza.",
+          },
+          {
+            title: "Cómo aprender mejor aquí",
+            body: "Participa, pregunta y prueba. Esta capacitación funciona mejor cuando la vives de forma activa, no solo leyendo contenido.",
+          },
+          {
+            title: "Qué esperamos de ti",
+            body: "Curiosidad, atención al detalle y ganas de involucrarte. Ardene valora a las personas que se mueven con iniciativa y energía.",
+          },
+        ],
+        checklistTitle: "Mindset para arrancar bien",
+        checklist: [
+          "Escucha con atención y toma notas de lo que te ayude en piso.",
+          "Haz preguntas cuando algo no esté claro.",
+          "Conecta cada tema con situaciones reales de tienda.",
+          "Usa todos los recursos disponibles para seguir aprendiendo.",
+        ],
+        closing:
+          "La meta no es solo terminar la guía, sino empezar con claridad, confianza y contexto para aportar desde el día uno.",
+      };
+      bienvenida.bullets = [
+        "Bienvenid@ al equipo Ardene!",
+      ];
+    }
+
     const estructura = items.find((section) => section.title === "Estructura de Tienda");
     if (estructura) {
       const intro = estructura.bullets.find((bullet) =>
@@ -307,6 +341,61 @@ function customizeSections(brandKey, sections) {
           },
         };
       }
+
+      producto.productGuide = {
+        heroImage: heroImage?.src || null,
+        seasonCard: {
+          title: "Temporadas",
+          body: "Ardene trabaja con más de 10,000 estilos por temporada. La Temporada A cubre Spring/Summer y se despacha de diciembre a mayo. La Temporada B cubre Fall/Winter y se despacha de junio a noviembre.",
+        },
+        hierarchyTitle: "Jerarquía de producto",
+        hierarchyCards: [
+          {
+            title: "Group",
+            body: "AP = Ropa, FW = Calzado, WL = Bolsos/Billeteras, AC = Accesorios.",
+          },
+          {
+            title: "Dept#",
+            body: "Cada departamento dentro de los grupos tiene un código numérico de 2 dígitos.",
+          },
+          {
+            title: "Class",
+            body: "Cada class ayuda a identificar precios puntuales y promociones.",
+          },
+          {
+            title: "Style / ASN",
+            body: "Código alfa-numérico de 11 dígitos. Combina año, temporada, grupo, 5 números aleatorios y mes code. Ejemplo: 9B-AP00680-01.",
+          },
+          {
+            title: "SKU",
+            body: "Número de identificación a nivel de talla; es el código de barras escaneable.",
+          },
+        ],
+        labelGuide: ticketImage
+          ? {
+              title: "Etiqueta de producto",
+              body: "La mercancía aún puede llegar con ticket canadiense o de EE. UU., por lo que debemos retirar esos precios antes de sacar producto a piso.",
+              image: {
+                src: ticketImage.src,
+                fit: "contain",
+              },
+              checklist: [
+                "Certificados",
+                "Reciclable",
+                "ASN",
+                "Class",
+                "SKU",
+                "Precios",
+                "Talla",
+              ],
+            }
+          : null,
+      };
+
+      producto.bullets = [
+        "Producto",
+      ];
+      producto.inlineImageAfter = null;
     }
 
     const departamentos = items.find(
@@ -524,7 +613,6 @@ function customizeSections(brandKey, sections) {
       telas.images = [];
       telas.coverImage = null;
       telas.fabricGuide = {
-        heroImage: "assets/denim-pk/our-jeans-fabric.png",
         summary: {
           title: "Cómo leer la familia de telas",
           body: "Empieza por identificar cuánto stretch necesita el cliente. Si busca estructura y autenticidad, ve hacia rigid. Si quiere movimiento sin perder look denim, comfort stretch es la base. Si prioriza comodidad total y ajuste amable al cuerpo, super stretch es la opción más fácil de vender.",
