@@ -451,6 +451,115 @@
         line-height: 1.6;
       }
 
+      .lead-paragraph {
+        margin: 0 0 20px;
+        padding: 22px 24px;
+        border-radius: 24px;
+        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: var(--shadow);
+        color: var(--muted);
+        line-height: 1.75;
+        font-size: 1rem;
+      }
+
+      .department-universe {
+        display: grid;
+        gap: 20px;
+        margin-top: 0.25rem;
+      }
+
+      .department-universe-group {
+        padding: 26px;
+        border-radius: 30px;
+        background: linear-gradient(180deg, #faf7f1 0%, #fff 100%);
+        border: 1px solid rgba(10, 22, 48, 0.06);
+        box-shadow: var(--shadow);
+      }
+
+      .department-universe-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      .department-universe-title-wrap {
+        display: grid;
+        gap: 6px;
+      }
+
+      .department-universe-title {
+        margin: 0;
+        font-size: clamp(2.2rem, 5vw, 4.6rem);
+        line-height: 0.92;
+        letter-spacing: -0.04em;
+        color: #08204f;
+      }
+
+      .department-universe-subtitle {
+        margin: 0;
+        max-width: 620px;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .department-universe-chip {
+        flex: 0 0 auto;
+        padding: 11px 14px;
+        border-radius: 999px;
+        background: rgba(8, 32, 79, 0.06);
+        color: #08204f;
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .department-universe-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .department-universe-card {
+        display: grid;
+        gap: 10px;
+        align-content: start;
+      }
+
+      .department-universe-media {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0;
+        aspect-ratio: 3 / 4;
+        background: #ebe8e1;
+      }
+
+      .department-universe-media img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .department-universe-card h4 {
+        margin: 0;
+        font-size: clamp(1.45rem, 2vw, 2.1rem);
+        line-height: 1;
+        letter-spacing: -0.03em;
+        color: #08204f;
+      }
+
+      .department-universe-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 0.95rem;
+      }
+
       .department-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -707,18 +816,6 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 16px;
         margin: 0 0 20px;
-      }
-
-      .lead-paragraph {
-        margin: 0 0 20px;
-        padding: 22px 24px;
-        border-radius: 24px;
-        background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
-        border: 1px solid rgba(0, 0, 0, 0.05);
-        box-shadow: var(--shadow);
-        color: var(--muted);
-        line-height: 1.75;
-        font-size: 1rem;
       }
 
       .content-card-grid {
@@ -1147,6 +1244,10 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
+        .department-universe-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
         .fits-type-grid,
         .fits-note-grid,
         .fabric-card-grid,
@@ -1166,6 +1267,11 @@
           max-width: none;
           min-height: 360px;
           padding: 18px;
+        }
+
+        .department-universe-header {
+          flex-direction: column;
+          align-items: start;
         }
 
         .personas-hero {
@@ -1191,6 +1297,10 @@
         }
 
         .style-guide-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .department-universe-grid {
           grid-template-columns: 1fr;
         }
       }
@@ -1482,6 +1592,10 @@
         return section.departmentCards || null;
       }
 
+      function getDepartmentGroups(section) {
+        return section.departmentGroups || null;
+      }
+
       function getStyleGuideCards(section) {
         return section.styleGuideCards || null;
       }
@@ -1507,6 +1621,7 @@
         count += section.bullets?.length || 0;
         count += section.images?.length || 0;
         count += section.departmentCards?.length || 0;
+        count += section.departmentGroups?.reduce((total, group) => total + (group.cards?.length || 0), 0) || 0;
         count += section.identityCards?.length || 0;
         count += section.contentCards?.length || 0;
         count += section.leadParagraph ? 1 : 0;
@@ -1542,6 +1657,47 @@
                       <p>${card.body}</p>
                     </div>
                   </article>
+                `
+              )
+              .join("")}
+          </div>
+        `;
+      }
+
+      function renderDepartmentGroups(groups) {
+        if (!groups || !groups.length) return "";
+        return `
+          <div class="department-universe">
+            ${groups
+              .map(
+                (group, index) => `
+                  <section class="department-universe-group">
+                    <div class="department-universe-header">
+                      <div class="department-universe-title-wrap">
+                        <h4 class="department-universe-title">${group.title}</h4>
+                        ${group.subtitle ? `<p class="department-universe-subtitle">${group.subtitle}</p>` : ""}
+                      </div>
+                      <div class="department-universe-chip">${String(index + 1).padStart(2, "0")} / ${group.cards?.length || 0}</div>
+                    </div>
+                    <div class="department-universe-grid">
+                      ${(group.cards || [])
+                        .map(
+                          (card) => {
+                            const image = typeof card.image === "string" ? { src: card.image } : card.image;
+                            return `
+                              <article class="department-universe-card">
+                                <div class="department-universe-media">
+                                  <img src="${image.src}" alt="${card.title}" loading="lazy" style="object-fit: ${image.fit || "cover"};" />
+                                </div>
+                                <h4>${card.title}</h4>
+                                ${card.body ? `<p>${card.body}</p>` : ""}
+                              </article>
+                            `;
+                          }
+                        )
+                        .join("")}
+                    </div>
+                  </section>
                 `
               )
               .join("")}
@@ -1774,6 +1930,7 @@
           const conceptData = getConceptBullets(section);
           const personasData = getPersonasData(section);
           const departmentCards = getDepartmentCards(section);
+          const departmentGroups = getDepartmentGroups(section);
           const styleGuideCards = getStyleGuideCards(section);
           const fitsGuide = getFitsGuide(section);
           const fabricGuide = getFabricGuide(section);
@@ -1931,6 +2088,7 @@
             : "";
           const personasFeature = personasData ? renderPersonasFeature(personasData) : "";
           const departmentGrid = departmentCards ? renderDepartmentGrid(departmentCards) : "";
+          const departmentGroupsBlock = departmentGroups ? renderDepartmentGroups(departmentGroups) : "";
           const styleGuideGrid = styleGuideCards ? renderStyleGuideGrid(styleGuideCards) : "";
           const fitsGuideBlock = fitsGuide ? renderFitsGuide(fitsGuide) : "";
           const fabricGuideBlock = fabricGuide ? renderFabricGuide(fabricGuide) : "";
@@ -1953,6 +2111,7 @@
               ${conceptBoard}
               ${welcomeGuideBlock}
               ${leadParagraph ? `<div class="lead-paragraph">${leadParagraph}</div>` : ""}
+              ${departmentGroupsBlock}
               ${contentCards ? renderContentCards(contentCards, section.contentCardsVariant || "") : ""}
               ${identityGrid}
               ${productGuideBlock}
@@ -2007,6 +2166,21 @@
         window.addEventListener("scroll", refresh, { passive: true });
       }
 
+      function openSectionFromHash() {
+        const targetId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+        if (!targetId) return;
+
+        const target = document.getElementById(targetId);
+        if (!target || !target.classList.contains("section-card")) return;
+
+        target.classList.add("open");
+        const header = target.querySelector(".section-header");
+        header?.setAttribute("aria-expanded", "true");
+        state.visited.add(targetId);
+        updateProgress(getFilteredSections(currentBrand()).length);
+        target.scrollIntoView({ block: "start" });
+      }
+
       function render() {
         const brand = currentBrand();
         applyTheme(brand.theme);
@@ -2018,6 +2192,7 @@
         renderSections(filteredSections);
         updateProgress(filteredSections.length);
         syncActiveNav();
+        requestAnimationFrame(openSectionFromHash);
       }
 
       searchInput.addEventListener("input", (event) => {
@@ -2026,6 +2201,7 @@
       });
 
       render();
+      window.addEventListener("hashchange", openSectionFromHash);
     </script>
   </body>
 </html>
