@@ -346,14 +346,14 @@ window.BRAND_ONBOARDING_DATA = [
             "title": "Tops",
             "body": "Desde básicos esenciales hasta piezas trendy, los tops permiten a nuestros clientes expresarse día a día. Son la categoría más fácil de combinar y siempre generan venta cruzada. Claves: básicos + piezas de tendencia. Tips: siempre ofrecer como complemento de denim; promover packs o layering. Ejemplo de diálogo: “Este top básico es ideal para el día, y este trendy eleva tu look para la noche.”",
             "image": {
-              "src": "assets/Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg"
+              "src": "assets/Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg"
             }
           },
           {
             "title": "Denim",
             "body": "Denim es la base del armario Ardene. Es el producto más versátil y el más buscado por nuestros clientes. Claves: amplia variedad de fits como straight, baggy, wide leg, barrel y flare. Tips: promover fit guide y prueba en probador; cross-selling con tops y accesorios. Ejemplo de diálogo: “Este jean queda increíble con nuestros nuevos crop tops, ¿quieres probártelo con este top?”",
             "image": {
-              "src": "assets/Ardene_Genially/images/0ca4d223-9497-4e71-a6d6-3de2624ad567.jpeg"
+              "src": "assets/Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg"
             }
           },
           {
@@ -367,14 +367,14 @@ window.BRAND_ONBOARDING_DATA = [
             "title": "Acc & Joyería",
             "body": "Los accesorios son el generador de UPT perfecto: pequeños, fáciles de vender y con gran impacto en el look final. Además, tenemos una promoción activa todo el año: BOGO 50% OFF, lo que los convierte en un must para cada transacción. Tips: impulsar la venta en caja; resaltar valor emocional. Ejemplo de diálogo: “Completa tu look con este collar o bolso, queda perfecto con lo que llevas.”",
             "image": {
-              "src": "assets/Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg"
+              "src": "assets/Ardene_Genially/images/fce37b2a-66c8-4756-abcc-25b41e6b7140.jpeg"
             }
           },
           {
             "title": "Calzado",
             "body": "El calzado es clave para completar un look. Un par de sneakers o botines puede transformar un outfit básico en uno con estilo. Tips: ofrecer medias o accesorios de calzado; relacionar siempre con el outfit completo. Ejemplo de diálogo: “Estos sneakers combinan perfecto con tu jean baggy, y mira estas medias que completan el look.”",
             "image": {
-              "src": "assets/Ardene_Genially/images/e9180df2-a00e-4249-9f76-29d2695f5d4c.jpeg"
+              "src": "assets/Ardene_Genially/images/b4cf4eef-00ad-4d8d-8214-a5a0c00d5c6d.jpeg"
             }
           },
           {
@@ -782,28 +782,8 @@ window.BRAND_ONBOARDING_DATA = [
           "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido y crecer profesionalmente. Próximo paso: registra tu finalización en el formulario para que quede constancia de tu participación."
         ],
         "images": [
-          {
-            "src": "assets/Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg",
-            "width": 360.34249413064504,
-            "height": 704.2480320397738
-          },
-          {
-            "src": "assets/Ardene_Genially/images/1cec6922-fdca-4eef-a2b5-8058b1a188aa.png",
-            "width": 336.2055913494856,
-            "height": 354.70646829281594
-          },
-          {
-            "src": "assets/Ardene_Genially/images/0ff98a44-4ada-4cfe-8255-6096b74533e3.png",
-            "width": 361.12096165979307,
-            "height": 140.4166203181486
-          },
-          {
-            "src": "assets/Ardene_Genially/images/8f93d00b-3b73-4b5a-b701-9877255c855e.png",
-            "width": 358.99442270720766,
-            "height": 141.24370729463908
-          }
         ],
-        "coverImage": "assets/Ardene_Genially/images/c64e7ee8-1168-4db6-8d9e-00a30d8844d8.jpeg"
+        "coverImage": ""
       }
     ]
   },
@@ -2649,22 +2629,13 @@ window.BRAND_ONBOARDING_DATA = [
       "gradient": "linear-gradient(135deg, #f6f7f8 0%, #e2e4e7 48%, #ffffff 100%)"
     },
     "stats": {
-      "sections": 16,
+      "sections": 10,
       "points": 70,
       "images": 11
     },
     "heroImages": [
       {
-        "src": "assets/lufian/manual_cover.png"
-      },
-      {
-        "src": "assets/lufian/product_cover.png"
-      },
-      {
-        "src": "assets/lufian_womens/p1.png"
-      },
-      {
-        "src": "assets/lufian_womens/p2.png"
+        "src": "assets/lufian/campaign-ss25.png"
       }
     ],
     "sections": [
@@ -2760,39 +2731,52 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "title": "Colección y Producto",
-        "bullets": [
-          "T.Shirts: la colección incorpora dos fits principales, regular y loose, con foco en diseño, print y la mejor calidad de tejidos.",
-          "Polo T.Shirts: se presentan en básico, clásico y fashion, con una pared de polos que cambia por tienda según tamaño y layout.",
-          "Knit T.Shirts: una propuesta cómoda y actual, ideal para el verano pero con piezas disponibles todo el año.",
-          "Denim: ofrece cortes slim y regular, con lavados variados, diferentes pesos de tela y técnicas de acabado avanzadas.",
-          "Shirts: trabaja cortes slim, regular y oversize; destacan las camisas de lino y Oxford, además de mezclas de algodón y algunos prints más atrevidos.",
-          "Pants: la propuesta se divide en Classics, Chique y Fashion, con chinos, cinco bolsillos, opciones más formales y piezas con detalle moderno.",
-          "Shorts: incluyen lifestyle shorts, active shorts y swim shorts, cada uno pensado para un uso distinto.",
-          "Jackets y Outerwear: la colección va desde blazers hasta abrigos técnicos con ligereza, repelencia al agua, suavidad y abrigo sin volumen."
-        ],
-        "images": [
+        "bullets": [],
+        "images": [],
+        "coverImage": "assets/lufian/product_cover.png",
+        "departmentCards": [
           {
-            "src": "assets/lufian/product_cover.png"
+            "title": "T.Shirts",
+            "body": "Dos fits principales: regular y loose, con foco en diseño, print y la mejor calidad de tejidos.",
+            "image": { "src": "assets/lufian/product_cover.png" }
           },
           {
-            "src": "assets/lufian/product_page5.png"
+            "title": "Polo T.Shirts",
+            "body": "Se presentan en básico, clásico y fashion, con una pared de polos que cambia por tienda según tamaño y layout.",
+            "image": null
           },
           {
-            "src": "assets/lufian/product_page9.png"
+            "title": "Knit T.Shirts",
+            "body": "Una propuesta cómoda y actual, ideal para el verano pero con piezas disponibles todo el año.",
+            "image": null
+          },
+          {
+            "title": "Denim",
+            "body": "Cortes slim y regular, con lavados variados, diferentes pesos de tela y técnicas de acabado avanzadas.",
+            "image": { "src": "assets/lufian/product_page5.png" }
+          },
+          {
+            "title": "Shirts",
+            "body": "Cortes slim, regular y oversize; destacan las camisas de lino y Oxford, además de mezclas de algodón y algunos prints más atrevidos.",
+            "image": null
+          },
+          {
+            "title": "Pants",
+            "body": "La propuesta se divide en Classics, Chique y Fashion: chinos, cinco bolsillos, opciones más formales y piezas con detalle moderno.",
+            "image": null
+          },
+          {
+            "title": "Shorts",
+            "body": "Lifestyle shorts, active shorts y swim shorts, cada uno pensado para un uso distinto.",
+            "image": null
+          },
+          {
+            "title": "Jackets y Outerwear",
+            "body": "Desde blazers hasta abrigos técnicos: ligereza, repelencia al agua, suavidad y abrigo sin volumen.",
+            "image": { "src": "assets/lufian/product_page9.png" }
           }
         ],
-        "coverImage": "assets/lufian/product_cover.png",
         "id": "lufian-7"
-      },
-      {
-        "title": "Accesorios y Cierre",
-        "bullets": [
-          "La línea de accesorios incluye belts, socks, boxers, wallets y una prueba de perfumes para las tiendas de Turquía que después se extenderán a otras regiones.",
-          "Los calcetines cubren desde colores clásicos hasta versiones invisibles, deportivas y más divertidas; los boxers priorizan comodidad con mezcla de algodón y lycra.",
-          "Las wallets son de piel y funcionan como complemento de venta o como regalo de valor.",
-          "El estándar final de la experiencia debe dejar al cliente con una impresión de cuidado, calidad y confianza en la marca."
-        ],
-        "id": "lufian-8"
       },
       {
         "title": "Colección de Mujer",
@@ -2801,114 +2785,49 @@ window.BRAND_ONBOARDING_DATA = [
           "La colección se apoya en una paleta sobria y en siluetas pensadas para hoy, con looks que trascienden temporadas."
         ],
         "images": [
-          {
-            "src": "assets/lufian_womens/p1.png"
-          },
-          {
-            "src": "assets/lufian_womens/p2.png"
-          }
+          { "src": "assets/lufian_womens/p1.png" },
+          { "src": "assets/lufian_womens/p2.png" }
         ],
         "coverImage": "assets/lufian_womens/p1.png",
-        "id": "lufian-9"
-      },
-      {
-        "title": "Materiales Mujer",
-        "bullets": [
-          "Lino: utilizado en pantalones, vestidos y mezclas textiles; aporta frescura, textura visible y una lectura natural que envejece bien.",
-          "Lyocell: mejora la caída del tejido y aporta suavidad sin perder estructura, especialmente en combinación con lino o algodón.",
-          "Viscosa / Modal: presentes en camisetas y knitwear; aportan una sensación sedosa y una lectura visual limpia.",
-          "Algodón: usado en tejidos planos y de punto; aporta confort y una sensación familiar al contacto con la piel.",
-          "Poliamida / Poliéster: se combinan con fibras naturales para aportar resistencia, forma y una vida útil más larga.",
-          "Bambú: aparece en pantalones de enfoque funcional y suma suavidad con una sensación fresca para el uso prolongado.",
-          "Elastano: presente en pequeñas proporciones para que la prenda acompañe el cuerpo sin rigidez."
-        ],
-        "id": "lufian-10"
-      },
-      {
-        "title": "T-Shirts Mujer",
-        "bullets": [
-          "Signoria: camiseta de punto en mezcla de modal y poliéster, suave, fluida y ligera, pensada como base esencial del guardarropa contemporáneo.",
-          "Isla: camiseta sin mangas en viscosa, poliéster y elastano; cómoda, elástica y de silueta limpia.",
-          "Erote: camiseta de punto en algodón, poliamida y elastano; aporta estructura ligera y comodidad prolongada.",
-          "Perses: camiseta con cuello en V, suave, elástica y favorecedora para el uso diario.",
-          "Herme: camiseta cropped que equilibra proporciones con una lectura moderna y actual.",
-          "Minioto: camiseta acanalada sin mangas, ajustada, suave y cómoda para looks contemporáneos."
-        ],
-        "images": [
+        "departmentCards": [
           {
-            "src": "assets/lufian_womens/p5.png"
+            "title": "Materiales",
+            "body": "Lino, Lyocell, Viscosa/Modal, Algodón, Poliamida/Poliéster, Bambú y Elastano. Cada fibra aporta frescura, caída o confort según la prenda, siempre dentro de una lectura natural y atemporal.",
+            "image": null
           },
           {
-            "src": "assets/lufian_womens/p9.png"
-          }
-        ],
-        "id": "lufian-11"
-      },
-      {
-        "title": "Trousers Mujer",
-        "bullets": [
-          "Concordia: pantalón de tejido plano con banda elástica en la cintura, cómodo, flexible y fresco para el uso diario.",
-          "Asia: pantalón de lino con lyocell, pensado para climas cálidos y con una caída suave y controlada.",
-          "Navasa: pantalón de lino con presencia marcada, respirable, natural y con carácter visual."
-        ],
-        "images": [
+            "title": "T-Shirts",
+            "body": "Signoria, Isla, Erote, Perses, Herme y Minioto: seis prendas base en modal, viscosa y algodón con foco en comodidad, silueta limpia y modernidad.",
+            "image": { "src": "assets/lufian_womens/p5.png" }
+          },
           {
-            "src": "assets/lufian_womens/p15.png"
-          }
-        ],
-        "id": "lufian-12"
-      },
-      {
-        "title": "Sweaters Mujer",
-        "bullets": [
-          "Ava: sweater de rayón con silueta relajada y caída natural, ligero y fluido.",
-          "Kirke: punto calado en algodón y poliéster, ideal para entretiempo y para superponer.",
-          "Emma: sweater sin mangas en viscosa, poliéster y lino, fresco y limpio en la lectura visual.",
-          "Molly: sweater sin mangas en acrílico, lyocell y lino, con estructura ligera y caída controlada.",
-          "Pearl: sweater sin mangas en viscosa y poliéster, suave, envolvente y con caída fluida."
-        ],
-        "images": [
+            "title": "Trousers",
+            "body": "Concordia, Asia y Navasa: pantalones en lino y tejidos frescos, con banda elástica o silueta marcada, pensados para el uso diario en climas cálidos.",
+            "image": { "src": "assets/lufian_womens/p15.png" }
+          },
           {
-            "src": "assets/lufian_womens/p21.png"
-          }
-        ],
-        "id": "lufian-13"
-      },
-      {
-        "title": "Dresses Mujer",
-        "bullets": [
-          "Selene: vestido largo de lino 100%, limpio, fresco y pensado para climas cálidos.",
-          "Casares: vestido de silueta clásica y líneas limpias, equilibrado y natural en el cuerpo."
-        ],
-        "images": [
+            "title": "Sweaters",
+            "body": "Ava, Kirke, Emma, Molly y Pearl: knitwear ligero en viscosa, algodón, acrílico y lino. Siluetas relajadas, punto calado y caída fluida para el entretiempo.",
+            "image": { "src": "assets/lufian_womens/p21.png" }
+          },
           {
-            "src": "assets/lufian_womens/p27.png"
-          }
-        ],
-        "id": "lufian-14"
-      },
-      {
-        "title": "Cardigan y Vest",
-        "bullets": [
-          "Lugano: cardigan de punto en viscosa y poliamida, suave, fluido y ligero.",
-          "Ruma: chaleco de líneas limpias y estructura ligera, pensado para sumar carácter sin añadir peso."
-        ],
-        "images": [
+            "title": "Dresses",
+            "body": "Selene y Casares: vestidos en lino 100% y siluetas clásicas de líneas limpias, pensados para climas cálidos y una lectura elegante y natural.",
+            "image": { "src": "assets/lufian_womens/p27.png" }
+          },
           {
-            "src": "assets/lufian_womens/p29.png"
+            "title": "Cardigan y Vest",
+            "body": "Lugano y Ruma: capas ligeras en viscosa y poliamida para sumar carácter sin añadir peso, ideales como complemento de cualquier look.",
+            "image": { "src": "assets/lufian_womens/p29.png" }
+          },
+          {
+            "title": "Skirt y Shorts",
+            "body": "Darsen y Feronia: falda larga de silueta limpia y short en lyocell, lino y algodón. Naturalidad, comodidad y estética atemporal en cada pieza.",
+            "image": null
           }
         ],
-        "id": "lufian-15"
+        "id": "lufian-9"
       },
-      {
-        "title": "Skirt y Shorts Mujer",
-        "bullets": [
-          "Darsen: falda larga de silueta limpia y caída suave, versátil como base del look.",
-          "Feronia: short de tejido plano en lyocell, lino y algodón, pensado para climas cálidos y uso prolongado.",
-          "La colección femenina mantiene el mismo espíritu Lufian: naturalidad, comodidad, estética atemporal y una imagen muy cuidada."
-        ],
-        "id": "lufian-16"
-      }
     ]
   }
 ];

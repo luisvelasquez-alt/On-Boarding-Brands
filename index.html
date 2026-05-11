@@ -229,6 +229,14 @@
         background: rgba(255, 255, 255, 0.6);
       }
 
+      .hero-visuals[data-count="1"] {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-visuals[data-count="1"] .hero-shot {
+        min-height: 280px;
+      }
+
       .hero-shot img {
         width: 100%;
         height: 100%;
@@ -1713,10 +1721,8 @@
             ${cards
               .map(
                 (card) => `
-                  <article class="department-card">
-                    <div class="department-card-media">
-                      <img src="${card.image.src}" alt="${card.title}" loading="lazy" />
-                    </div>
+                  <article class="department-card${card.image ? "" : " no-media"}">
+                    ${card.image ? `<div class="department-card-media"><img src="${card.image.src}" alt="${card.title}" loading="lazy" /></div>` : ""}
                     <div class="department-card-body">
                       <h4>${card.title}</h4>
                       <p>${card.body}</p>
@@ -1976,7 +1982,7 @@
             <h2>${brand.name}</h2>
             <p>${brand.intro}</p>
           </div>
-          <div class="hero-visuals">${heroShots}</div>
+          <div class="hero-visuals" data-count="${(brand.heroImages || []).length}">${heroShots}</div>
         `;
       }
 
