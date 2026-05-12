@@ -220,6 +220,14 @@
         align-content: start;
       }
 
+      .hero-visuals[data-count="1"] {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-visuals[data-count="1"] .hero-shot {
+        min-height: 280px;
+      }
+
       .hero-shot {
         position: relative;
         overflow: hidden;
@@ -227,14 +235,6 @@
         border-radius: 22px;
         box-shadow: var(--shadow);
         background: rgba(255, 255, 255, 0.6);
-      }
-
-      .hero-visuals[data-count="1"] {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-visuals[data-count="1"] .hero-shot {
-        min-height: 280px;
       }
 
       .hero-shot img {
@@ -1101,6 +1101,11 @@
         background: linear-gradient(145deg, color-mix(in srgb, var(--surface-alt) 76%, white) 0%, #fff 100%);
       }
 
+      .product-label-card.no-media {
+        min-height: 0;
+        padding: 22px 24px;
+      }
+
       .product-label-media {
         position: absolute;
         inset: 0;
@@ -1133,6 +1138,12 @@
         align-content: start;
         gap: 12px;
         padding: 24px;
+      }
+
+      .product-label-card.no-media .product-label-content {
+        max-width: none;
+        min-height: 0;
+        padding: 0;
       }
 
       .product-label-content p {
@@ -1415,7 +1426,7 @@
       </main>
     </div>
 
-    <script src="./data.js?v=cottonon-restore-20260507"></script>
+    <script src="./data.js?v=lcw-label-checklist-clean-20260511"></script>
     <script>
       const data = window.BRAND_ONBOARDING_DATA || [];
       const state = {
@@ -1914,10 +1925,12 @@
               </div>
             </article>
             ${guide.labelGuide ? `
-              <article class="product-label-card">
-                <div class="product-label-media">
-                  <img src="${guide.labelGuide.image.src}" alt="${guide.labelGuide.title}" loading="lazy" />
-                </div>
+              <article class="product-label-card${guide.labelGuide.image ? "" : " no-media"}">
+                ${guide.labelGuide.image ? `
+                  <div class="product-label-media">
+                    <img src="${guide.labelGuide.image.src}" alt="${guide.labelGuide.title}" loading="lazy" />
+                  </div>
+                ` : ""}
                 <div class="product-label-content">
                   <h4>${guide.labelGuide.title}</h4>
                   <p>${guide.labelGuide.body}</p>
@@ -1964,7 +1977,7 @@
       }
 
       function renderHero(brand, filteredSections) {
-        const maxHeroShots = brand.key === "ardene" ? 3 : 4;
+        const maxHeroShots = brand.key === "ardene" ? 2 : 4;
         const heroShots = (brand.heroImages || [])
           .slice(0, maxHeroShots)
           .map(
@@ -2035,8 +2048,9 @@
 
             const shouldForceNormalParagraph =
               currentBrand().key === "ardene" &&
-              section.title === "Nuestros Clientes" &&
-              bulletIndex === 1;
+              ((section.title === "Nuestros Clientes" && bulletIndex === 1) ||
+                (section.title === "Somos Ardene" && bulletIndex === 1) ||
+                (section.title === "WE ARDENE" && (bulletIndex === 0 || bulletIndex === 2)));
             const shouldForceNormalPersonasIntro =
               currentBrand().key === "ardene" &&
               section.title === "Personas" &&
@@ -2153,7 +2167,7 @@
                   src="${image.src}"
                   alt="${section.title}"
                   loading="lazy"
-                  style="object-fit: ${isSinglePortrait ? "cover" : (image.fit || "contain")};"
+                  style="object-fit: ${image.fit || (isSinglePortrait ? "cover" : "contain")};"
                 />
               </div>
             `

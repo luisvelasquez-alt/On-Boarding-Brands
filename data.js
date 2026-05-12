@@ -16,8 +16,8 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "stats": {
       "sections": 19,
-      "points": 69,
-      "images": 18
+      "points": 63,
+      "images": 13
     },
     "heroImages": [
       {
@@ -222,8 +222,6 @@ window.BRAND_ONBOARDING_DATA = [
           "Probadores: Control de prendas, ofrecer tallas alternativas, sugerir combinaciones.",
           "Reconectar en probador y caja: ofrecer tallas, sugerir complementos, recomendar un accesorio final.",
           "Caja: Procesar pagos de forma ágil, ofrecer upsell (accesorios, promos vigentes) y reforzar despedida positiva.",
-          "La inversión en nuestro Top 20 nos permite mostrarnos con confianza en el VM y el marketing. Entregamos el producto por el que nuestro cliente está votando y esto, a su vez, impulsa las ventas al inspirar a nuestro cliente a comprar. Los productos del top 20 por marca se pueden encontrar en el kit de herramientas de experiencia del cliente y en los boletínes mensuales.",
-          "Cultura de Tienda y Experiencia Cliente",
           "Mystery Shopper Interno",
           "1. Observa 5 interacciones reales en tienda (puede ser de otro compañero o incluso de tu gerente). 2. Evalúa: • ¿Hubo saludo entusiasta? • ¿Se ofreció ayuda de forma accesible y natural? • ¿El cliente se sintió empoderado y acompañado? • ¿La interacción fue auténtica (no forzada)? 3. Al final del día, comparte un breve resumen con el equipo: qué interacción fue más auténtica y por qué."
         ],
@@ -482,46 +480,7 @@ window.BRAND_ONBOARDING_DATA = [
           "Usa esta guía para leer rápidamente cómo cambia cada fit según tiro, asiento y largo visual sobre el zapato."
         ],
         "images": [],
-        "coverImage": null,
-        "fitsGuide": {
-          "chartSrc": "assets/denim-pk/fits-chart.png",
-          "fitTypes": [
-            {
-              "title": "Mid Rise Straight",
-              "body": "Corte recto, talle medio. Equilibrado, clásico y fácil de recomendar como fit base."
-            },
-            {
-              "title": "Low Rise Wide Leg",
-              "body": "Pierna ancha, talle bajo. Más relajado, con caída amplia desde la cadera."
-            },
-            {
-              "title": "Low Rise Wide Leg Slouchy",
-              "body": "Pierna ancha relajada, talle bajo. Mucha soltura visual y una caída despreocupada."
-            },
-            {
-              "title": "Mid Rise Baggy",
-              "body": "Corte amplio, talle medio. Más espacio en cadera y muslo con una sensación casual."
-            }
-          ],
-          "notes": [
-            {
-              "title": "Seat y Hips",
-              "body": "La cadera y el asiento son buenos indicadores para entender cómo se ajusta realmente un estilo en esa zona."
-            },
-            {
-              "title": "Front Rise",
-              "body": "La fourche avant o tiro frontal va desde el centro de la entrepierna hasta la parte superior de la cintura."
-            },
-            {
-              "title": "Inseam",
-              "body": "La entrepierna se mide desde el centro del crotch hasta el dobladillo y define el largo visual del jean."
-            },
-            {
-              "title": "Leg Opening",
-              "body": "La abertura de pierna indica cómo caerá el fit alrededor del tobillo o directamente sobre el zapato."
-            }
-          ]
-        }
+        "coverImage": null
       },
       {
         "id": "ardene-14",
@@ -781,9 +740,8 @@ window.BRAND_ONBOARDING_DATA = [
           "¡Felicitaciones!",
           "Has completado con éxito tu recorrido por el Playbook de Onboarding. Ahora conoces la forma en la que trabajamos juntos para ofrecer la mejor experiencia a nuestros clientes. Este es solo el comienzo: cada día en tienda será una oportunidad para poner en práctica lo aprendido y crecer profesionalmente. Próximo paso: registra tu finalización en el formulario para que quede constancia de tu participación."
         ],
-        "images": [
-        ],
-        "coverImage": ""
+        "images": [],
+        "coverImage": null
       }
     ]
   },
@@ -805,7 +763,7 @@ window.BRAND_ONBOARDING_DATA = [
     "stats": {
       "sections": 22,
       "points": 151,
-      "images": 29
+      "images": 18
     },
     "heroImages": [
       {
@@ -1087,27 +1045,47 @@ window.BRAND_ONBOARDING_DATA = [
           {
             "label": "Flare & Bootcut",
             "title": "Pierna que abre desde la rodilla",
-            "body": "Una silueta que alarga y funciona muy bien con looks retro o más pulidos."
+            "body": "Una silueta que alarga y funciona muy bien con looks retro o más pulidos.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/42625fab-6cfa-4336-9add-83f9bac680ec.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Curvy",
             "title": "Más cómodo en cadera y muslo",
-            "body": "Buscado por clientes que necesitan mejor entalle en cintura sin sacrificar comodidad."
+            "body": "Buscado por clientes que necesitan mejor entalle en cintura sin sacrificar comodidad.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/a474ca71-8c39-4b72-8ad3-6f193d416a0a.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Low",
             "title": "Tiro bajo relajado",
-            "body": "Perfecto para un look más casual y desenfadado."
+            "body": "Perfecto para un look más casual y desenfadado.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/9dbfcffa-b5c9-463a-a039-3c63ddec35b8.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Straight",
             "title": "Recto y atemporal",
-            "body": "El fit clásico que siempre funciona y nunca se siente fuera de lugar."
+            "body": "El fit clásico que siempre funciona y nunca se siente fuera de lugar.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/36c6da09-c870-416d-a1f6-1cba80cd5f30.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Baggy",
             "title": "Volumen con actitud",
-            "body": "Pierna ancha desde la cadera para un resultado noventero y con personalidad."
+            "body": "Pierna ancha desde la cadera para un resultado noventero y con personalidad.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/5a92b8f6-9a0b-4c4c-84f8-0db714484cd6.jpeg",
+              "fit": "contain"
+            }
           }
         ],
         "hideBullets": true
@@ -1130,27 +1108,47 @@ window.BRAND_ONBOARDING_DATA = [
           {
             "label": "Jorts",
             "title": "Short de denim a la rodilla",
-            "body": "Relajado, versátil y muy fácil de vender en clima cálido."
+            "body": "Relajado, versátil y muy fácil de vender en clima cálido.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/47317b8b-c965-42e2-829a-5b2c090adc54.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Balloon",
             "title": "Volumen redondeado",
-            "body": "Amplio en muslo y con personalidad retro."
+            "body": "Amplio en muslo y con personalidad retro.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/b8c56f6a-608e-4ea2-b2cb-86bc12226a61.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Baggy",
             "title": "Comodidad con actitud",
-            "body": "Un corte ancho moderado que conecta con looks relajados."
+            "body": "Un corte ancho moderado que conecta con looks relajados.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/e30536fb-cf09-43a5-9121-48af11b4e77a.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Y2K Wide",
             "title": "Nostalgia de los 2000",
-            "body": "Tiro bajo y energía desenfadada para un look muy actual."
+            "body": "Tiro bajo y energía desenfadada para un look muy actual.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/67b102ce-6967-4ef8-9b8c-1a4620531748.jpeg",
+              "fit": "contain"
+            }
           },
           {
             "label": "Super Baggy",
             "title": "Pierna muy ancha",
-            "body": "La silueta más urbana y noventera del bloque."
+            "body": "La silueta más urbana y noventera del bloque.",
+            "image": {
+              "src": "assets/Cotton_On_Genially_Main/images/4cf6b3da-4c4f-4de5-9171-c80daa496b69.jpeg",
+              "fit": "contain"
+            }
           }
         ],
         "hideBullets": true
@@ -1298,19 +1296,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Las alturas de pila son parte de nuestra identidad visual. Seguir asignaciones como 8, 10 y 12 ayuda a que mesas y fixtures se vean listos para comprar."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/e32663c5-aa4c-4f13-9680-93f8e1ae969d.png",
-            "width": 112.27884286614729,
-            "height": 186.7179945499478
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/5c7572a3-a4fe-4a06-913c-b6fa3baa32f5.png",
-            "width": 102.11583793633115,
-            "height": 186.79066310135164
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Alturas",
@@ -1336,29 +1323,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "El sistema de muebles define cómo aterrizamos el producto en piso y cómo mantenemos consistencia entre tiendas."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 1783.7766269126118
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/c5c94d14-16a6-489d-8f4c-aa0ea73acd81.png",
-            "width": 296.26186046068574,
-            "height": 393.96984924623115
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/0371e950-3b0c-495a-8189-43f47471920c.png",
-            "width": 298.58512409332815,
-            "height": 260.196463654224
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/40dfdba3-7581-44e8-b0b4-3ce482cce679.png",
-            "width": 297.4236124258948,
-            "height": 162.04724409448818
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Tables / Benches / Risers",
@@ -1396,24 +1362,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Los price points son una de las herramientas más efectivas para comunicar valor y guiar la decisión de compra."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
-            "width": 360.2713162224051,
-            "height": 1301.7370070643037
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/925414da-57c8-4d7a-b73c-6c9c4c2ba279.png",
-            "width": 318.6996635873196,
-            "height": 615.5330482345395
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/c8c9edb3-2708-4bab-be46-19bea8196aba.png",
-            "width": 317.1707702164668,
-            "height": 144.21310077610093
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/fbab3082-7037-4b9f-8d30-f8dffac33862.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Valor",
@@ -1529,7 +1479,7 @@ window.BRAND_ONBOARDING_DATA = [
           },
           {
             "label": "Flujo",
-            "title": "Apertura, pico, valle y cierre",
+            "title": "Apertura, pico, horas bajas y cierre",
             "body": "Cada momento del día pide un foco distinto para que la operación no se rompa."
           }
         ],
@@ -1622,19 +1572,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Hora de poner a prueba lo aprendido."
         ],
-        "images": [
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png",
-            "width": 362.80816215283636,
-            "height": 461.66902769436894
-          },
-          {
-            "src": "assets/Cotton_On_Genially_Main/images/295f1002-360d-4ba0-bf3f-c36a379de1a6.png",
-            "width": 354.2403422824749,
-            "height": 402.6108685759678
-          }
-        ],
-        "coverImage": "assets/Cotton_On_Genially_Main/images/63677e45-5c49-4400-ba86-ae18152cb63a.png",
+        "images": [],
+        "coverImage": null,
         "quizData": {
           "intro": "Responde estas preguntas rápidas para confirmar los conceptos clave del playbook de Cotton On.",
           "questions": [
@@ -1782,13 +1721,19 @@ window.BRAND_ONBOARDING_DATA = [
         "id": "cottonon-22",
         "title": "Felicitaciones",
         "bullets": [
-          "Has completado el recorrido base de Cotton On.",
-          "Ahora conoces nuestra historia, nuestras marcas, las categorías más importantes, el lenguaje de VM y los indicadores comerciales que mueven la tienda.",
-          "El siguiente paso es llevar esto a piso: observar, preguntar, probar y repetir hasta que cada interacción se sienta más natural.",
-          "Cada turno es una oportunidad para mejorar experiencia, conversión y confianza."
+          "Has completado el recorrido base de Cotton On."
         ],
         "images": [],
-        "coverImage": null
+        "coverImage": null,
+        "contentCardsVariant": "single-column",
+        "contentCards": [
+          {
+            "label": "Cierre",
+            "title": "Listo para llevarlo a piso",
+            "body": "Ya tienes una base clara sobre la historia de Cotton On, sus marcas, las categorías clave, el lenguaje de VM y los indicadores que mueven la tienda. El siguiente paso es convertirlo en hábito: observar, preguntar, probar y repetir en cada turno para mejorar experiencia, conversión y confianza."
+          }
+        ],
+        "hideBullets": true
       }
     ]
   },
@@ -1810,7 +1755,7 @@ window.BRAND_ONBOARDING_DATA = [
     "stats": {
       "sections": 16,
       "points": 78,
-      "images": 24
+      "images": 23
     },
     "heroImages": [
       {
@@ -2063,7 +2008,8 @@ window.BRAND_ONBOARDING_DATA = [
           {
             "src": "assets/LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png",
             "width": 359.6339586044248,
-            "height": 647.9864876557497
+            "height": 647.9864876557497,
+            "fit": "contain"
           }
         ],
         "coverImage": "assets/LCW_Genially/images/d20b0956-71c6-4c22-a077-c9c01667a5eb.png",
@@ -2107,15 +2053,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "Un mal momento de servicio puede romper toda la promesa de marca."
         ],
-        "images": [
-          {
-            "src": "assets/LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png",
-            "width": 359.7396569153362,
-            "height": 132.96499790748254
-          }
-        ],
-        "coverImage": "assets/LCW_Genially/images/6dfe5f79-fe4f-4572-a981-298439b327e1.png",
-        "leadParagraph": "En el caso de la Sra. Kate, el problema no fue solo no encontrar un pantalon: fue sentirse interrumpiendo, no escuchada y poco importante. El ejercicio sirve para recordar que tono, disponibilidad y seguimiento cambian por completo la percepcion del cliente.",
+        "images": [],
+        "coverImage": null,
         "quizData": {
           "intro": "Piensa que harias diferente en esta situacion y que estandar de servicio se rompio.",
           "questions": [
@@ -2226,42 +2165,42 @@ window.BRAND_ONBOARDING_DATA = [
             "title": "LCW Vision",
             "body": "Una propuesta mas pulida y contemporanea para mujer y hombre, pensada para diario, oficina y momentos mas especiales.",
             "image": {
-              "src": "assets/LCW_Genially/images/1ffdf293-4a10-40a3-b00c-a1f3a966297e.png"
+              "src": "assets/LCW_Genially/images/8ea435ef-692e-4bcd-947f-8bc9ce3a7489.png"
             }
           },
           {
             "title": "LCW Classic",
             "body": "Basicos y fits comodos con lectura mas tradicional, ideales para clientes que buscan versatilidad y seguridad al vestir.",
             "image": {
-              "src": "assets/LCW_Genially/images/19c0b7b0-89bf-4de2-9fa3-123590cbe06d.png"
+              "src": "assets/LCW_Genially/images/0e376b5d-ba03-458c-8eb2-335cedecbe34.png"
             }
           },
           {
             "title": "XSide / Young",
             "body": "La energia mas joven de la marca: producto con mas tendencia, actitud casual y foco en temporada.",
             "image": {
-              "src": "assets/LCW_Genially/images/8ea435ef-692e-4bcd-947f-8bc9ce3a7489.png"
+              "src": "assets/LCW_Genially/images/deee66c9-b040-4e04-b702-80abb159f9d9.png"
             }
           },
           {
             "title": "LCW Jeans",
             "body": "Una lectura del denim como estilo de vida: comodidad, movimiento y una base comercial muy fuerte para construir looks.",
             "image": {
-              "src": "assets/LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png"
+              "src": "assets/LCW_Genially/images/1ffdf293-4a10-40a3-b00c-a1f3a966297e.png"
             }
           },
           {
             "title": "Kids & Baby",
             "body": "Colecciones creadas con foco en estilo, practicidad, seguridad y comodidad para diferentes etapas de crecimiento.",
             "image": {
-              "src": "assets/LCW_Genially/images/04b278fa-92be-483f-9a1f-631cdb845e2a.png"
+              "src": "assets/LCW_Genially/images/19c0b7b0-89bf-4de2-9fa3-123590cbe06d.png"
             }
           },
           {
             "title": "Grace / Southblue / Home",
             "body": "Bloques que amplian el universo de la marca con propuestas mas maduras, masculinas o para el espacio de vida.",
             "image": {
-              "src": "assets/LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png"
+              "src": "assets/LCW_Genially/images/c783e204-56bf-4add-8764-98d6d3853c6e.png"
             }
           }
         ],
@@ -2471,9 +2410,6 @@ window.BRAND_ONBOARDING_DATA = [
           "labelGuide": {
             "title": "Checklist de lectura rapida",
             "body": "Antes de responder una duda o corregir una incidencia, confirma estos puntos basicos en la etiqueta.",
-            "image": {
-              "src": "assets/LCW_Genially/images/7df6ea45-0018-4ba9-94a9-05814e8e8122.png"
-            },
             "checklist": [
               "Comprueba talla y rango disponible.",
               "Verifica color, linea y fit correctos.",
