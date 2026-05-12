@@ -1753,9 +1753,9 @@ window.BRAND_ONBOARDING_DATA = [
       "gradient": "linear-gradient(135deg, #f4f7ff 0%, #dce7ff 48%, #fff1b8 100%)"
     },
     "stats": {
-      "sections": 16,
-      "points": 78,
-      "images": 23
+      "sections": 15,
+      "points": 70,
+      "images": 19
     },
     "heroImages": [
       {
@@ -2048,89 +2048,6 @@ window.BRAND_ONBOARDING_DATA = [
         "hideBullets": true
       },
       {
-        "id": "lcw-7",
-        "title": "Caso Kate",
-        "bullets": [
-          "Un mal momento de servicio puede romper toda la promesa de marca."
-        ],
-        "images": [],
-        "coverImage": null,
-        "quizData": {
-          "intro": "Piensa que harias diferente en esta situacion y que estandar de servicio se rompio.",
-          "questions": [
-            {
-              "question": "Cual fue el primer error del asociado?",
-              "options": [
-                {
-                  "label": "Priorizar la tarea por encima del cliente",
-                  "value": "priority"
-                },
-                {
-                  "label": "No conocer el producto",
-                  "value": "product"
-                },
-                {
-                  "label": "No hablar con su gerente",
-                  "value": "manager"
-                }
-              ]
-            },
-            {
-              "question": "Que habria mejorado mas la experiencia de Kate?",
-              "options": [
-                {
-                  "label": "Acompanarla y verificar opciones activamente",
-                  "value": "accompany"
-                },
-                {
-                  "label": "Pedirle que vuelva otro dia",
-                  "value": "return"
-                },
-                {
-                  "label": "Senalar la pared desde lejos",
-                  "value": "point"
-                }
-              ]
-            },
-            {
-              "question": "Cuando no encuentras el producto, lo correcto es:",
-              "options": [
-                {
-                  "label": "Buscar alternativa, bodega o tienda cercana si aplica",
-                  "value": "alternative"
-                },
-                {
-                  "label": "Cerrar la conversacion rapido",
-                  "value": "closefast"
-                },
-                {
-                  "label": "Esperar a que el cliente insista",
-                  "value": "wait"
-                }
-              ]
-            },
-            {
-              "question": "Que tono deberia mantenerse incluso en presion operativa?",
-              "options": [
-                {
-                  "label": "Respetuoso, positivo y calmado",
-                  "value": "calm"
-                },
-                {
-                  "label": "Seco y eficiente",
-                  "value": "dry"
-                },
-                {
-                  "label": "Distante y neutral",
-                  "value": "neutral"
-                }
-              ]
-            }
-          ],
-          "footer": "La leccion clave: cuando el cliente necesita ayuda, nuestro estandar se nota en la forma de responder, no solo en la intencion."
-        }
-      },
-      {
         "id": "lcw-8",
         "title": "Arquitectura de Marcas",
         "bullets": [
@@ -2406,17 +2323,7 @@ window.BRAND_ONBOARDING_DATA = [
               "title": "Lectura interna",
               "body": "Composicion, instrucciones de cuidado y simbolos de lavado que ayudan tanto a vender como a resolver dudas."
             }
-          ],
-          "labelGuide": {
-            "title": "Checklist de lectura rapida",
-            "body": "Antes de responder una duda o corregir una incidencia, confirma estos puntos basicos en la etiqueta.",
-            "checklist": [
-              "Comprueba talla y rango disponible.",
-              "Verifica color, linea y fit correctos.",
-              "Confirma codigo y precio antes de informar.",
-              "Revisa si hay sticker o senal especial por promocion."
-            ]
-          }
+          ]
         }
       },
       {
@@ -2473,29 +2380,8 @@ window.BRAND_ONBOARDING_DATA = [
         "bullets": [
           "La ultima impresion es tan importante como la primera."
         ],
-        "images": [
-          {
-            "src": "assets/LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png",
-            "width": 360.5124572065055,
-            "height": 640.9110350337875
-          },
-          {
-            "src": "assets/LCW_Genially/images/735463f8-4add-415a-93ad-a47d3f28a1d7.png",
-            "width": 358.18242706572414,
-            "height": 536.1813390962326
-          },
-          {
-            "src": "assets/LCW_Genially/images/dd91f5b2-25d3-4458-b775-0d33e8143955.png",
-            "width": 280,
-            "height": 227.07592891760905
-          },
-          {
-            "src": "assets/LCW_Genially/images/eee4215e-9db8-41fe-998d-3d075513fdf9.png",
-            "width": 280,
-            "height": 147.7325581395349
-          }
-        ],
-        "coverImage": "assets/LCW_Genially/images/807de45b-5bfb-4dbc-8e89-e45eb5893239.png",
+        "images": [],
+        "coverImage": null,
         "contentCards": [
           {
             "label": "Caja",
@@ -2566,7 +2452,7 @@ window.BRAND_ONBOARDING_DATA = [
     },
     "stats": {
       "sections": 10,
-      "points": 70,
+      "points": 65,
       "images": 11
     },
     "heroImages": [
@@ -2613,14 +2499,16 @@ window.BRAND_ONBOARDING_DATA = [
       },
       {
         "title": "Equipo",
-        "bullets": [
-          "El cliente debe estar en el centro de cada operación minorista.",
-          "El equipo de tienda es el punto de contacto principal con el cliente, por eso debe guiar la mejor experiencia posible en todo momento.",
-          "Cada persona del equipo representa a Lufian y al franquiciado local frente a todas las partes externas.",
-          "La higiene, el atuendo y el aseo personal son muy importantes, y la política uniforme debe respetarse siempre.",
-          "La actitud y la forma de interactuar con compañeros y clientes pesan más que la apariencia por sí sola.",
-          "El desarrollo del talento interno y el reconocimiento del buen desempeño ayudan a mantener un equipo motivado y preparado para crecer."
+        "bullets": [],
+        "contentCardsVariant": "single-column",
+        "contentCards": [
+          {
+            "label": "Cultura de equipo",
+            "title": "Representar a Lufian en cada interacción",
+            "body": "El equipo es la cara principal de la marca: pone al cliente en el centro, cuida su presentación personal, respeta los estándares de uniforme e higiene y trabaja con una actitud colaborativa. Más que la apariencia por sí sola, lo que sostiene la experiencia es la forma de saludar, escuchar, resolver y apoyar a compañeros y clientes con consistencia premium."
+          }
         ],
+        "hideBullets": true,
         "id": "lufian-2"
       },
       {
@@ -2669,47 +2557,47 @@ window.BRAND_ONBOARDING_DATA = [
         "title": "Colección y Producto",
         "bullets": [],
         "images": [],
-        "coverImage": "assets/lufian/product_cover.png",
+        "coverImage": "assets/lufian/campaign-ss25.png",
         "departmentCards": [
           {
             "title": "T.Shirts",
             "body": "Dos fits principales: regular y loose, con foco en diseño, print y la mejor calidad de tejidos.",
-            "image": { "src": "assets/lufian/product_cover.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111020235100100_1.jpg" }
           },
           {
             "title": "Polo T.Shirts",
             "body": "Se presentan en básico, clásico y fashion, con una pared de polos que cambia por tienda según tamaño y layout.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111040210100210_1.jpg" }
           },
           {
             "title": "Knit T.Shirts",
             "body": "Una propuesta cómoda y actual, ideal para el verano pero con piezas disponibles todo el año.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111090114100200_1.jpg" }
           },
           {
             "title": "Denim",
             "body": "Cortes slim y regular, con lavados variados, diferentes pesos de tela y técnicas de acabado avanzadas.",
-            "image": { "src": "assets/lufian/product_page5.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/112200216100300_2.jpg" }
           },
           {
             "title": "Shirts",
             "body": "Cortes slim, regular y oversize; destacan las camisas de lino y Oxford, además de mezclas de algodón y algunos prints más atrevidos.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111010617100300_1.jpg" }
           },
           {
             "title": "Pants",
             "body": "La propuesta se divide en Classics, Chique y Fashion: chinos, cinco bolsillos, opciones más formales y piezas con detalle moderno.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111190313100500_2.jpg" }
           },
           {
             "title": "Shorts",
             "body": "Lifestyle shorts, active shorts y swim shorts, cada uno pensado para un uso distinto.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/111210079100100_2.jpg" }
           },
           {
             "title": "Jackets y Outerwear",
             "body": "Desde blazers hasta abrigos técnicos: ligereza, repelencia al agua, suavidad y abrigo sin volumen.",
-            "image": { "src": "assets/lufian/product_page9.png" }
+            "image": { "src": "https://witcdn.lufian.com/scott-erkek-mont-lacivert-seasonal-jacket-lufian-469418-10-B.jpg" }
           }
         ],
         "id": "lufian-7"
@@ -2717,49 +2605,40 @@ window.BRAND_ONBOARDING_DATA = [
       {
         "title": "Colección de Mujer",
         "bullets": [
-          "Womens Collection SS25 es una propuesta curada que introduce Lufian Womens al mercado con prendas atemporales, comodidad y una influencia de modernismo muy natural.",
-          "La colección se apoya en una paleta sobria y en siluetas pensadas para hoy, con looks que trascienden temporadas."
+          "Womens Collection SS25 introduce Lufian Womens con una propuesta curada de prendas atemporales: paleta sobria, siluetas actuales, materiales naturales como lino, lyocell, viscosa/modal, algodón y fibras técnicas ligeras, todo pensado para comodidad, caída y una lectura moderna que trasciende temporadas."
         ],
-        "images": [
-          { "src": "assets/lufian_womens/p1.png" },
-          { "src": "assets/lufian_womens/p2.png" }
-        ],
-        "coverImage": "assets/lufian_womens/p1.png",
+        "images": [],
+        "coverImage": null,
         "departmentCards": [
-          {
-            "title": "Materiales",
-            "body": "Lino, Lyocell, Viscosa/Modal, Algodón, Poliamida/Poliéster, Bambú y Elastano. Cada fibra aporta frescura, caída o confort según la prenda, siempre dentro de una lectura natural y atemporal.",
-            "image": null
-          },
           {
             "title": "T-Shirts",
             "body": "Signoria, Isla, Erote, Perses, Herme y Minioto: seis prendas base en modal, viscosa y algodón con foco en comodidad, silueta limpia y modernidad.",
-            "image": { "src": "assets/lufian_womens/p5.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121020025100510_1.jpg" }
           },
           {
             "title": "Trousers",
             "body": "Concordia, Asia y Navasa: pantalones en lino y tejidos frescos, con banda elástica o silueta marcada, pensados para el uso diario en climas cálidos.",
-            "image": { "src": "assets/lufian_womens/p15.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121190020100100_2.jpg" }
           },
           {
             "title": "Sweaters",
             "body": "Ava, Kirke, Emma, Molly y Pearl: knitwear ligero en viscosa, algodón, acrílico y lino. Siluetas relajadas, punto calado y caída fluida para el entretiempo.",
-            "image": { "src": "assets/lufian_womens/p21.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121090038100100_1.jpg" }
           },
           {
             "title": "Dresses",
             "body": "Selene y Casares: vestidos en lino 100% y siluetas clásicas de líneas limpias, pensados para climas cálidos y una lectura elegante y natural.",
-            "image": { "src": "assets/lufian_womens/p27.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121300005100150_1.jpg" }
           },
           {
             "title": "Cardigan y Vest",
             "body": "Lugano y Ruma: capas ligeras en viscosa y poliamida para sumar carácter sin añadir peso, ideales como complemento de cualquier look.",
-            "image": { "src": "assets/lufian_womens/p29.png" }
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121160006100400_1.jpg" }
           },
           {
             "title": "Skirt y Shorts",
             "body": "Darsen y Feronia: falda larga de silueta limpia y short en lyocell, lino y algodón. Naturalidad, comodidad y estética atemporal en cada pieza.",
-            "image": null
+            "image": { "src": "https://cdn.ayensoftware.com/Lufian/images/121210004100430_1.jpg" }
           }
         ],
         "id": "lufian-9"
